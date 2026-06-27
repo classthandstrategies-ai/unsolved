@@ -27,7 +27,6 @@
 | -------------------------------------------- | ------------------------------------------------- |
 | _`docs/screenshot-map.png` — add screenshot_ | _`docs/screenshot-casefile.png` — add screenshot_ |
 
-_Optional: a short GIF at `docs/demo.gif` showing filtering by category and opening a case file._
 
 ## Live demo
 

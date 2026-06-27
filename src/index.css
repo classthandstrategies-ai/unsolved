@@ -1,0 +1,184 @@
+/* Leaflet core styles. Imported first (CSS @import must precede other rules) so
+   Vite bundles and fingerprints them with the rest of the app. */
+@import 'leaflet/dist/leaflet.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  body {
+    @apply bg-canvas font-sans text-body transition-colors dark:bg-surface-dark dark:text-on-dark-soft;
+    margin: 0;
+  }
+
+  /* Display headings default to the serif face at weight 400 with the negative
+     tracking the design system treats as non-negotiable. */
+  h1,
+  h2,
+  h3 {
+    @apply font-display text-ink dark:text-on-dark;
+    font-weight: 400;
+  }
+
+  /* Aged-paper texture: a faint layered grain over the cream canvas. Kept very
+     low-alpha so it reads as "archival stock", not a heavy skeuomorphic
+     overlay. Sits behind all content via a fixed pseudo-element. */
+  body::before {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    opacity: 0.5;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(204, 120, 92, 0.04) 0, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(20, 20, 19, 0.03) 0, transparent 45%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.35'/%3E%3C/svg%3E");
+  }
+
+  /* In dark mode the grain reads as faint light specks on the navy floor rather
+     than aged-paper warmth, so it's dialled down and re-tinted. */
+  .dark body::before {
+    opacity: 0.4;
+    background-image:
+      radial-gradient(circle at 20% 30%, rgba(204, 120, 92, 0.06) 0, transparent 40%),
+      radial-gradient(circle at 80% 70%, rgba(250, 249, 245, 0.03) 0, transparent 45%),
+      url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.85' numOctaves='2' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)' opacity='0.18'/%3E%3C/svg%3E");
+  }
+
+  #root {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+@layer components {
+  /* --- Buttons (design.md component tokens) --- */
+  .btn-primary {
+    @apply inline-flex h-10 items-center justify-center rounded-md bg-primary px-5
+      text-body-sm font-medium text-on-primary transition-colors;
+  }
+  .btn-primary:active {
+    @apply bg-primary-active;
+  }
+
+  .btn-secondary {
+    @apply inline-flex h-10 items-center justify-center rounded-md border border-hairline
+      bg-canvas px-5 text-body-sm font-medium text-ink transition-colors;
+  }
+
+  /* Cream button used on coral/dark surfaces (inverted CTA). */
+  .btn-on-color {
+    @apply inline-flex h-10 items-center justify-center rounded-md bg-canvas px-5
+      text-body-sm font-medium text-ink transition-colors;
+  }
+
+  /* --- Badges --- */
+  .badge-pill {
+    @apply inline-flex items-center rounded-pill bg-surface-card px-3 py-1 text-caption
+      font-medium text-ink;
+  }
+  .badge-coral {
+    @apply inline-flex items-center rounded-pill bg-primary px-3 py-1 text-caption-uppercase
+      font-medium uppercase text-on-primary;
+  }
+
+  /* --- Category filter tabs --- */
+  .category-tab {
+    @apply rounded-md px-3.5 py-2 text-body-sm font-medium text-muted transition-colors dark:text-on-dark-soft;
+  }
+  .category-tab--active {
+    @apply bg-surface-cream-strong text-ink dark:bg-surface-dark-elevated dark:text-on-dark;
+  }
+
+  /* Inline coral text links — one of the system's signature details. */
+  .text-link {
+    @apply text-primary underline-offset-2 hover:underline;
+  }
+}
+
+/* --- Old-atlas map styling ---
+   CARTO's keyless light basemap, warmed with a sepia/contrast filter so it
+   reads like aged cartography and sits inside the cream palette. */
+.leaflet-container {
+  background: #e8e0d2;
+  font-family: 'Inter', sans-serif;
+}
+.leaflet-tile-pane {
+  filter: sepia(0.55) saturate(0.8) brightness(1.02) contrast(0.95) hue-rotate(-8deg);
+}
+
+/* Dark mode uses CARTO's dark tiles directly, so drop the sepia warming and
+   just settle the contrast a touch. */
+.dark .leaflet-container {
+  background: #1f1e1b;
+}
+.dark .leaflet-tile-pane {
+  filter: brightness(0.9) contrast(1.05);
+}
+
+/* Quiet the default Leaflet attribution/zoom chrome into the palette. */
+.leaflet-control-attribution {
+  background: rgba(250, 249, 245, 0.85) !important;
+  color: #6c6a64 !important;
+  font-size: 10px;
+}
+.leaflet-control-attribution a {
+  color: #6c6a64 !important;
+}
+.leaflet-bar a {
+  background: #faf9f5 !important;
+  color: #141413 !important;
+  border-color: #e6dfd8 !important;
+}
+.leaflet-bar a:hover {
+  background: #efe9de !important;
+}
+
+.dark .leaflet-control-attribution {
+  background: rgba(24, 23, 21, 0.85) !important;
+  color: #a09d96 !important;
+}
+.dark .leaflet-control-attribution a {
+  color: #a09d96 !important;
+}
+.dark .leaflet-bar a {
+  background: #252320 !important;
+  color: #faf9f5 !important;
+  border-color: rgba(255, 255, 255, 0.12) !important;
+}
+.dark .leaflet-bar a:hover {
+  background: #1f1e1b !important;
+}
+
+/* Custom divIcon pins: small dot markers tinted by category, no default image. */
+.mystery-pin {
+  display: grid;
+  place-items: center;
+}
+.mystery-pin__dot {
+  width: 14px;
+  height: 14px;
+  border-radius: 9999px;
+  border: 2px solid #faf9f5;
+  box-shadow: 0 1px 3px rgba(20, 20, 19, 0.35);
+  transition: transform 0.12s ease;
+}
+/* On the dark map a cream ring glares; match the dark surface so the dot reads
+   as a clean tinted point. */
+.dark .mystery-pin__dot {
+  border-color: #1f1e1b;
+}
+.mystery-pin:hover .mystery-pin__dot {
+  transform: scale(1.25);
+}
+.mystery-pin--featured .mystery-pin__dot {
+  /* Mystery of the day: a coral ring to draw the eye, used scarcely. */
+  box-shadow: 0 0 0 4px rgba(204, 120, 92, 0.35);
+}

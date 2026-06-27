@@ -227,7 +227,6 @@ export const MYSTERIES = [
       'Possibly unsolvable from the text alone. With so few characters and a single recipient who couldn’t read it, there may be too little information to ever confirm a unique solution.',
     sources: ['The Elgar Birthplace Museum', 'Elgar Society publications'],
   },
-
   // ── Disappearances ─────────────────────────────────────────────────────────
   {
     id: 'mary-celeste',
@@ -478,7 +477,6 @@ export const MYSTERIES = [
       'Genuinely unresolved, but firmly within human/maritime causes. The "Bermuda Triangle" framing is a later overlay on a likely mundane disaster at sea.',
     sources: ['US federal multi-agency investigation (1921)', 'National Archives shipping records'],
   },
-
   // ── Unexplained events & incidents ──────────────────────────────────────────
   {
     id: 'dyatlov-pass',
@@ -736,7 +734,6 @@ export const MYSTERIES = [
       'Tile-tracking community archives',
     ],
   },
-
   // ── Unexplained phenomena ────────────────────────────────────────────────────
   {
     id: 'taos-hum',
@@ -1095,7 +1092,7 @@ export const MYSTERIES = [
     id: 'lost-army-of-cambyses',
     title: 'The Lost Army of Cambyses',
     category: 'disappearances',
-    wikipedia: 'Lost army of Cambyses',
+    wikipedia: 'Cambyses II',
     era: 'c. 525 BCE',
     location: { lat: 25.5, lng: 25.5, place: 'Western Desert, Egypt (toward the Siwa Oasis)' },
     summary:
@@ -1177,7 +1174,7 @@ export const MYSTERIES = [
     id: 'honjo-masamune',
     title: 'The Honjō Masamune',
     category: 'disappearances',
-    wikipedia: 'Honjō Masamune',
+    wikipedia: 'Masamune',
     era: 'Lost 1945–46',
     location: { lat: 35.68, lng: 139.76, place: 'Tokyo, Japan — surrendered to occupation forces' },
     summary:
@@ -1211,7 +1208,6 @@ export const MYSTERIES = [
       'Effectively resolved: he almost certainly drowned. Included to show how "no body" alone fuels conspiracy long after the evidence has spoken.',
     sources: ['Victorian Coroner’s 2005 finding', 'Contemporary search records'],
   },
-
   // ════ HISTORY · undeciphered scripts & inscriptions ══════════════════════════
   {
     id: 'proto-elamite',
@@ -1352,7 +1348,6 @@ export const MYSTERIES = [
       'Partly solved (the numbers), partly open (possible narrative encoding). A rare case where decipherment is actively, measurably advancing.',
     sources: ['Harvard Khipu Database Project', 'Gary Urton’s khipu research'],
   },
-
   // ════ HISTORY · unexplained events, sites & identities ═══════════════════════
   {
     id: 'jack-the-ripper',
@@ -1658,7 +1653,6 @@ export const MYSTERIES = [
       'Origins now largely resolved by ancient DNA. Included as a model case: a long-standing "mystery of vanished Westerners" that careful genetics turned into "indigenous population with borrowed culture."',
     sources: ['Zhang et al., Nature (2021)', 'Victor Mair’s textile and archaeological work'],
   },
-
   // ════ HISTORY · sky, climate & lost knowledge phenomena ══════════════════════
   {
     id: 'star-of-bethlehem',
@@ -1739,18 +1733,19 @@ export const MYSTERIES = [
     era: '18th Dynasty, c. 1340 BC (Amarna Period)',
     location: { lat: 27.645, lng: 30.896, place: 'Amarna (Akhetaten), Minya Governorate, Egypt' },
     summary:
-      'Nefertiti was the Great Royal Wife of Akhenaten and a central figure of the Amarna Period, yet no securely identified tomb or mummy of hers has ever been found. Her intended burial in the Royal Tomb at Amarna was likely never used, and she disappears from the record near the end of Akhenaten\'s reign. Several candidate mummies have been proposed but none confirmed.',
-    unexplained: 'Where was Nefertiti buried, and which (if any) surviving mummy is hers? Her remains have never been positively identified.',
+      "Nefertiti was the Great Royal Wife of Akhenaten and a central figure of the Amarna Period, yet no securely identified tomb or mummy of hers has ever been found. Her intended burial in the Royal Tomb at Amarna was likely never used, and she disappears from the record near the end of Akhenaten's reign. Several candidate mummies have been proposed but none confirmed.",
+    unexplained:
+      'Where was Nefertiti buried, and which (if any) surviving mummy is hers? Her remains have never been positively identified.',
     theories: [
-      'The \'Younger Lady\' (KV35YL) is Nefertiti — DISPROVEN/UNSUPPORTED: DNA showed she was Tutankhamun\'s mother, a daughter of Amenhotep III, not Nefertiti.',
+      "The 'Younger Lady' (KV35YL) is Nefertiti — DISPROVEN/UNSUPPORTED: DNA showed she was Tutankhamun's mother, a daughter of Amenhotep III, not Nefertiti.",
       'A KV21 mummy (KV21B) is Nefertiti — WEAKLY SUPPORTED: confirmed 18th-Dynasty royal but DNA was insufficient for identification.',
-      'Her tomb lies in hidden chambers behind Tutankhamun\'s burial (Reeves, 2015) — LARGELY REFUTED: later radar scans found no concealed chambers.',
+      "Her tomb lies in hidden chambers behind Tutankhamun's burial (Reeves, 2015) — LARGELY REFUTED: later radar scans found no concealed chambers.",
     ],
     unsolvedMeaning:
       'Genuinely no evidence either way: candidate identifications have been tested and either disproven or left inconclusive, and no tomb attributable to her has been located.',
     sources: [
-      'English Wikipedia, \'Nefertiti\' (sections on burial and proposed mummies)',
-      'Hawass et al., \'Ancestry and Pathology in King Tutankhamun\'s Family,\' JAMA 303 (2010)',
+      "English Wikipedia, 'Nefertiti' (sections on burial and proposed mummies)",
+      "Hawass et al., 'Ancestry and Pathology in King Tutankhamun's Family,' JAMA 303 (2010)",
     ],
   },
   {
@@ -1761,8 +1756,9 @@ export const MYSTERIES = [
     era: '18th Dynasty, c. 1330s BC (Amarna Period)',
     location: { lat: 25.7402, lng: 32.6014, place: 'Tomb KV55, Valley of the Kings, Luxor, Egypt' },
     summary:
-      'KV55 in the Valley of the Kings contained a disturbed royal burial with Amarna-era material and a damaged coffin whose cartouches were deliberately erased. The single male mummy found inside has been the subject of more than a century of dispute. Funerary \'magic bricks\' name Akhenaten, but skeletal age estimates have long conflicted with that identification.',
-    unexplained: 'Is the KV55 body Akhenaten, his shadowy successor Smenkhkare, or another royal male? Anatomical age-at-death estimates and the inscriptional/genetic evidence have never been reconciled.',
+      "KV55 in the Valley of the Kings contained a disturbed royal burial with Amarna-era material and a damaged coffin whose cartouches were deliberately erased. The single male mummy found inside has been the subject of more than a century of dispute. Funerary 'magic bricks' name Akhenaten, but skeletal age estimates have long conflicted with that identification.",
+    unexplained:
+      'Is the KV55 body Akhenaten, his shadowy successor Smenkhkare, or another royal male? Anatomical age-at-death estimates and the inscriptional/genetic evidence have never been reconciled.',
     theories: [
       'The mummy is Akhenaten — SUPPORTED BY MANY: backed by the magic bricks naming him and 2010 DNA suggesting he fathered Tutankhamun.',
       'The mummy is Smenkhkare — SUPPORTED BY SOME: early and several later anatomical studies estimated death around age 20-26, too young for Akhenaten.',
@@ -1771,7 +1767,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely-explained-but-unproven leaning toward Akhenaten on inscriptional/genetic grounds, yet the unresolved skeletal age dispute keeps the identification genuinely contested.',
     sources: [
-      'English Wikipedia, \'KV55\' (identity controversy)',
+      "English Wikipedia, 'KV55' (identity controversy)",
       'Hawass et al., JAMA 303 (2010); Filer, JEA studies on the skeletal age of the KV55 remains',
     ],
   },
@@ -1784,7 +1780,8 @@ export const MYSTERIES = [
     location: { lat: 29.8711, lng: 31.2165, place: 'Saqqara necropolis, Egypt' },
     summary:
       'Imhotep was the architect of the Step Pyramid of Djoser and was later deified as a god of medicine. Despite his immense later cult, his own tomb has never been found and is generally assumed to lie somewhere at Saqqara. Searches over more than a century have not located it.',
-    unexplained: 'Where is Imhotep buried? No tomb securely attributable to him has ever been identified, despite his prominence.',
+    unexplained:
+      'Where is Imhotep buried? No tomb securely attributable to him has ever been identified, despite his prominence.',
     theories: [
       'His tomb is an as-yet-unexcavated mastaba at Saqqara near the Step Pyramid — MAINSTREAM-PLAUSIBLE but undemonstrated.',
       'It was destroyed or remains buried beneath later Saqqara structures and cult installations — POSSIBLE.',
@@ -1793,8 +1790,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely no evidence either way: the tomb of a famous historical individual that has simply never been located.',
     sources: [
-      'English Wikipedia, \'Imhotep\' (\'The location of his tomb remains unknown\')',
-      'W.B. Emery\'s mid-20th-century Saqqara excavation reports searching for Imhotep\'s burial',
+      "English Wikipedia, 'Imhotep' ('The location of his tomb remains unknown')",
+      "W.B. Emery's mid-20th-century Saqqara excavation reports searching for Imhotep's burial",
     ],
   },
   {
@@ -1805,18 +1802,19 @@ export const MYSTERIES = [
     era: '18th Dynasty, c. 1335 BC (end of Amarna Period)',
     location: { lat: 27.645, lng: 30.896, place: 'Amarna / Thebes, Egypt' },
     summary:
-      'Smenkhkare appears briefly as a co-regent or successor of Akhenaten, but almost nothing about this ruler is securely known. Scholars dispute the pharaoh\'s sex, parentage, dates, and even whether \'Smenkhkare\' and the female ruler Neferneferuaten were the same person. No certain tomb or mummy is agreed upon.',
-    unexplained: 'Who was Smenkhkare — a man, or Nefertiti ruling under a new name — and when and how long did this person reign?',
+      "Smenkhkare appears briefly as a co-regent or successor of Akhenaten, but almost nothing about this ruler is securely known. Scholars dispute the pharaoh's sex, parentage, dates, and even whether 'Smenkhkare' and the female ruler Neferneferuaten were the same person. No certain tomb or mummy is agreed upon.",
+    unexplained:
+      'Who was Smenkhkare — a man, or Nefertiti ruling under a new name — and when and how long did this person reign?',
     theories: [
       'Smenkhkare was a distinct young male co-regent of Akhenaten — SUPPORTED BY MANY but on thin evidence.',
       'Smenkhkare was Nefertiti (or another woman) ruling as a king — DEBATED: tied to the Neferneferuaten identification.',
       'Smenkhkare and Neferneferuaten were two different rulers — DEBATED: no academic consensus on the sequence.',
     ],
     unsolvedMeaning:
-      'Genuinely no evidence either way: the surviving record is so sparse that the ruler\'s identity and even sex remain open questions.',
+      "Genuinely no evidence either way: the surviving record is so sparse that the ruler's identity and even sex remain open questions.",
     sources: [
-      'English Wikipedia, \'Smenkhkare\'',
-      'Aidan Dodson, \'Amarna Sunset\' (2009), on the late-Amarna succession debate',
+      "English Wikipedia, 'Smenkhkare'",
+      "Aidan Dodson, 'Amarna Sunset' (2009), on the late-Amarna succession debate",
     ],
   },
   {
@@ -1827,8 +1825,9 @@ export const MYSTERIES = [
     era: '18th Dynasty, c. 1320s BC',
     location: { lat: 25.7402, lng: 32.6014, place: 'Valley of the Kings, Luxor, Egypt' },
     summary:
-      'Ankhesenamun was a daughter of Akhenaten and Nefertiti and the wife of Tutankhamun. She vanishes from the record shortly after Tutankhamun\'s death, around the time of a disputed letter to a Hittite king requesting a foreign husband. No confirmed tomb or mummy has been identified for her.',
-    unexplained: 'When and how did Ankhesenamun die, and where is she buried? No burial has been securely attributed to her.',
+      "Ankhesenamun was a daughter of Akhenaten and Nefertiti and the wife of Tutankhamun. She vanishes from the record shortly after Tutankhamun's death, around the time of a disputed letter to a Hittite king requesting a foreign husband. No confirmed tomb or mummy has been identified for her.",
+    unexplained:
+      'When and how did Ankhesenamun die, and where is she buried? No burial has been securely attributed to her.',
     theories: [
       'One of the two KV21 queens (KV21A) is Ankhesenamun — TENTATIVE: royal 18th-Dynasty DNA but insufficient for positive ID.',
       'She married Ay and was buried in an unidentified Theban tomb — PLAUSIBLE: based on a ring linking their names.',
@@ -1837,7 +1836,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely no evidence either way: her death and burial are simply undocumented, and DNA testing of candidate mummies has so far been inconclusive.',
     sources: [
-      'English Wikipedia, \'Ankhesenamun\'',
+      "English Wikipedia, 'Ankhesenamun'",
       'Hawass et al., JAMA 303 (2010) on the KV21 mummies',
     ],
   },
@@ -1847,19 +1846,24 @@ export const MYSTERIES = [
     category: 'ciphers',
     wikipedia: 'Dendera zodiac',
     era: 'Late Ptolemaic / early Roman, c. 50 BC',
-    location: { lat: 26.1417, lng: 32.67, place: 'Temple of Hathor, Dendera, Egypt (relief now in the Louvre)' },
+    location: {
+      lat: 26.1417,
+      lng: 32.67,
+      place: 'Temple of Hathor, Dendera, Egypt (relief now in the Louvre)',
+    },
     summary:
-      'The Dendera zodiac is a bas-relief star map from the ceiling of a chapel at the Hathor temple, now in the Louvre. After its early-19th-century removal it triggered the \'Dendera Affair,\' with proposed dates ranging from c. 2500 BC to the 4th century AD and bitter debate over whether it threatened biblical chronology. Modern decipherment of its planetary configuration points to around 50 BC.',
-    unexplained: 'Beyond the now-favored ~50 BC date, the precise astronomical event(s) encoded and the full intended meaning of the configuration remain debated.',
+      "The Dendera zodiac is a bas-relief star map from the ceiling of a chapel at the Hathor temple, now in the Louvre. After its early-19th-century removal it triggered the 'Dendera Affair,' with proposed dates ranging from c. 2500 BC to the 4th century AD and bitter debate over whether it threatened biblical chronology. Modern decipherment of its planetary configuration points to around 50 BC.",
+    unexplained:
+      'Beyond the now-favored ~50 BC date, the precise astronomical event(s) encoded and the full intended meaning of the configuration remain debated.',
     theories: [
-      'It encodes a specific planetary alignment / eclipses dating it to c. 50 BC — WELL SUPPORTED: Cauville and Aubourg\'s reconstruction is the modern consensus.',
+      "It encodes a specific planetary alignment / eclipses dating it to c. 50 BC — WELL SUPPORTED: Cauville and Aubourg's reconstruction is the modern consensus.",
       'It is a general religious/astrological planisphere rather than a dated sky chart — PARTIALLY SUPPORTED.',
-      'Very early datings (Fourier\'s ~2500 BC) — DISCREDITED: products of the historical \'Dendera Affair\'.',
+      "Very early datings (Fourier's ~2500 BC) — DISCREDITED: products of the historical 'Dendera Affair'.",
     ],
     unsolvedMeaning:
       'Recently/largely resolved for the date (~50 BC), but the exact astronomical content and symbolic intent remain a live scholarly question rather than a settled reading.',
     sources: [
-      'English Wikipedia, \'Dendera zodiac\'',
+      "English Wikipedia, 'Dendera zodiac'",
       'S. Cauville and E. Aubourg, studies dating the Dendera zodiac to c. 50 BC',
     ],
   },
@@ -1869,20 +1873,25 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Egyptian Labyrinth',
     era: '12th Dynasty, c. 1800 BC (Middle Kingdom)',
-    location: { lat: 29.272, lng: 30.898, place: 'Hawara, near the Pyramid of Amenemhat III, Faiyum, Egypt' },
+    location: {
+      lat: 29.272,
+      lng: 30.898,
+      place: 'Hawara, near the Pyramid of Amenemhat III, Faiyum, Egypt',
+    },
     summary:
       'Classical writers including Herodotus and Strabo described a vast multi-court mortuary complex beside the pyramid of Amenemhat III at Hawara, claiming it surpassed even the pyramids and held thousands of chambers. The structure was quarried away in antiquity, leaving only a vast field of limestone chips and fragments. Its plan survives mainly through the ancient descriptions.',
-    unexplained: 'What was the true layout, scale, and function of the Labyrinth, and how much (if anything) survives below the heavily quarried, waterlogged site?',
+    unexplained:
+      'What was the true layout, scale, and function of the Labyrinth, and how much (if anything) survives below the heavily quarried, waterlogged site?',
     theories: [
       'It was the funerary temple of Amenemhat III, exaggerated by classical authors — MAINSTREAM-PLAUSIBLE.',
       'Substantial subterranean remains survive beneath the rubble, hinted at by geophysical surveys — DISPUTED: a 2008 survey claimed a buried structure, but results are contested and unpublished in detail.',
       'The classical 3,000-chamber accounts are largely literary embellishment — LIKELY for the numbers, though the core building was real.',
     ],
     unsolvedMeaning:
-      'Likely-explained-but-unproven: the building was real and is broadly understood as Amenemhat III\'s mortuary complex, but its plan and any surviving substructure cannot be confirmed because the site is destroyed and the water table blocks excavation.',
+      "Likely-explained-but-unproven: the building was real and is broadly understood as Amenemhat III's mortuary complex, but its plan and any surviving substructure cannot be confirmed because the site is destroyed and the water table blocks excavation.",
     sources: [
-      'English Wikipedia, \'Egyptian Labyrinth\'',
-      'Herodotus, \'Histories\' 2.148; Petrie\'s Hawara excavation reports',
+      "English Wikipedia, 'Egyptian Labyrinth'",
+      "Herodotus, 'Histories' 2.148; Petrie's Hawara excavation reports",
     ],
   },
   {
@@ -1894,17 +1903,18 @@ export const MYSTERIES = [
     location: { lat: 32.1897, lng: 48.2558, place: 'Susa and southern Iran' },
     summary:
       'Linear Elamite is a rare Bronze Age script from Elam, known from roughly 40–50 inscriptions, several on silver vessels. For over a century it resisted decipherment despite some bilingual material with Akkadian. In 2022 François Desset and colleagues published a claimed near-complete decipherment, arguing it is one of the earliest purely phonographic writing systems.',
-    unexplained: 'Whether Desset et al.\'s readings are correct remains disputed; the degree to which the script is phonographic versus logographic, and the reliability of translations, are not settled.',
+    unexplained:
+      "Whether Desset et al.'s readings are correct remains disputed; the degree to which the script is phonographic versus logographic, and the reliability of translations, are not settled.",
     theories: [
       'Near-complete phonographic decipherment (Desset 2022, partially accepted): argues the system is essentially an alphabet/syllabary that can now be read.',
       'Mixed phono-logographic system (competing view): contends only a portion is phonographic, with logograms that complicate the proposed readings.',
       'Cautious skepticism (held by some Assyriologists): full acceptance awaits independent verification and publication of detailed translations.',
     ],
     unsolvedMeaning:
-      'Recently and only partially resolved: a major decipherment claim exists but has not achieved scholarly consensus, so the script\'s reading remains genuinely contested.',
+      "Recently and only partially resolved: a major decipherment claim exists but has not achieved scholarly consensus, so the script's reading remains genuinely contested.",
     sources: [
-      'F. Desset et al., \'The decipherment of Linear Elamite writing\', Zeitschrift für Assyriologie (2022)',
-      'Wikipedia \'Linear Elamite\' (summary of the decipherment debate)',
+      "F. Desset et al., 'The decipherment of Linear Elamite writing', Zeitschrift für Assyriologie (2022)",
+      "Wikipedia 'Linear Elamite' (summary of the decipherment debate)",
     ],
   },
   {
@@ -1913,20 +1923,25 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Akkad (city)',
     era: 'c. 2334–2154 BCE (Akkadian Empire)',
-    location: { lat: 33.1, lng: 44.3, place: 'Somewhere in central Mesopotamia, likely near the Tigris–Diyala region, Iraq' },
+    location: {
+      lat: 33.1,
+      lng: 44.3,
+      place: 'Somewhere in central Mesopotamia, likely near the Tigris–Diyala region, Iraq',
+    },
     summary:
       'Akkad (Agade) was the capital of the Akkadian Empire founded by Sargon, the first empire to unite much of Mesopotamia. It is named in numerous cuneiform sources and dominated the region for over a century. Yet despite intensive searching, the city itself has never been located or excavated.',
-    unexplained: 'The physical site of Akkad is unknown; no excavation has confirmed any candidate location for one of antiquity\'s most important capitals.',
+    unexplained:
+      "The physical site of Akkad is unknown; no excavation has confirmed any candidate location for one of antiquity's most important capitals.",
     theories: [
       'Buried beneath later alluvium near Baghdad/Kish (most-discussed, unproven): many scholars place it in central Mesopotamia, possibly under shifting river courses.',
       'Lies under an unexcavated or built-over tell (plausible): the site may survive but be inaccessible or unidentified among many mounds.',
       'Location near the Tigris east of the Diyala confluence (argued from texts, tentative): textual geography points to this zone, but no remains confirm it.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved: the city\'s existence is certain from texts, but its location is simply not known and no evidence currently favors one site decisively.',
+      "Genuinely unresolved: the city's existence is certain from texts, but its location is simply not known and no evidence currently favors one site decisively.",
     sources: [
       'B. Foster, Akkadian studies including scholarship on the Akkadian Empire and its capital',
-      'Wikipedia \'Akkad (city)\' and \'Akkadian Empire\' (capital not yet located)',
+      "Wikipedia 'Akkad (city)' and 'Akkadian Empire' (capital not yet located)",
     ],
   },
   {
@@ -1935,19 +1950,24 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'First Sealand dynasty',
     era: 'c. 1732–1475 BCE (Old Babylonian period)',
-    location: { lat: 30.9, lng: 46.1, place: 'Southern Mesopotamian marshlands (\'the Sealand\'), southern Iraq' },
+    location: {
+      lat: 30.9,
+      lng: 46.1,
+      place: "Southern Mesopotamian marshlands ('the Sealand'), southern Iraq",
+    },
     summary:
       'The First Sealand Dynasty ruled the marshy far south of Mesopotamia after the decline of the First Dynasty of Babylon. It is known from king lists and, more recently, from some 450 administrative tablets and excavations at Tell Khaiber. Despite this, the dynasty remains one of the most obscure in Mesopotamian history.',
-    unexplained: 'The dynasty\'s capital city has never been identified, and the chronology and even the correct forms of several kings\' names remain uncertain.',
+    unexplained:
+      "The dynasty's capital city has never been identified, and the chronology and even the correct forms of several kings' names remain uncertain.",
     theories: [
-      'Capital at one of several proposed sites including Tell Khaiber or \'Dur-Enlil\' (competing, none confirmed): proposed candidates exist but none is established.',
+      "Capital at one of several proposed sites including Tell Khaiber or 'Dur-Enlil' (competing, none confirmed): proposed candidates exist but none is established.",
       'Records kept on perishable waxed wooden boards (plausible): may explain the scarcity of surviving documentation from the period.',
       'Conflicting king lists reflect genuine political fragmentation (debated): differences between King List A and B may encode real uncertainty rather than mere scribal error.',
     ],
     unsolvedMeaning:
       'Genuinely unresolved: recent finds have improved knowledge, but the seat of power and basic chronology remain unknown for lack of decisive evidence.',
     sources: [
-      'S. Dalley, \'Babylonian Tablets from the First Sealand Dynasty in the Schøyen Collection\' (2009)',
+      "S. Dalley, 'Babylonian Tablets from the First Sealand Dynasty in the Schøyen Collection' (2009)",
       'Tell Khaiber excavation reports (Ur Region Archaeology Project)',
     ],
   },
@@ -1957,10 +1977,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Ten Lost Tribes',
     era: 'c. 732–720 BCE (Neo-Assyrian conquest)',
-    location: { lat: 32.2806, lng: 35.1894, place: 'Samaria, northern Kingdom of Israel (West Bank/northern Israel)' },
+    location: {
+      lat: 32.2806,
+      lng: 35.1894,
+      place: 'Samaria, northern Kingdom of Israel (West Bank/northern Israel)',
+    },
     summary:
-      'When the Neo-Assyrian Empire conquered the northern Kingdom of Israel (c. 732 and 720 BCE), it deported portions of its population, resettling them near the Khabur River and in Media. The biblical account (2 Kings 17) records the removal of \'Israel\' to Assyria. Assyrian royal inscriptions of Tiglath-Pileser III and Sargon II corroborate mass deportations.',
-    unexplained: 'What became of the deported northern Israelites as distinct communities is unknown; whether any retained a separate identity rather than assimilating cannot be demonstrated.',
+      "When the Neo-Assyrian Empire conquered the northern Kingdom of Israel (c. 732 and 720 BCE), it deported portions of its population, resettling them near the Khabur River and in Media. The biblical account (2 Kings 17) records the removal of 'Israel' to Assyria. Assyrian royal inscriptions of Tiglath-Pileser III and Sargon II corroborate mass deportations.",
+    unexplained:
+      'What became of the deported northern Israelites as distinct communities is unknown; whether any retained a separate identity rather than assimilating cannot be demonstrated.',
     theories: [
       'Assimilation into local populations (scholarly mainstream): historians generally conclude the deportees merged into surrounding peoples over generations.',
       'Most Israelites were never deported (well-supported): estimates suggest only a minority left, and much of the population remained, contributing to the later Samaritan community.',
@@ -1970,19 +1995,20 @@ export const MYSTERIES = [
       'Likely explained but unproven: the historical deportations are real and assimilation is the consensus, but the romantic searching for distinct survivors has no supporting evidence.',
     sources: [
       '2 Kings 17:6; Assyrian royal inscriptions of Tiglath-Pileser III and Sargon II',
-      'I. Finkelstein & N. Silberman, \'The Bible Unearthed\' (2001)',
+      "I. Finkelstein & N. Silberman, 'The Bible Unearthed' (2001)",
     ],
   },
   {
     id: 'copper-scroll-treasure',
-    title: 'The Copper Scroll\'s Unfound Treasure',
+    title: "The Copper Scroll's Unfound Treasure",
     category: 'ciphers',
     wikipedia: 'Copper Scroll',
     era: '1st century CE (Second Temple period)',
     location: { lat: 31.7417, lng: 35.4592, place: 'Cave 3 near Qumran, Dead Sea, West Bank' },
     summary:
       'The Copper Scroll (3Q15) is a Dead Sea Scroll discovered in 1952, uniquely inscribed on copper rather than parchment. Written in Mishnaic Hebrew, it lists 64 locations said to hold large quantities of gold and silver. It is now held in the Jordan Museum in Amman.',
-    unexplained: 'The 64 cached treasure locations are described in obscure, abbreviated terms; none has been securely identified or recovered, and even whether the listed treasure was real is debated.',
+    unexplained:
+      'The 64 cached treasure locations are described in obscure, abbreviated terms; none has been securely identified or recovered, and even whether the listed treasure was real is debated.',
     theories: [
       'Real Temple treasure hidden before 70 CE (widely entertained): the caches may be Jerusalem Temple wealth concealed during the Jewish–Roman war.',
       'Folklore or symbolic inventory (serious scholarly view): the impossibly large totals may indicate legend rather than literal deposits.',
@@ -1991,7 +2017,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved: the scroll is authentic, but whether its treasure existed and where remains unproven, with no recovered cache to settle the question.',
     sources: [
-      'J. K. Lefkovits, \'The Copper Scroll 3Q15: A Reevaluation\' (2000)',
+      "J. K. Lefkovits, 'The Copper Scroll 3Q15: A Reevaluation' (2000)",
       'Jordan Museum, Amman (current location of the scroll)',
     ],
   },
@@ -2004,17 +2030,18 @@ export const MYSTERIES = [
     location: { lat: 26.1921, lng: 50.5354, place: 'Bahrain and the western Persian Gulf coast' },
     summary:
       'Dilmun was a prosperous trading polity named in Sumerian and Akkadian texts, serving as an entrepôt linking Mesopotamia with the Indus region. It is celebrated in myth as a pure, paradisiacal land. Most scholars center it on Bahrain and the adjacent Arabian coast, supported by major archaeological sites.',
-    unexplained: 'The precise boundaries and shifting extent of Dilmun across different periods, and exactly which sites its name covered at any given time, remain disputed.',
+    unexplained:
+      'The precise boundaries and shifting extent of Dilmun across different periods, and exactly which sites its name covered at any given time, remain disputed.',
     theories: [
       'Bahrain-centered polity (mainstream): archaeology at Bahrain and eastern Arabia supports this core identification.',
       'Originally the eastern Arabian mainland (scholarly variant): the name may have first designated coastal and interior settlements in what is now eastern Saudi Arabia.',
       'An unidentified tell in southern Iraq for an early phase (Howard-Carter, minority): proposes a Mesopotamian location for early Dilmun, not generally accepted.',
     ],
     unsolvedMeaning:
-      'Likely largely explained but with genuine open questions: Dilmun\'s general identity is settled, yet its exact territorial extent over time remains unresolved by the evidence.',
+      "Likely largely explained but with genuine open questions: Dilmun's general identity is settled, yet its exact territorial extent over time remains unresolved by the evidence.",
     sources: [
-      'G. Bibby, \'Looking for Dilmun\' (1969)',
-      'D. Potts, \'The Arabian Gulf in Antiquity\' (1990)',
+      "G. Bibby, 'Looking for Dilmun' (1969)",
+      "D. Potts, 'The Arabian Gulf in Antiquity' (1990)",
     ],
   },
   {
@@ -2026,17 +2053,18 @@ export const MYSTERIES = [
     location: { lat: 30.1944, lng: 53.1672, place: 'Pasargadae, Fars Province, Iran' },
     summary:
       'A stone gabled monument at Pasargadae in Iran is traditionally identified as the tomb of Cyrus the Great, founder of the Achaemenid Empire. Classical authors report that Alexander the Great visited and found it already plundered, with only a couch and coffin remaining. The modern attribution to Cyrus dates largely from the early 19th century.',
-    unexplained: 'Whether the structure truly is Cyrus\'s tomb, and what became of his body and the rich grave goods described in antiquity, remain unconfirmed; no remains have been identified inside.',
+    unexplained:
+      "Whether the structure truly is Cyrus's tomb, and what became of his body and the rich grave goods described in antiquity, remain unconfirmed; no remains have been identified inside.",
     theories: [
       'Authentic tomb of Cyrus (mainstream): location at Pasargadae and classical descriptions broadly fit, though no surviving identifying inscription confirms it.',
-      'Misidentified monument (minority/historical doubt): earlier locals called it the \'Tomb of the Mother of Solomon,\' and some details diverge from ancient accounts.',
+      "Misidentified monument (minority/historical doubt): earlier locals called it the 'Tomb of the Mother of Solomon,' and some details diverge from ancient accounts.",
       'Grave goods looted in antiquity (supported by sources): classical reports of plunder explain the absence of treasure, but the fate of the body itself is unrecorded.',
     ],
     unsolvedMeaning:
-      'Likely explained but unproven: the identification is widely accepted yet rests on indirect evidence, and the fate of Cyrus\'s actual remains is genuinely unknown.',
+      "Likely explained but unproven: the identification is widely accepted yet rests on indirect evidence, and the fate of Cyrus's actual remains is genuinely unknown.",
     sources: [
-      'Arrian, Anabasis 6.29 (Alexander\'s visit to the plundered tomb)',
-      'D. Stronach, \'Pasargadae\' (1978)',
+      "Arrian, Anabasis 6.29 (Alexander's visit to the plundered tomb)",
+      "D. Stronach, 'Pasargadae' (1978)",
     ],
   },
   {
@@ -2048,29 +2076,31 @@ export const MYSTERIES = [
     location: { lat: 32.5355, lng: 44.4275, place: 'Babylon (near modern Hillah, Iraq)' },
     summary:
       'Alexander III of Macedon died in Babylon in June 323 BC at age 32 after an illness of roughly ten to twelve days, following heavy drinking at banquets. Ancient sources (Plutarch, Arrian, Diodorus) describe a progressive fever, increasing weakness, and eventual inability to speak. No autopsy or contemporary medical record survives.',
-    unexplained: 'The precise cause of death remains undetermined: whether it was natural disease, an environmental toxin, or deliberate poisoning, and which specific illness if natural.',
+    unexplained:
+      'The precise cause of death remains undetermined: whether it was natural disease, an environmental toxin, or deliberate poisoning, and which specific illness if natural.',
     theories: [
       'Likely-supported (mainstream medical/historical view): natural causes such as malaria, typhoid fever, or another infectious disease, possibly aggravated by alcohol and prior wounds.',
-      'Speculative but seriously discussed: poisoning by political rivals (e.g. via Antipater\'s faction), a claim already circulating in antiquity.',
+      "Speculative but seriously discussed: poisoning by political rivals (e.g. via Antipater's faction), a claim already circulating in antiquity.",
       'Fringe/modern hypothesis: Guillain-Barré syndrome or West Nile virus, proposed in medical literature but unproven.',
     ],
     unsolvedMeaning:
       'Genuinely no decisive evidence either way: the symptom records are too vague and too late to confirm any single diagnosis, so the cause is unprovable rather than hoax or myth.',
     sources: [
       'Arrian, Anabasis of Alexander, Book VII',
-      'A. B. Bosworth, \'Conquest and Empire: The Reign of Alexander the Great\' (1988)',
+      "A. B. Bosworth, 'Conquest and Empire: The Reign of Alexander the Great' (1988)",
     ],
   },
   {
     id: 'lost-books-of-livy',
-    title: 'The Lost Books of Livy\'s History of Rome',
+    title: "The Lost Books of Livy's History of Rome",
     category: 'disappearances',
     wikipedia: 'Ab urbe condita (Livy)',
     era: 'Roman, written c. 27 BC – AD 17',
     location: { lat: 41.9028, lng: 12.4964, place: 'Rome, Italy' },
     summary:
-      'Livy\'s monumental history of Rome, \'Ab urbe condita\', originally comprised 142 books covering Rome from its founding to 9 BC. Only 35 books survive intact (1–10 and 21–45); the rest are known only through later summaries (the Periochae) and fragments. The missing books covered large stretches including most of the late Republic and Augustan era.',
-    unexplained: 'Whether substantial portions of the lost books survived into the medieval period and could yet be recovered, and exactly when and how the missing 107 books were lost.',
+      "Livy's monumental history of Rome, 'Ab urbe condita', originally comprised 142 books covering Rome from its founding to 9 BC. Only 35 books survive intact (1–10 and 21–45); the rest are known only through later summaries (the Periochae) and fragments. The missing books covered large stretches including most of the late Republic and Augustan era.",
+    unexplained:
+      'Whether substantial portions of the lost books survived into the medieval period and could yet be recovered, and exactly when and how the missing 107 books were lost.',
     theories: [
       'Likely-supported: gradual loss through the decline of copying, the cost of the enormous work, and the disappearance of papyrus/parchment over late antiquity and the early Middle Ages.',
       'Plausible recovery hope: portions may survive as palimpsests or in unexamined manuscripts; a fragment of Book 91 was rediscovered in the Vatican in the 18th century.',
@@ -2080,7 +2110,7 @@ export const MYSTERIES = [
       'Likely explained in mechanism (slow attrition of a huge text) but unresolved in fact: it remains genuinely unknown whether any lost books still exist undiscovered.',
     sources: [
       'Periochae (ancient summaries of Livy)',
-      'Ronald Syme, \'Livy and Augustus\', Harvard Studies in Classical Philology (1959)',
+      "Ronald Syme, 'Livy and Augustus', Harvard Studies in Classical Philology (1959)",
     ],
   },
   {
@@ -2092,7 +2122,8 @@ export const MYSTERIES = [
     location: { lat: 36.2021, lng: 36.1604, place: 'Antioch (near modern Antakya, Turkey)' },
     summary:
       'Germanicus Julius Caesar, the popular adopted grandson-heir of Emperor Tiberius, died at Antioch in AD 19 after a lingering illness. Before dying he openly accused the governor of Syria, Gnaeus Calpurnius Piso, of poisoning him; Tacitus reports rumors of curse-tablets and remains found in his quarters. Piso was later prosecuted in Rome and died, apparently by suicide, before the verdict.',
-    unexplained: 'Whether Germanicus was actually poisoned or murdered, and if so by whom and whether on imperial orders, versus dying of natural disease.',
+    unexplained:
+      'Whether Germanicus was actually poisoned or murdered, and if so by whom and whether on imperial orders, versus dying of natural disease.',
     theories: [
       'Plausible: natural illness (a fever common to the eastern provinces), with poisoning a politically convenient rumor.',
       'Contemporary accusation: deliberate poisoning by Piso, possibly with the knowledge of Tiberius or Livia, as alleged at the trial.',
@@ -2114,7 +2145,8 @@ export const MYSTERIES = [
     location: { lat: 40.785, lng: 14.09, place: 'Misenum, Bay of Naples, Italy' },
     summary:
       'Emperor Tiberius died in March AD 37 at Misenum, aged 77. Ancient sources disagree on the circumstances: Tacitus and Suetonius report variant accounts in which the dying emperor was thought dead, revived, and was then smothered with bedclothes, possibly at the instigation of the praetorian prefect Macro and the heir Caligula.',
-    unexplained: 'Whether Tiberius died of natural old age or was hastened to death by smothering or other means as the rumors alleged.',
+    unexplained:
+      'Whether Tiberius died of natural old age or was hastened to death by smothering or other means as the rumors alleged.',
     theories: [
       'Plausible: natural death from old age and frailty, with sinister stories arising after the fact.',
       'Contemporary rumor: deliberate smothering by Macro and/or Caligula to secure the succession.',
@@ -2122,10 +2154,7 @@ export const MYSTERIES = [
     ],
     unsolvedMeaning:
       'Genuinely no evidence either way: the conflicting late sources make it impossible to confirm murder versus natural death.',
-    sources: [
-      'Tacitus, Annals, Book VI',
-      'Suetonius, Life of Tiberius',
-    ],
+    sources: ['Tacitus, Annals, Book VI', 'Suetonius, Life of Tiberius'],
   },
   {
     id: 'lost-poetry-of-sappho',
@@ -2136,17 +2165,18 @@ export const MYSTERIES = [
     location: { lat: 39.1, lng: 26.55, place: 'Lesbos, Greece' },
     summary:
       'Sappho of Lesbos was celebrated in antiquity as one of the greatest lyric poets, and Alexandrian scholars compiled her work into roughly nine books. Today only one complete poem and a large number of fragments survive, many recovered from papyri; the bulk of her corpus is lost. New fragments have surfaced as recently as the 2000s and 2010s from papyri.',
-    unexplained: 'How and exactly when the vast majority of Sappho\'s poetry was lost, and whether substantial portions survive undiscovered in papyri or manuscripts.',
+    unexplained:
+      "How and exactly when the vast majority of Sappho's poetry was lost, and whether substantial portions survive undiscovered in papyri or manuscripts.",
     theories: [
       'Mainstream: gradual loss through changing tastes, the difficulty of her Aeolic dialect, and the general attrition of ancient texts in late antiquity and Byzantium.',
-      'Debated/possible-hoax adjacent: a 2014 \'new Sappho\' papyrus raised authenticity and provenance controversies, illustrating how fraught recovery can be.',
+      "Debated/possible-hoax adjacent: a 2014 'new Sappho' papyrus raised authenticity and provenance controversies, illustrating how fraught recovery can be.",
       'Discredited legend: the story that Christian authorities deliberately burned her works en masse is not supported by evidence.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved on survival: ongoing papyrus discoveries show more may yet be recovered, while the popular \'church burned Sappho\' tale is closer to myth.',
+      "Genuinely unresolved on survival: ongoing papyrus discoveries show more may yet be recovered, while the popular 'church burned Sappho' tale is closer to myth.",
     sources: [
-      'Dirk Obbink, \'Two New Poems by Sappho\', ZPE 189 (2014) [note: later provenance controversy]',
-      'David A. Campbell, \'Greek Lyric I: Sappho and Alcaeus\' (Loeb)',
+      "Dirk Obbink, 'Two New Poems by Sappho', ZPE 189 (2014) [note: later provenance controversy]",
+      "David A. Campbell, 'Greek Lyric I: Sappho and Alcaeus' (Loeb)",
     ],
   },
   {
@@ -2157,8 +2187,9 @@ export const MYSTERIES = [
     era: 'Late Bronze Age, c. 1200 BC',
     location: { lat: 31.05, lng: 30, place: 'Eastern Mediterranean / Nile Delta, Egypt' },
     summary:
-      'Egyptian inscriptions from the reigns of Merneptah and Ramesses III describe coalitions of seaborne raiders, the \'Sea Peoples\', attacking Egypt and the Levant around the time of the Late Bronze Age collapse. The names of constituent groups (e.g. Peleset, Shardana, Lukka) are recorded, but their geographic origins and ultimate fate are poorly understood. They predate classical Greece and Rome but bear on Mycenaean-era Greek history.',
-    unexplained: 'Who exactly the Sea Peoples were, where they came from, and what role they played in the collapse of Late Bronze Age civilizations.',
+      "Egyptian inscriptions from the reigns of Merneptah and Ramesses III describe coalitions of seaborne raiders, the 'Sea Peoples', attacking Egypt and the Levant around the time of the Late Bronze Age collapse. The names of constituent groups (e.g. Peleset, Shardana, Lukka) are recorded, but their geographic origins and ultimate fate are poorly understood. They predate classical Greece and Rome but bear on Mycenaean-era Greek history.",
+    unexplained:
+      'Who exactly the Sea Peoples were, where they came from, and what role they played in the collapse of Late Bronze Age civilizations.',
     theories: [
       'Supported by some inscriptions/archaeology: a mix of displaced Aegean, Anatolian, and Mediterranean populations migrating amid systemic collapse.',
       'Debated: whether they were a cause or a symptom of the collapse, with climate, earthquake, and economic factors also implicated.',
@@ -2168,7 +2199,7 @@ export const MYSTERIES = [
       'Genuinely no consensus: the sources are real but fragmentary and one-sided (chiefly Egyptian), so identity and origin remain open scholarly questions rather than fabrication.',
     sources: [
       'Medinet Habu inscriptions of Ramesses III',
-      'Eric H. Cline, \'1177 B.C.: The Year Civilization Collapsed\' (2014)',
+      "Eric H. Cline, '1177 B.C.: The Year Civilization Collapsed' (2014)",
     ],
   },
   {
@@ -2180,16 +2211,17 @@ export const MYSTERIES = [
     location: { lat: 41.718, lng: 12.706, place: 'Lake Nemi, Italy' },
     summary:
       'Two enormous luxury barges built during the reign of Emperor Caligula lay sunk in Lake Nemi for centuries. Recovered in the 1920s–1930s by draining the lake, they revealed advanced Roman engineering, including bronze fittings and possible plumbing, before both ships were destroyed by fire in 1944 during World War II.',
-    unexplained: 'Exactly why Caligula built such extravagant ships on a small lake, their full original purpose and design, and the precise cause of the 1944 fire that destroyed them.',
+    unexplained:
+      'Exactly why Caligula built such extravagant ships on a small lake, their full original purpose and design, and the precise cause of the 1944 fire that destroyed them.',
     theories: [
       'Supported: the ships served as floating palaces or ceremonial/religious vessels associated with the cult of Diana at Nemi.',
       'Disputed: the 1944 fire has been variously blamed on retreating German troops or on Allied artillery; responsibility was never conclusively established.',
       'Open: technical details remain partly conjectural because the physical evidence was destroyed before full study.',
     ],
     unsolvedMeaning:
-      'Mixed: the ships\' existence and recovery are fully documented, but their original purpose is partly inferred and the cause of their destruction remains genuinely disputed.',
+      "Mixed: the ships' existence and recovery are fully documented, but their original purpose is partly inferred and the cause of their destruction remains genuinely disputed.",
     sources: [
-      'Guido Ucelli, \'Le navi di Nemi\' (1940)',
+      "Guido Ucelli, 'Le navi di Nemi' (1940)",
       'Museo delle Navi Romane, Nemi (museum records)',
     ],
   },
@@ -2201,8 +2233,9 @@ export const MYSTERIES = [
     era: 'Hellenistic Greece, c. 320–290 BC',
     location: { lat: 37.9838, lng: 23.7275, place: 'Athens, Greece' },
     summary:
-      'Menander was the leading playwright of Greek New Comedy, credited with over a hundred plays and hugely influential on Roman comedy (Plautus and Terence). For most of post-antiquity his work was known only through quotations, until papyrus discoveries in the 20th century recovered substantial portions, including the nearly complete \'Dyskolos\' published in 1959.',
-    unexplained: 'How the once-canonical corpus of Menander was almost entirely lost while lesser authors survived, and how much more may still be recoverable from papyri.',
+      "Menander was the leading playwright of Greek New Comedy, credited with over a hundred plays and hugely influential on Roman comedy (Plautus and Terence). For most of post-antiquity his work was known only through quotations, until papyrus discoveries in the 20th century recovered substantial portions, including the nearly complete 'Dyskolos' published in 1959.",
+    unexplained:
+      'How the once-canonical corpus of Menander was almost entirely lost while lesser authors survived, and how much more may still be recoverable from papyri.',
     theories: [
       'Mainstream: loss in the transition from papyrus rolls to codices in late antiquity, when Menander was not among the texts selected for recopying into the Byzantine school canon.',
       'Supported by evidence: continued recovery is plausible, as Egyptian papyri keep yielding new fragments.',
@@ -2212,7 +2245,7 @@ export const MYSTERIES = [
       'Likely explained in mechanism but factually open: the disappearance is understood broadly, yet the full extent of what survives undiscovered is genuinely unknown.',
     sources: [
       'P. Bodmer papyri (Dyskolos), published 1959',
-      'W. Geoffrey Arnott, \'Menander\' (Loeb Classical Library)',
+      "W. Geoffrey Arnott, 'Menander' (Loeb Classical Library)",
     ],
   },
   {
@@ -2224,17 +2257,18 @@ export const MYSTERIES = [
     location: { lat: 36.7333, lng: 24.4167, place: 'Milos (Melos), Greece' },
     summary:
       'The Venus de Milo, an ancient Greek marble statue likely depicting Aphrodite, was discovered on the island of Milos in 1820 and is now in the Louvre. It was found already missing both arms, and an inscribed plinth that may have named the sculptor was reportedly recovered with it but later disappeared, complicating attribution.',
-    unexplained: 'Who sculpted the statue, what the original pose and attributes of the missing arms were, and what became of the inscribed base that might have settled the attribution.',
+    unexplained:
+      'Who sculpted the statue, what the original pose and attributes of the missing arms were, and what became of the inscribed base that might have settled the attribution.',
     theories: [
       'Supported: attribution to Alexandros of Antioch, based on the reportedly recovered (now lost) inscribed plinth.',
-      'Disputed: claims that the plinth was suppressed because its later Hellenistic date undercut the Louvre\'s desire for a Classical masterpiece.',
+      "Disputed: claims that the plinth was suppressed because its later Hellenistic date undercut the Louvre's desire for a Classical masterpiece.",
       'Reconstructions of the arms (e.g. holding an apple or a shield) are conjectural and unproven.',
     ],
     unsolvedMeaning:
       'Genuinely unresolved on key points: the statue is real and famous, but its authorship and original form remain uncertain because of the lost inscription and missing arms.',
     sources: [
       'Louvre Museum collection records, Venus de Milo',
-      'Gregory Curtis, \'Disarmed: The Story of the Venus de Milo\' (2003)',
+      "Gregory Curtis, 'Disarmed: The Story of the Venus de Milo' (2003)",
     ],
   },
   {
@@ -2243,20 +2277,25 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Gunung Padang',
     era: 'Disputed; surface terraces likely 1st millennium CE, with contested far older claims',
-    location: { lat: -6.9942, lng: 107.056, place: 'Karyamukti, Cianjur Regency, West Java, Indonesia' },
+    location: {
+      lat: -6.9942,
+      lng: 107.056,
+      place: 'Karyamukti, Cianjur Regency, West Java, Indonesia',
+    },
     summary:
-      'Gunung Padang is a hilltop in West Java covered with terraces built from columnar basalt blocks, the largest megalithic site in Indonesia. A 2023 paper led by geologist Danny Hilman Natawidjaja claimed buried construction phases dating back over 20,000 years, which would make it the world\'s oldest pyramid. The paper was retracted in 2024 after archaeologists and geologists objected to its dating methods.',
-    unexplained: 'The genuinely open question is how much of the hill below the visible terraces is human-built versus natural columnar basalt, and when the structures were actually made.',
+      "Gunung Padang is a hilltop in West Java covered with terraces built from columnar basalt blocks, the largest megalithic site in Indonesia. A 2023 paper led by geologist Danny Hilman Natawidjaja claimed buried construction phases dating back over 20,000 years, which would make it the world's oldest pyramid. The paper was retracted in 2024 after archaeologists and geologists objected to its dating methods.",
+    unexplained:
+      'The genuinely open question is how much of the hill below the visible terraces is human-built versus natural columnar basalt, and when the structures were actually made.',
     theories: [
       'Mainstream archaeology (well supported): the visible terraces are a real megalithic site, most likely built in roughly the 1st millennium CE atop a natural volcanic hill; the older dates came from soil, not artifacts.',
       'Natawidjaja team (disputed, retracted): deeper layers represent deliberate construction many thousands of years old.',
-      'Partial natural formation (supported by geologists): much of the apparent \'structure\' is natural andesite/basalt columns, not masonry.',
+      "Partial natural formation (supported by geologists): much of the apparent 'structure' is natural andesite/basalt columns, not masonry.",
     ],
     unsolvedMeaning:
-      'Likely explained but with genuine unresolved detail: the extraordinary \'oldest pyramid\' claim is widely rejected and the supporting paper was retracted, but the precise extent and dating of the surface megalithic terraces is still legitimately studied.',
+      "Likely explained but with genuine unresolved detail: the extraordinary 'oldest pyramid' claim is widely rejected and the supporting paper was retracted, but the precise extent and dating of the surface megalithic terraces is still legitimately studied.",
     sources: [
       'Wikipedia: Gunung Padang',
-      'Artnet News, \'A Controversial Study on a Prehistoric Pyramid in Indonesia Is Retracted\' (2024)',
+      "Artnet News, 'A Controversial Study on a Prehistoric Pyramid in Indonesia Is Retracted' (2024)",
     ],
   },
   {
@@ -2267,8 +2306,9 @@ export const MYSTERIES = [
     era: 'Neolithic, c. 7500–3500 BCE',
     location: { lat: 22.5067, lng: 30.725, place: 'Nubian Desert, southern Egypt' },
     summary:
-      'Nabta Playa is a Neolithic site in the Egyptian Sahara built by cattle-herding pastoralists around a former seasonal lake. It contains a small \'calendar circle\' of standing stones, lines of large megaliths, and stone-covered cattle burials, and is among the earliest known sites with possible deliberate astronomical alignment.',
-    unexplained: 'Whether the stone arrangements were intended as a functional astronomical or calendrical device, and which specific alignments — solstice sunrise, particular stars — were truly intended rather than coincidental.',
+      "Nabta Playa is a Neolithic site in the Egyptian Sahara built by cattle-herding pastoralists around a former seasonal lake. It contains a small 'calendar circle' of standing stones, lines of large megaliths, and stone-covered cattle burials, and is among the earliest known sites with possible deliberate astronomical alignment.",
+    unexplained:
+      'Whether the stone arrangements were intended as a functional astronomical or calendrical device, and which specific alignments — solstice sunrise, particular stars — were truly intended rather than coincidental.',
     theories: [
       'Calendrical/astronomical observatory (moderately supported): some stones align with the summer solstice sunrise, plausibly signaling the coming monsoon rains.',
       'Stellar alignment with Orion/Sirius (disputed): claims of star maps rely on contested back-calculations of ancient sky positions.',
@@ -2278,7 +2318,7 @@ export const MYSTERIES = [
       'Genuinely no firm evidence either way on intent: the site is unquestionably real and important, but how deliberate and precise its astronomy was remains debated rather than settled.',
     sources: [
       'Wikipedia: Nabta Playa',
-      'Malville et al., \'Megaliths and Neolithic astronomy in southern Egypt,\' Nature (1998)',
+      "Malville et al., 'Megaliths and Neolithic astronomy in southern Egypt,' Nature (1998)",
     ],
   },
   {
@@ -2290,14 +2330,15 @@ export const MYSTERIES = [
     location: { lat: 24.435, lng: 122.99, place: 'Off Yonaguni Island, Ryukyu Islands, Japan' },
     summary:
       'The Yonaguni Monument is a large submerged sandstone formation off Yonaguni Island, discovered by a diver in 1987. It has flat terraces, straight edges, and right angles that some, notably geologist Masaaki Kimura, argue are human-shaped, while most marine geologists regard it as a natural product of bedding planes and jointing in the sandstone.',
-    unexplained: 'Whether any of the formation\'s terraces and angular features were modified or shaped by humans before sea levels rose, or whether all features are purely natural erosion.',
+    unexplained:
+      "Whether any of the formation's terraces and angular features were modified or shaped by humans before sea levels rose, or whether all features are purely natural erosion.",
     theories: [
       'Natural formation (scientific consensus): parallel bedding and vertical jointing in sandstone produce the steps and angles via ordinary weathering.',
       'Human-made or modified monument (minority, Kimura): the regularity suggests deliberate terracing of a site later submerged.',
       'Natural feature with minor human use (intermediate): some researchers allow possible light modification of an essentially natural rock.',
     ],
     unsolvedMeaning:
-      'Likely explained but unproven: the strong scientific consensus is \'natural,\' and \'lost city\' claims are considered pseudoarchaeology, though no excavation has definitively closed the question.',
+      "Likely explained but unproven: the strong scientific consensus is 'natural,' and 'lost city' claims are considered pseudoarchaeology, though no excavation has definitively closed the question.",
     sources: [
       'Wikipedia: Yonaguni Monument',
       'R. Schoch, geological assessment of Yonaguni (cited in Wikipedia)',
@@ -2311,18 +2352,17 @@ export const MYSTERIES = [
     era: 'Neolithic, c. 4500–3300 BCE',
     location: { lat: 47.595, lng: -3.079, place: 'Carnac, Brittany, France' },
     summary:
-      'The Carnac stones are the world\'s largest concentration of megalithic alignments, with more than 3,000 standing stones set in long rows near the Brittany coast, alongside dolmens and tumuli. They were erected by Neolithic communities over many centuries, but no contemporary record of their purpose survives.',
-    unexplained: 'Why thousands of stones were arranged in these specific long parallel rows, and what function the alignments served for their builders.',
+      "The Carnac stones are the world's largest concentration of megalithic alignments, with more than 3,000 standing stones set in long rows near the Brittany coast, alongside dolmens and tumuli. They were erected by Neolithic communities over many centuries, but no contemporary record of their purpose survives.",
+    unexplained:
+      'Why thousands of stones were arranged in these specific long parallel rows, and what function the alignments served for their builders.',
     theories: [
       'Ritual/processional and territorial markers (well supported): associated tombs suggest ceremonial and ancestral use.',
-      'Astronomical calendar/observatory (disputed): Alexander Thom argued for solar and lunar alignments and a \'megalithic yard,\' but his statistical methods are widely challenged.',
+      "Astronomical calendar/observatory (disputed): Alexander Thom argued for solar and lunar alignments and a 'megalithic yard,' but his statistical methods are widely challenged.",
       'Social/communal labor monument (supported): the rows may have expressed group identity or land claims.',
     ],
     unsolvedMeaning:
       'Genuinely no evidence either way for the specific purpose: the site and its Neolithic origin are certain, but the intended function of the alignments remains unresolved.',
-    sources: [
-      'Wikipedia: Carnac stones',
-    ],
+    sources: ['Wikipedia: Carnac stones'],
   },
   {
     id: 'sacsayhuaman',
@@ -2333,7 +2373,8 @@ export const MYSTERIES = [
     location: { lat: -13.508, lng: -71.982, place: 'Above Cusco, Peru' },
     summary:
       'Sacsayhuamán is a walled Inca complex overlooking Cusco, famous for zigzag walls of polygonal limestone blocks, some weighing over 100 tons, fitted so tightly that a sheet of paper cannot pass between them. It was built in the 15th century under Inca rule, likely on an earlier Killke-period site.',
-    unexplained: 'The precise techniques by which the Inca quarried, transported, and fitted the largest blocks with such accuracy, and the exact construction sequence of the walls.',
+    unexplained:
+      'The precise techniques by which the Inca quarried, transported, and fitted the largest blocks with such accuracy, and the exact construction sequence of the walls.',
     theories: [
       'Hammerstones, abrasion, and trial-fitting with mass labor (well supported): experiments show high precision is achievable with stone tools, ramps, and levers.',
       'Lost or special techniques such as heat or chemical softening (fringe, unsupported): no archaeological evidence backs stone-softening claims.',
@@ -2343,7 +2384,7 @@ export const MYSTERIES = [
       'Likely explained but with open detail: the builders (Inca) and broad methods are known and the precision is reproducible in principle, but exact logistics and sequence remain genuinely studied rather than fully settled.',
     sources: [
       'Wikipedia: Sacsayhuamán',
-      'J.-P. Protzen, \'Inca Architecture and Construction at Ollantaytambo\' (1993)',
+      "J.-P. Protzen, 'Inca Architecture and Construction at Ollantaytambo' (1993)",
     ],
   },
   {
@@ -2354,19 +2395,17 @@ export const MYSTERIES = [
     era: 'Neolithic, c. 3600–2500 BCE',
     location: { lat: 36.0472, lng: 14.2692, place: 'Xagħra, Gozo, Malta' },
     summary:
-      'Ġgantija is the earliest of Malta\'s megalithic temples, a pair of curved-chamber structures built from enormous limestone blocks on Gozo, predating the Egyptian pyramids. It is part of the broader Maltese temple culture that flourished for roughly a millennium and then ceased temple-building around 2500 BCE.',
-    unexplained: 'Why this temple-building society, after centuries of monumental construction, abruptly stopped building and the wider culture declined.',
+      "Ġgantija is the earliest of Malta's megalithic temples, a pair of curved-chamber structures built from enormous limestone blocks on Gozo, predating the Egyptian pyramids. It is part of the broader Maltese temple culture that flourished for roughly a millennium and then ceased temple-building around 2500 BCE.",
+    unexplained:
+      'Why this temple-building society, after centuries of monumental construction, abruptly stopped building and the wider culture declined.',
     theories: [
       'Resource exhaustion and environmental stress (well supported): worsening diet in skeletal remains and deforestation suggest overstretched resources.',
       'Social collapse from competitive monument-building (plausible): escalating ritual construction may have become unsustainable.',
       'Disruption by incoming Bronze Age population (supported): later cremating newcomers replaced the temple builders.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved on cause: the temples and the decline are well documented, but the trigger for the culture\'s collapse and abandonment of temple-building is still debated.',
-    sources: [
-      'Wikipedia: Ġgantija',
-      'UNESCO World Heritage Centre, Megalithic Temples of Malta',
-    ],
+      "Genuinely unresolved on cause: the temples and the decline are well documented, but the trigger for the culture's collapse and abandonment of temple-building is still debated.",
+    sources: ['Wikipedia: Ġgantija', 'UNESCO World Heritage Centre, Megalithic Temples of Malta'],
   },
   {
     id: 'hal-saflieni-hypogeum',
@@ -2376,19 +2415,17 @@ export const MYSTERIES = [
     era: 'Neolithic, c. 4000–2500 BCE (Saflieni phase c. 3300–3000 BCE)',
     location: { lat: 35.8694, lng: 14.5072, place: 'Paola, Malta' },
     summary:
-      'The Ħal Saflieni Hypogeum is a multi-level underground complex carved into Maltese limestone, used as both a sanctuary and a necropolis containing the remains of thousands of individuals. Its rock-cut chambers include the so-called \'Oracle Room,\' notable for unusual acoustic resonance.',
-    unexplained: 'The full ritual function of the carved chambers, and whether the acoustic resonance of the \'Oracle Room\' was deliberately engineered or incidental.',
+      "The Ħal Saflieni Hypogeum is a multi-level underground complex carved into Maltese limestone, used as both a sanctuary and a necropolis containing the remains of thousands of individuals. Its rock-cut chambers include the so-called 'Oracle Room,' notable for unusual acoustic resonance.",
+    unexplained:
+      "The full ritual function of the carved chambers, and whether the acoustic resonance of the 'Oracle Room' was deliberately engineered or incidental.",
     theories: [
       'Communal burial site and underground sanctuary (well supported): the mass of human remains and red-ochre decoration indicate funerary and cult use.',
       'Deliberately designed acoustics (disputed): the resonance is real, but whether Neolithic builders intended it is unproven.',
       'Continuation underground of the above-ground temple cult (supported): architectural features mimic the surface temples.',
     ],
     unsolvedMeaning:
-      'Genuinely partly unresolved: the site\'s burial function is certain, but claims of intentional acoustic engineering are intriguing yet unproven.',
-    sources: [
-      'Wikipedia: Ħal Saflieni Hypogeum',
-      'Heritage Malta site documentation',
-    ],
+      "Genuinely partly unresolved: the site's burial function is certain, but claims of intentional acoustic engineering are intriguing yet unproven.",
+    sources: ['Wikipedia: Ħal Saflieni Hypogeum', 'Heritage Malta site documentation'],
   },
   {
     id: 'plain-of-jars',
@@ -2398,15 +2435,16 @@ export const MYSTERIES = [
     era: 'Iron Age, c. 500 BCE – 500 CE (use into early 2nd millennium CE)',
     location: { lat: 19.431, lng: 103.153, place: 'Xiangkhoang Plateau, Laos' },
     summary:
-      'The Plain of Jars is a landscape of thousands of large carved stone jars scattered across the highlands of central Laos. Excavations since Madeleine Colani\'s 1930s work have found human remains near and within jars, supporting a funerary interpretation, but the culture that made them is unidentified.',
-    unexplained: 'Who the jar-makers were, what language or society they belonged to, and exactly how the jars functioned in mortuary practice.',
+      "The Plain of Jars is a landscape of thousands of large carved stone jars scattered across the highlands of central Laos. Excavations since Madeleine Colani's 1930s work have found human remains near and within jars, supporting a funerary interpretation, but the culture that made them is unidentified.",
+    unexplained:
+      'Who the jar-makers were, what language or society they belonged to, and exactly how the jars functioned in mortuary practice.',
     theories: [
       'Funerary vessels for secondary burial (well supported): nearby and contained human remains confirm a mortuary role, with evidence of repeated use by multiple individuals over generations.',
       'Storage of food, water, or fermented drink (weakly supported): a folklore-derived idea with little material backing.',
       'Trade-wealth display by a society on China–Vietnam routes (supported): foreign beads and bronze suggest prosperous makers.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved on identity: the burial role is increasingly confirmed, but the makers\' identity remains unknown, and unexploded ordnance severely limits excavation.',
+      "Genuinely unresolved on identity: the burial role is increasingly confirmed, but the makers' identity remains unknown, and unexploded ordnance severely limits excavation.",
     sources: [
       'Wikipedia: Plain of Jars',
       'UNESCO World Heritage Centre, Megalithic Jar Sites in Xiengkhuang',
@@ -2420,8 +2458,9 @@ export const MYSTERIES = [
     era: 'Megalithic construction c. 1180–1200 CE; abandoned by ~1820s',
     location: { lat: 6.8439, lng: 158.3344, place: 'Pohnpei, Federated States of Micronesia' },
     summary:
-      'Nan Madol is a complex of about 90 artificial islets built of stacked columnar basalt \'logs\' and coral fill, laced with canals, off the coast of Pohnpei. It was the ceremonial and political seat of the Saudeleur dynasty before being abandoned, and is sometimes called the \'Venice of the Pacific.\'',
-    unexplained: 'Exactly how the builders, without metal tools, concrete, or large vessels, transported and stacked the enormous basalt columns onto reef islets, and precisely why the site was ultimately abandoned.',
+      "Nan Madol is a complex of about 90 artificial islets built of stacked columnar basalt 'logs' and coral fill, laced with canals, off the coast of Pohnpei. It was the ceremonial and political seat of the Saudeleur dynasty before being abandoned, and is sometimes called the 'Venice of the Pacific.'",
+    unexplained:
+      'Exactly how the builders, without metal tools, concrete, or large vessels, transported and stacked the enormous basalt columns onto reef islets, and precisely why the site was ultimately abandoned.',
     theories: [
       'Rafting or floating of basalt columns plus ramps and levers (most supported): the prevailing engineering explanation, though unverified in operational detail.',
       'Decline of the Saudeleur dynasty and political and resource change (supported): conquest tradition and resource strain explain abandonment.',
@@ -2443,11 +2482,12 @@ export const MYSTERIES = [
     location: { lat: 37.093, lng: 39.287, place: 'Şanlıurfa Province, Turkey' },
     summary:
       'Karahan Tepe is a Pre-Pottery Neolithic site near Göbekli Tepe with T-shaped pillars, carved human and animal imagery, and a rock-cut chamber containing rows of phallic pillars and a watching human-head sculpture. It shows that pre-agricultural hunter-gatherers built complex permanent ritual architecture.',
-    unexplained: 'What the enigmatic pillar rooms and carved faces meant, and how and why such sophisticated communal monuments arose among people who had not yet adopted farming.',
+    unexplained:
+      'What the enigmatic pillar rooms and carved faces meant, and how and why such sophisticated communal monuments arose among people who had not yet adopted farming.',
     theories: [
       'Ritual or cult complex (well supported): the carvings and special chambers point to ceremonial use.',
       'Settlement with integrated ritual buildings (supported): houses among the monuments suggest year-round occupation.',
-      'Site in a wider \'Taş Tepeler\' network linked to Göbekli Tepe (supported): shared iconography implies a regional tradition.',
+      "Site in a wider 'Taş Tepeler' network linked to Göbekli Tepe (supported): shared iconography implies a regional tradition.",
     ],
     unsolvedMeaning:
       'Genuinely no evidence either way on meaning: the site is securely dated and excavation is ongoing, but the symbolism and the social drivers behind its construction remain open.',
@@ -2465,7 +2505,8 @@ export const MYSTERIES = [
     location: { lat: 8.945, lng: -83.481, place: 'Diquís Delta, Costa Rica' },
     summary:
       'More than 300 carved stone spheres, some nearly perfectly round and weighing up to about 15 tons, were made by the Diquís culture in southern Costa Rica. Many were moved from their original placements by farmers and treasure hunters before they were studied, destroying contextual information.',
-    unexplained: 'The original arrangement and intended purpose of the spheres, and how such near-perfect roundness was achieved with the available stone-working methods.',
+    unexplained:
+      'The original arrangement and intended purpose of the spheres, and how such near-perfect roundness was achieved with the available stone-working methods.',
     theories: [
       'Status or territorial markers near chiefly dwellings (best supported): some were found in alignments by elite structures.',
       'Astronomical or calendrical markers (weakly supported): proposed but lacking firm in-situ evidence.',
@@ -2484,12 +2525,13 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Mausoleum of the First Qin Emperor',
     era: '210 BCE (Qin dynasty)',
-    location: { lat: 34.3814, lng: 109.2783, place: 'Lintong District, Xi\'an, Shaanxi, China' },
+    location: { lat: 34.3814, lng: 109.2783, place: "Lintong District, Xi'an, Shaanxi, China" },
     summary:
-      'The first emperor of unified China, Qin Shi Huang, was buried in 210 BCE beneath a massive earthen mound near Xi\'an, surrounded by the famous Terracotta Army discovered in 1974. The central burial chamber itself has never been excavated. The historian Sima Qian, writing about a century later, described an underground palace containing rivers of mercury and rigged crossbow traps.',
-    unexplained: 'The contents and condition of the unopened central burial chamber are unknown, including whether Sima Qian\'s account of mercury rivers and the emperor\'s intact tomb is accurate.',
+      "The first emperor of unified China, Qin Shi Huang, was buried in 210 BCE beneath a massive earthen mound near Xi'an, surrounded by the famous Terracotta Army discovered in 1974. The central burial chamber itself has never been excavated. The historian Sima Qian, writing about a century later, described an underground palace containing rivers of mercury and rigged crossbow traps.",
+    unexplained:
+      "The contents and condition of the unopened central burial chamber are unknown, including whether Sima Qian's account of mercury rivers and the emperor's intact tomb is accurate.",
     theories: [
-      'Well-supported: soil tests have repeatedly detected anomalously high mercury concentrations over the mound, lending partial credence to Sima Qian\'s description.',
+      "Well-supported: soil tests have repeatedly detected anomalously high mercury concentrations over the mound, lending partial credence to Sima Qian's description.",
       'Plausible: Chinese authorities have deliberately left the chamber sealed pending preservation technology, so its state is genuinely undetermined.',
       'Speculative: claims of elaborate intact treasures and traps remain unverified historical text, not archaeological fact.',
     ],
@@ -2509,18 +2551,16 @@ export const MYSTERIES = [
     location: { lat: 32.0603, lng: 118.7969, place: 'Nanjing, China' },
     summary:
       'The Jianwen Emperor, second ruler of the Ming dynasty, vanished in 1402 when his uncle Zhu Di seized the capital Nanjing and the imperial palace burned during the Jingnan campaign. A charred body was identified as his, but persistent contemporary doubts held that he had escaped. His uncle, who became the Yongle Emperor, is said to have spent years searching for him.',
-    unexplained: 'Whether the Jianwen Emperor died in the palace fire in 1402 or escaped and lived in hiding, and if so where, was never conclusively established.',
+    unexplained:
+      'Whether the Jianwen Emperor died in the palace fire in 1402 or escaped and lived in hiding, and if so where, was never conclusively established.',
     theories: [
       'Plausible: he perished in the palace fire and the recovered body was genuinely his, as officially declared.',
-      'Widely repeated in sources: he escaped disguised as a Buddhist monk and lived in obscurity, prompting Yongle\'s prolonged searches.',
+      "Widely repeated in sources: he escaped disguised as a Buddhist monk and lived in obscurity, prompting Yongle's prolonged searches.",
       'Speculative: legends linking the maritime voyages of Zheng He partly to a search for the lost emperor are unproven.',
     ],
     unsolvedMeaning:
       'Genuinely no evidence either way: no remains were ever definitively confirmed, so his ultimate fate remains an open historical question.',
-    sources: [
-      'History of Ming (Mingshi)',
-      'Jianwen Emperor, en.wikipedia.org',
-    ],
+    sources: ['History of Ming (Mingshi)', 'Jianwen Emperor, en.wikipedia.org'],
   },
   {
     id: 'lost-tomb-of-genghis-khan',
@@ -2528,10 +2568,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Tomb of Genghis Khan',
     era: '1227 CE (Mongol Empire)',
-    location: { lat: 48.5, lng: 108.7, place: 'Khentii Province (Burkhan Khaldun region), Mongolia' },
+    location: {
+      lat: 48.5,
+      lng: 108.7,
+      place: 'Khentii Province (Burkhan Khaldun region), Mongolia',
+    },
     summary:
-      'Genghis Khan, founder of the Mongol Empire, died in 1227 and was buried in secret according to Mongol custom. Accounts state that the burial party killed those who witnessed the procession and that the grave was concealed, possibly by trampling horses or diverting a river. Despite numerous archaeological searches, the tomb\'s location has never been found.',
-    unexplained: 'The precise location of Genghis Khan\'s grave and its contents remain unknown after nearly eight centuries.',
+      "Genghis Khan, founder of the Mongol Empire, died in 1227 and was buried in secret according to Mongol custom. Accounts state that the burial party killed those who witnessed the procession and that the grave was concealed, possibly by trampling horses or diverting a river. Despite numerous archaeological searches, the tomb's location has never been found.",
+    unexplained:
+      "The precise location of Genghis Khan's grave and its contents remain unknown after nearly eight centuries.",
     theories: [
       'Well-supported by tradition: the burial site lies somewhere near the sacred mountain Burkhan Khaldun, which Genghis Khan reportedly favored.',
       'Plausible: deliberate concealment and the prohibition on disturbing the sacred area have kept it hidden.',
@@ -2539,21 +2584,19 @@ export const MYSTERIES = [
     ],
     unsolvedMeaning:
       'Genuinely unresolved: the burial is historically attested but the site has never been located or excavated.',
-    sources: [
-      'The Secret History of the Mongols',
-      'Tomb of Genghis Khan, en.wikipedia.org',
-    ],
+    sources: ['The Secret History of the Mongols', 'Tomb of Genghis Khan, en.wikipedia.org'],
   },
   {
     id: 'yamashita-treasure',
-    title: 'Yamashita\'s Gold',
+    title: "Yamashita's Gold",
     category: 'disappearances',
-    wikipedia: 'Yamashita\'s gold',
+    wikipedia: "Yamashita's gold",
     era: 'World War II (1940s)',
     location: { lat: 14.5995, lng: 120.9842, place: 'Philippines (various alleged sites)' },
     summary:
-      'Yamashita\'s gold refers to alleged caches of war loot supposedly hidden in the Philippines by Japanese forces under General Tomoyuki Yamashita during World War II. Treasure hunters have searched for decades, and a 1988 lawsuit (Roxas v. Marcos) involved claims that a hidden golden Buddha statue and treasure had been seized. No large hoard has ever been verifiably recovered.',
-    unexplained: 'Whether substantial Japanese-looted treasure was actually buried in the Philippines, and if so where, has never been established.',
+      "Yamashita's gold refers to alleged caches of war loot supposedly hidden in the Philippines by Japanese forces under General Tomoyuki Yamashita during World War II. Treasure hunters have searched for decades, and a 1988 lawsuit (Roxas v. Marcos) involved claims that a hidden golden Buddha statue and treasure had been seized. No large hoard has ever been verifiably recovered.",
+    unexplained:
+      'Whether substantial Japanese-looted treasure was actually buried in the Philippines, and if so where, has never been established.',
     theories: [
       'Skeptical/likely myth: most historians regard the large-scale hoards as legend, noting the logistical implausibility and lack of physical evidence.',
       'Partly supported: the Roxas court case suggests at least some valuable objects existed, though not the fabled hoard.',
@@ -2563,7 +2606,7 @@ export const MYSTERIES = [
       'Possibly a myth: the core legend is widely doubted by historians and no verified hoard has surfaced, though limited individual claims exist.',
     sources: [
       'Roxas v. Marcos (Hawaii court records, 1988–1996)',
-      'Yamashita\'s gold, en.wikipedia.org',
+      "Yamashita's gold, en.wikipedia.org",
     ],
   },
   {
@@ -2575,7 +2618,8 @@ export const MYSTERIES = [
     location: { lat: 39.6864, lng: 115.9239, place: 'Zhoukoudian, near Beijing, China' },
     summary:
       'Peking Man is a collection of Homo erectus fossils excavated at Zhoukoudian near Beijing beginning in the 1920s. In late 1941, as war with Japan intensified, the original fossils were packed for shipment to the United States for safekeeping and disappeared during the chaos around the attack on Pearl Harbor. Only casts and descriptions survive.',
-    unexplained: 'The fate and location of the original Peking Man fossils, lost in transit in 1941, have never been determined.',
+    unexplained:
+      'The fate and location of the original Peking Man fossils, lost in transit in 1941, have never been determined.',
     theories: [
       'Plausible: the crates were lost or destroyed amid the Japanese capture of US Marine baggage and shipping near Qinhuangdao.',
       'Plausible: the fossils ended up scattered, buried, or aboard a sunken or seized vessel.',
@@ -2583,10 +2627,7 @@ export const MYSTERIES = [
     ],
     unsolvedMeaning:
       'Genuinely unresolved: the fossils unquestionably existed and were photographed and cast, but their physical disappearance has never been solved.',
-    sources: [
-      'Franz Weidenreich\'s casts and publications',
-      'Peking Man, en.wikipedia.org',
-    ],
+    sources: ["Franz Weidenreich's casts and publications", 'Peking Man, en.wikipedia.org'],
   },
   {
     id: 'heirloom-seal-of-the-realm',
@@ -2594,13 +2635,14 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Heirloom Seal of the Realm',
     era: 'Carved 221 BCE; lost by 10th century CE',
-    location: { lat: 34.3416, lng: 108.9398, place: 'Chang\'an (Xi\'an), China' },
+    location: { lat: 34.3416, lng: 108.9398, place: "Chang'an (Xi'an), China" },
     summary:
       'The Heirloom Seal of the Realm was a jade imperial seal supposedly created for Qin Shi Huang and passed down as a symbol of the Mandate of Heaven through successive Chinese dynasties. It is recorded to have changed hands amid wars and was lost during the political turmoil of the Five Dynasties period around the 10th century CE. It was never reliably seen again.',
-    unexplained: 'Whether the seal genuinely survived through all the dynasties attributed to it, and what became of it after the 10th century, are both uncertain.',
+    unexplained:
+      'Whether the seal genuinely survived through all the dynasties attributed to it, and what became of it after the 10th century, are both uncertain.',
     theories: [
       'Plausible: the seal was lost or destroyed in the warfare and dynastic collapse of the early 10th century.',
-      'Skeptical: some scholars suspect later \'rediscovered\' seals were forgeries used to legitimize rulers.',
+      "Skeptical: some scholars suspect later 'rediscovered' seals were forgeries used to legitimize rulers.",
       'Speculative: the original may have been destroyed much earlier and replaced by copies.',
     ],
     unsolvedMeaning:
@@ -2618,12 +2660,13 @@ export const MYSTERIES = [
     era: '1274 and 1281 CE',
     location: { lat: 33.6, lng: 130.4, place: 'Hakata Bay, Kyushu, Japan' },
     summary:
-      'Kublai Khan\'s Mongol-led forces attempted to invade Japan in 1274 and 1281, and both fleets were reportedly devastated by sudden typhoons later mythologized as \'kamikaze\' (divine winds). The 1281 fleet was one of the largest naval forces in pre-modern history. Marine archaeology off Takashima has recovered ship remains and anchors confirming a wreck site.',
-    unexplained: 'The true scale of the losses and why such enormous fleets were so catastrophically destroyed remain debated, including how much was storm versus poor ship construction.',
+      "Kublai Khan's Mongol-led forces attempted to invade Japan in 1274 and 1281, and both fleets were reportedly devastated by sudden typhoons later mythologized as 'kamikaze' (divine winds). The 1281 fleet was one of the largest naval forces in pre-modern history. Marine archaeology off Takashima has recovered ship remains and anchors confirming a wreck site.",
+    unexplained:
+      'The true scale of the losses and why such enormous fleets were so catastrophically destroyed remain debated, including how much was storm versus poor ship construction.',
     theories: [
       'Well-supported: archaeological finds confirm large numbers of vessels were wrecked near Takashima.',
       'Increasingly supported: analysis suggests many ships were hastily built river craft poorly suited to open sea, amplifying storm damage.',
-      'Traditional/embellished: the \'divine wind\' narrative was later amplified for nationalistic and religious purposes.',
+      "Traditional/embellished: the 'divine wind' narrative was later amplified for nationalistic and religious purposes.",
     ],
     unsolvedMeaning:
       'Partly resolved, partly open: the invasions and wrecks are firmly documented, but the exact causes and magnitude of the destruction are still studied and debated.',
@@ -2636,12 +2679,13 @@ export const MYSTERIES = [
     id: 'awa-maru-sinking',
     title: 'The Sinking of the Awa Maru',
     category: 'events',
-    wikipedia: 'Awa Maru (1942)',
+    wikipedia: 'Awa Maru',
     era: '1945 (World War II)',
     location: { lat: 25, lng: 119.5, place: 'Taiwan Strait' },
     summary:
       'The Awa Maru was a Japanese ocean liner sunk by the American submarine USS Queenfish in 1945 while traveling under a guaranteed safe-conduct as a Red Cross relief ship. Nearly all of its roughly 2,000 passengers died. Persistent rumors held that the ship carried looted gold, platinum, and other treasure, and China conducted a salvage operation in the late 1970s and 1980s.',
-    unexplained: 'Whether the Awa Maru carried a large cargo of looted gold and treasure, as long rumored, was never confirmed by the salvage efforts.',
+    unexplained:
+      'Whether the Awa Maru carried a large cargo of looted gold and treasure, as long rumored, was never confirmed by the salvage efforts.',
     theories: [
       'Plausible: the ship carried valuable strategic materials, but the fabled gold hoard was likely exaggerated.',
       'Supported by salvage: Chinese recovery operations retrieved remains and some materials but reportedly not a vast treasure.',
@@ -2656,18 +2700,19 @@ export const MYSTERIES = [
   },
   {
     id: 'lost-records-of-zheng-he-voyages',
-    title: 'The Lost Records of Zheng He\'s Treasure Voyages',
+    title: "The Lost Records of Zheng He's Treasure Voyages",
     category: 'disappearances',
     wikipedia: 'Ming treasure voyages',
     era: '1405–1433 CE (Ming dynasty)',
     location: { lat: 32.0603, lng: 118.7969, place: 'Nanjing, China' },
     summary:
       'Between 1405 and 1433 the Ming admiral Zheng He led seven enormous maritime expeditions across the Indian Ocean with vast fleets. After the voyages ended, much of the detailed official documentation, including ship logs and records, was reportedly destroyed or suppressed by court officials opposed to the costly expeditions. Surviving accounts are fragmentary.',
-    unexplained: 'The full extent, exact routes, ship dimensions, and reasons for the deliberate destruction of the voyage records remain incompletely known.',
+    unexplained:
+      'The full extent, exact routes, ship dimensions, and reasons for the deliberate destruction of the voyage records remain incompletely known.',
     theories: [
       'Well-supported: anti-expedition factions at court, notably the official Liu Daxia, are traditionally blamed for destroying or hiding the archives.',
       'Plausible: records were lost through ordinary neglect and later fires rather than a single deliberate act.',
-      'Speculative: claims about the true size of the \'treasure ships\' remain debated due to the missing records.',
+      "Speculative: claims about the true size of the 'treasure ships' remain debated due to the missing records.",
     ],
     unsolvedMeaning:
       'Genuinely unresolved on the details: the voyages are firmly historical, but the loss of primary records leaves key facts permanently uncertain.',
@@ -2682,13 +2727,18 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Complex of Koguryo Tombs',
     era: 'Goguryeo period (c. 5th century CE)',
-    location: { lat: 41.1544, lng: 126.1872, place: 'Ji\'an, Jilin Province, China (Goguryeo tomb complex)' },
+    location: {
+      lat: 41.1544,
+      lng: 126.1872,
+      place: "Ji'an, Jilin Province, China (Goguryeo tomb complex)",
+    },
     summary:
-      'The Complex of Koguryo Tombs comprises numerous mural-painted tombs of the Goguryeo kingdom, a UNESCO World Heritage Site with sites in both Ji\'an (Jilin, China) and North Korea. Many of the elaborately decorated tombs lack inscriptions identifying their occupants, and most were looted in antiquity. The identities of the individuals buried in several of the most important painted tombs, including the Tomb of the Dancers at Ji\'an, remain unknown.',
-    unexplained: 'The specific royal or noble identities of the occupants of many unlabeled Goguryeo tombs cannot be determined.',
+      "The Complex of Koguryo Tombs comprises numerous mural-painted tombs of the Goguryeo kingdom, a UNESCO World Heritage Site with sites in both Ji'an (Jilin, China) and North Korea. Many of the elaborately decorated tombs lack inscriptions identifying their occupants, and most were looted in antiquity. The identities of the individuals buried in several of the most important painted tombs, including the Tomb of the Dancers at Ji'an, remain unknown.",
+    unexplained:
+      'The specific royal or noble identities of the occupants of many unlabeled Goguryeo tombs cannot be determined.',
     theories: [
       'Well-supported: looting removed grave goods and any identifying items, erasing direct evidence of identity.',
-      'Plausible: the murals\' iconography indicates high status but is not specific enough to name individuals.',
+      "Plausible: the murals' iconography indicates high status but is not specific enough to name individuals.",
       'Speculative: tentative attributions to particular kings rest on circumstantial dating and location.',
     ],
     unsolvedMeaning:
@@ -2704,19 +2754,24 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Mohenjo-daro',
     era: 'Built c. 2500 BCE; declined/abandoned c. 1700 BCE',
-    location: { lat: 27.3242, lng: 68.1378, place: 'Mohenjo-daro, Larkana District, Sindh (modern Pakistan)' },
+    location: {
+      lat: 27.3242,
+      lng: 68.1378,
+      place: 'Mohenjo-daro, Larkana District, Sindh (modern Pakistan)',
+    },
     summary:
       'Mohenjo-daro was one of the largest cities of the Indus Valley Civilisation, with advanced grid planning, centralized drainage, and over 700 wells, housing tens of thousands of people. Around 1700 BCE it was abandoned along with the other great Indus cities, and the urban civilization broke down. No clear single cause has been established.',
-    unexplained: 'What caused the collapse and abandonment of Mohenjo-daro and the wider Indus urban system around 1700 BCE?',
+    unexplained:
+      'What caused the collapse and abandonment of Mohenjo-daro and the wider Indus urban system around 1700 BCE?',
     theories: [
-      'Repeated flooding/silting of the Indus (Mortimer Wheeler\'s early view; now largely out of favour)',
+      "Repeated flooding/silting of the Indus (Mortimer Wheeler's early view; now largely out of favour)",
       'Environmental degradation — recurrent minor floods plus exhaustion of land and resources (Gregory Possehl; reasonably supported)',
       'Shifting/drying rivers and monsoon weakening driving gradual de-urbanization (increasingly supported by paleoclimate data, but not site-specific proof)',
     ],
     unsolvedMeaning:
-      'Likely explained but unproven: scholars favour gradual climatic and hydrological decline over any catastrophe, but no single demonstrated cause exists, and the older \'invasion/massacre\' idea has been discredited.',
+      "Likely explained but unproven: scholars favour gradual climatic and hydrological decline over any catastrophe, but no single demonstrated cause exists, and the older 'invasion/massacre' idea has been discredited.",
     sources: [
-      'Gregory L. Possehl, \'The Indus Civilization: A Contemporary Perspective\' (2002)',
+      "Gregory L. Possehl, 'The Indus Civilization: A Contemporary Perspective' (2002)",
       'en.wikipedia.org/wiki/Mohenjo-daro',
     ],
   },
@@ -2726,19 +2781,24 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Mahendraparvata',
     era: 'Founded c. 802 CE (early Khmer Empire)',
-    location: { lat: 13.578, lng: 103.962, place: 'Phnom Kulen plateau, Siem Reap Province, Cambodia' },
+    location: {
+      lat: 13.578,
+      lng: 103.962,
+      place: 'Phnom Kulen plateau, Siem Reap Province, Cambodia',
+    },
     summary:
       'Mahendraparvata was an early capital of the Khmer Empire associated with the consecration of Jayavarman II in 802 CE on the Phnom Kulen plateau, predating Angkor Wat by about 350 years. Airborne LIDAR surveys in 2012–2013 (Damian Evans, Jean-Baptiste Chevance) revealed a buried grid of roads, dykes, ponds and dozens of previously unknown temples beneath the forest.',
-    unexplained: 'Why was this planned mountain city largely abandoned, and how fully was it ever occupied before the Khmer moved their capital to the lowlands?',
+    unexplained:
+      'Why was this planned mountain city largely abandoned, and how fully was it ever occupied before the Khmer moved their capital to the lowlands?',
     theories: [
       'Water-management failure on the plateau made the site unsustainable (plausible, supported by hydrological mapping but not conclusive)',
       'It was always a ceremonial/short-lived royal seat that the court deliberately relocated to Hariharalaya (supported by historical texts)',
       'Population and political center simply shifted with imperial expansion toward Angkor (mainstream but underspecified)',
     ],
     unsolvedMeaning:
-      'Genuinely open: the city\'s existence is now confirmed by LIDAR, but the scale of its population and the specific reason for its abandonment remain unestablished.',
+      "Genuinely open: the city's existence is now confirmed by LIDAR, but the scale of its population and the specific reason for its abandonment remain unestablished.",
     sources: [
-      'Evans et al., \'Uncovering archaeological landscapes at Angkor using LiDAR\', PNAS (2013)',
+      "Evans et al., 'Uncovering archaeological landscapes at Angkor using LiDAR', PNAS (2013)",
       'en.wikipedia.org/wiki/Mahendraparvata',
     ],
   },
@@ -2746,12 +2806,13 @@ export const MYSTERIES = [
     id: 'disappearance-of-jim-thompson',
     title: 'The Disappearance of Jim Thompson',
     category: 'disappearances',
-    wikipedia: 'Jim Thompson (businessman)',
+    wikipedia: 'Jim Thompson (designer)',
     era: '1967',
     location: { lat: 4.4716, lng: 101.387, place: 'Cameron Highlands, Pahang, Malaysia' },
     summary:
-      'James H. W. Thompson, the American who revived the Thai silk industry, vanished on 26 March 1967 after stepping out for an afternoon walk from a bungalow in Malaysia\'s Cameron Highlands. An 11-day search by over 500 people across roughly 17 square miles found no body, clothing, or scent trail. Bone fragments found near Brinchang in 1985 were never confirmed as his.',
-    unexplained: 'What happened to Thompson — did he die in the jungle, suffer an accident, or was he abducted or killed?',
+      "James H. W. Thompson, the American who revived the Thai silk industry, vanished on 26 March 1967 after stepping out for an afternoon walk from a bungalow in Malaysia's Cameron Highlands. An 11-day search by over 500 people across roughly 17 square miles found no body, clothing, or scent trail. Bone fragments found near Brinchang in 1985 were never confirmed as his.",
+    unexplained:
+      'What happened to Thompson — did he die in the jungle, suffer an accident, or was he abducted or killed?',
     theories: [
       'Accidental death or getting lost/falling in difficult terrain (most prosaic; a 2015 search analysis showed the original search likely had under 50% chance of finding remains even if present)',
       'Abduction or murder by business or political rivals (widely speculated, no evidence)',
@@ -2760,7 +2821,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved: no remains or evidence has ever been verified, so even the most mundane explanation (he simply died in the forest) remains unconfirmed.',
     sources: [
-      'William Warren, \'Jim Thompson: The Unsolved Mystery\' (1970)',
+      "William Warren, 'Jim Thompson: The Unsolved Mystery' (1970)",
       'en.wikipedia.org/wiki/Jim_Thompson_(businessman)',
     ],
   },
@@ -2770,10 +2831,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Michael Rockefeller',
     era: '1961',
-    location: { lat: -5.65, lng: 138.1, place: 'Asmat coast, Dutch New Guinea (now South Papua, Indonesia)' },
+    location: {
+      lat: -5.65,
+      lng: 138.1,
+      place: 'Asmat coast, Dutch New Guinea (now South Papua, Indonesia)',
+    },
     summary:
       'Michael Rockefeller, son of New York governor Nelson Rockefeller, disappeared on 19 November 1961 in the Asmat region after his catamaran overturned and he tried to swim 10–12 miles to shore. His companion René Wassing was rescued the next day; Rockefeller was never found and was declared dead in 1964. No remains were ever recovered.',
-    unexplained: 'Did Rockefeller drown or die of exposure attempting the swim, or was he killed by Asmat villagers after reaching shore?',
+    unexplained:
+      'Did Rockefeller drown or die of exposure attempting the swim, or was he killed by Asmat villagers after reaching shore?',
     theories: [
       'Drowning or death by exhaustion/sharks during the long swim (favoured by his family; consistent with currents and distance)',
       'Killed and consumed by Asmat men in revenge for earlier Dutch colonial killings (documented in missionary and later journalistic testimony, e.g. Carl Hoffman, but never physically proven)',
@@ -2781,10 +2847,7 @@ export const MYSTERIES = [
     ],
     unsolvedMeaning:
       'Genuinely unresolved: credible drowning and cannibalism accounts both exist, no body was found, and the truth has never been established.',
-    sources: [
-      'Carl Hoffman, \'Savage Harvest\' (2014)',
-      'en.wikipedia.org/wiki/Michael_Rockefeller',
-    ],
+    sources: ["Carl Hoffman, 'Savage Harvest' (2014)", 'en.wikipedia.org/wiki/Michael_Rockefeller'],
   },
   {
     id: 'roopkund-lake',
@@ -2792,19 +2855,24 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Roopkund',
     era: 'Deaths c. 800 CE and c. 1800 CE',
-    location: { lat: 30.262, lng: 79.731, place: 'Roopkund glacial lake, Uttarakhand Himalayas, India' },
+    location: {
+      lat: 30.262,
+      lng: 79.731,
+      place: 'Roopkund glacial lake, Uttarakhand Himalayas, India',
+    },
     summary:
       'Roopkund is a small glacial lake at about 5,020 m in the Indian Himalayas where the remains of more than 300 people have been found, first reported by a forest ranger in 1942. A 2019 ancient-DNA study showed the dead belong to genetically distinct groups deposited in at least two separate events, around 800 CE and around 1800 CE, including individuals of South Asian, eastern Mediterranean, and Southeast Asian ancestry.',
-    unexplained: 'Why were people of such different origins — including eastern Mediterranean ancestry — dying at a remote Himalayan lake, especially in the later c. 1800 CE event?',
+    unexplained:
+      'Why were people of such different origins — including eastern Mediterranean ancestry — dying at a remote Himalayan lake, especially in the later c. 1800 CE event?',
     theories: [
       'The c. 800 CE deaths resulted from a sudden catastrophe such as a violent hailstorm (supported by some blunt-trauma skull injuries)',
       'The lake lay on a pilgrimage route, so groups died en route over centuries (plausible for the South Asian dead, not for the Mediterranean cluster)',
-      'Multiple unrelated disasters over a millennium, with the later Mediterranean-ancestry group\'s presence still unexplained (the DNA-supported but incomplete picture)',
+      "Multiple unrelated disasters over a millennium, with the later Mediterranean-ancestry group's presence still unexplained (the DNA-supported but incomplete picture)",
     ],
     unsolvedMeaning:
       'Recently part-resolved, still open: DNA disproved the single-event idea, but the cause of the later deaths and the route of the Mediterranean-ancestry travelers remain unexplained.',
     sources: [
-      'Harney et al., \'Ancient DNA from the skeletons of Roopkund Lake\', Nature Communications (2019)',
+      "Harney et al., 'Ancient DNA from the skeletons of Roopkund Lake', Nature Communications (2019)",
       'en.wikipedia.org/wiki/Roopkund',
     ],
   },
@@ -2814,13 +2882,18 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Keezhadi excavation site',
     era: 'Sangam period; disputed dates c. 6th century BCE onward',
-    location: { lat: 9.862, lng: 78.191, place: 'Keezhadi, Sivaganga district, Tamil Nadu, India (near the Vaigai River)' },
+    location: {
+      lat: 9.862,
+      lng: 78.191,
+      place: 'Keezhadi, Sivaganga district, Tamil Nadu, India (near the Vaigai River)',
+    },
     summary:
       'Keezhadi is a Sangam-era urban settlement near Madurai, under excavation since 2015. Radiocarbon results have been used to argue for occupation as early as the 6th century BCE (one sample reported at 580 BCE), which would push back the antiquity of Tamil literacy. In 2025 the Archaeological Survey of India asked lead excavator K. Amarnath Ramakrishna to revise his report, sparking a political dispute with Tamil Nadu.',
-    unexplained: 'Do the earliest radiocarbon dates truly apply to the inscribed and cultural layers, or are they compromised by mixed stratigraphy — and how old is Keezhadi really?',
+    unexplained:
+      'Do the earliest radiocarbon dates truly apply to the inscribed and cultural layers, or are they compromised by mixed stratigraphy — and how old is Keezhadi really?',
     theories: [
       'The early dates are sound and Tamil-Brahmi literacy is older than long assumed (championed by Tamil Nadu archaeologists)',
-      'Refuse pits and disturbed layers mixed materials, so carbon samples may not match the inscribed potsherds (the ASI\'s methodological objection)',
+      "Refuse pits and disturbed layers mixed materials, so carbon samples may not match the inscribed potsherds (the ASI's methodological objection)",
       'The dispute is partly political, with central and state authorities reading the same data differently (well documented, not a scientific resolution)',
     ],
     unsolvedMeaning:
@@ -2836,19 +2909,24 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Sigiriya',
     era: '5th century CE (reign of Kashyapa I, 477–495 CE)',
-    location: { lat: 7.957, lng: 80.76, place: 'Sigiriya rock, near Dambulla, Central Province, Sri Lanka' },
+    location: {
+      lat: 7.957,
+      lng: 80.76,
+      place: 'Sigiriya rock, near Dambulla, Central Province, Sri Lanka',
+    },
     summary:
-      'Sigiriya is a granite rock in Sri Lanka rising approximately 180 m above the surrounding plain, transformed by King Kashyapa I (477–495 CE) into a fortified royal complex with gardens, a Lion Gate, frescoes of women, and a polished \'mirror wall\' bearing more than 1,500 ancient verses. After Kashyapa\'s defeat the capital returned to Anuradhapura and Sigiriya became a Buddhist monastery until around the 13th–14th century.',
-    unexplained: 'Was Sigiriya primarily a defensive fortress, a pleasure palace, or a religious/monastic complex — and who are the women depicted in the frescoes?',
+      "Sigiriya is a granite rock in Sri Lanka rising approximately 180 m above the surrounding plain, transformed by King Kashyapa I (477–495 CE) into a fortified royal complex with gardens, a Lion Gate, frescoes of women, and a polished 'mirror wall' bearing more than 1,500 ancient verses. After Kashyapa's defeat the capital returned to Anuradhapura and Sigiriya became a Buddhist monastery until around the 13th–14th century.",
+    unexplained:
+      'Was Sigiriya primarily a defensive fortress, a pleasure palace, or a religious/monastic complex — and who are the women depicted in the frescoes?',
     theories: [
-      'Defensive citadel built by a usurper fearing his brother\'s return (traditional chronicle-based view)',
-      'Pleasure palace and elaborate water-garden capital, with defence secondary (supported by the gardens\' design)',
+      "Defensive citadel built by a usurper fearing his brother's return (traditional chronicle-based view)",
+      "Pleasure palace and elaborate water-garden capital, with defence secondary (supported by the gardens' design)",
       'The fresco women are royal consorts, apsaras, or women in religious procession — identity unconfirmed (open question)',
     ],
     unsolvedMeaning:
-      'Genuinely open on specifics: the broad history is well documented, but the site\'s primary function and the identity of the fresco figures remain unresolved scholarly debates rather than settled facts.',
+      "Genuinely open on specifics: the broad history is well documented, but the site's primary function and the identity of the fresco figures remain unresolved scholarly debates rather than settled facts.",
     sources: [
-      'UNESCO World Heritage nomination dossier, \'Ancient City of Sigiriya\' (1982)',
+      "UNESCO World Heritage nomination dossier, 'Ancient City of Sigiriya' (1982)",
       'en.wikipedia.org/wiki/Sigiriya',
     ],
   },
@@ -2861,16 +2939,17 @@ export const MYSTERIES = [
     location: { lat: 26.823, lng: 70.737, place: 'Kuldhara, near Jaisalmer, Rajasthan, India' },
     summary:
       'Kuldhara was a prosperous Paliwal Brahmin village in the Thar Desert near Jaisalmer, founded around the 13th century, whose 410+ structures now stand empty. Census-type figures show a steep population decline through the 19th century, and most wells had dried up by 1815. Local legend instead claims the villagers vanished overnight after a tyrannical minister, leaving a curse against resettlement.',
-    unexplained: 'Did Kuldhara empty out gradually from water scarcity and economic pressure, or in a sudden coordinated exodus as the legend claims?',
+    unexplained:
+      'Did Kuldhara empty out gradually from water scarcity and economic pressure, or in a sudden coordinated exodus as the legend claims?',
     theories: [
       'Gradual depopulation from drying wells, declining agriculture, and taxation (best supported by documented population figures)',
       'A single overnight exodus to escape a predatory minister, Salim Singh (popular folklore, no documentary proof)',
       'An earthquake destroyed the settlement, per a 2017 study citing collapsed roofs and pillars (one scientific proposal, not widely confirmed)',
     ],
     unsolvedMeaning:
-      'Likely explained but unproven: gradual environmental and economic decline is the evidence-based view, while the dramatic \'cursed overnight\' story is folklore with no historical support.',
+      "Likely explained but unproven: gradual environmental and economic decline is the evidence-based view, while the dramatic 'cursed overnight' story is folklore with no historical support.",
     sources: [
-      'Reports on Jaisalmer\'s Paliwal villages and Kuldhara heritage conservation',
+      "Reports on Jaisalmer's Paliwal villages and Kuldhara heritage conservation",
       'en.wikipedia.org/wiki/Kuldhara',
     ],
   },
@@ -2880,17 +2959,22 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Padmanabhaswamy Temple',
     era: 'Vault sealed since at least the 1880s; disputes ongoing',
-    location: { lat: 8.4828, lng: 76.9434, place: 'Sree Padmanabhaswamy Temple, Thiruvananthapuram, Kerala, India' },
+    location: {
+      lat: 8.4828,
+      lng: 76.9434,
+      place: 'Sree Padmanabhaswamy Temple, Thiruvananthapuram, Kerala, India',
+    },
     summary:
-      'When several underground vaults of Kerala\'s Padmanabhaswamy Temple were inventoried in 2011 under Supreme Court supervision, they yielded one of the largest hoards of temple treasure ever recorded. One chamber, \'Vault B\' (Kallara B), was left unopened amid claims it has remained sealed since the 1880s and warnings tied to a 2011 divination ritual. Temple authorities and spiritual heads have repeatedly opposed opening it.',
-    unexplained: 'What does the still-sealed Vault B actually contain, and should it be opened given religious objections and unverified \'omen\' warnings?',
+      "When several underground vaults of Kerala's Padmanabhaswamy Temple were inventoried in 2011 under Supreme Court supervision, they yielded one of the largest hoards of temple treasure ever recorded. One chamber, 'Vault B' (Kallara B), was left unopened amid claims it has remained sealed since the 1880s and warnings tied to a 2011 divination ritual. Temple authorities and spiritual heads have repeatedly opposed opening it.",
+    unexplained:
+      "What does the still-sealed Vault B actually contain, and should it be opened given religious objections and unverified 'omen' warnings?",
     theories: [
       'It holds further immense treasure like the opened vaults (plausible given temple history)',
-      'It is a sanctified chamber not meant to be opened, with opening risking \'divine displeasure\' (the religious position, unfalsifiable)',
+      "It is a sanctified chamber not meant to be opened, with opening risking 'divine displeasure' (the religious position, unfalsifiable)",
       'Accounts of cobras and a failed 1908 opening attempt are embellished tradition rather than fact (likely, but unverified)',
     ],
     unsolvedMeaning:
-      'Genuinely open by choice: the vault\'s contents are unknown because it remains deliberately unopened amid legal and religious dispute, not because of any demonstrated supernatural barrier.',
+      "Genuinely open by choice: the vault's contents are unknown because it remains deliberately unopened amid legal and religious dispute, not because of any demonstrated supernatural barrier.",
     sources: [
       'Supreme Court of India proceedings on Padmanabhaswamy Temple administration (2011 onward)',
       'en.wikipedia.org/wiki/Padmanabhaswamy_Temple',
@@ -2902,20 +2986,25 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Classic Maya collapse',
     era: 'c. 750–950 CE',
-    location: { lat: 17.222, lng: -89.623, place: 'Southern Maya Lowlands (Tikal region), Petén, Guatemala' },
+    location: {
+      lat: 17.222,
+      lng: -89.623,
+      place: 'Southern Maya Lowlands (Tikal region), Petén, Guatemala',
+    },
     summary:
       'Between roughly the 8th and 9th centuries CE, dozens of major southern-lowland Maya city-states, including Tikal, Palenque, Copán and Calakmul, ceased erecting dated monuments, halted monumental construction, and were largely depopulated within a few generations. Northern centres such as Chichen Itza persisted, and the Maya as a people never vanished, but the southern-lowland political order was not rebuilt.',
-    unexplained: 'There is still no agreed explanation for why the densely populated southern lowlands collapsed and were abandoned over a relatively short window while other regions continued. The relative weight of drought, warfare, and political-economic factors is unresolved.',
+    unexplained:
+      'There is still no agreed explanation for why the densely populated southern lowlands collapsed and were abandoned over a relatively short window while other regions continued. The relative weight of drought, warfare, and political-economic factors is unresolved.',
     theories: [
       'Well-supported (partial): A series of severe multi-decade droughts, documented in lake-sediment and speleothem records, stressed agriculture and water supplies.',
       'Well-supported (partial): Endemic inter-polity warfare plus overpopulation and environmental degradation (deforestation, soil exhaustion) eroded elite legitimacy.',
       'Plausible/debated: Shifts in trade routes from overland to coastal circuits undercut inland elite power, accelerating fragmentation.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved as to cause-weighting: most scholars accept a multi-causal collapse but cannot agree which factors were primary, and the term \'collapse\' is increasingly reframed as transformation rather than extinction.',
+      "Genuinely unresolved as to cause-weighting: most scholars accept a multi-causal collapse but cannot agree which factors were primary, and the term 'collapse' is increasingly reframed as transformation rather than extinction.",
     sources: [
       'Wikipedia: Classic Maya collapse',
-      'Turner & Sabloff, \'Classic Period collapse of the Central Maya Lowlands\', PNAS (2012)',
+      "Turner & Sabloff, 'Classic Period collapse of the Central Maya Lowlands', PNAS (2012)",
     ],
   },
   {
@@ -2924,10 +3013,15 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Cahokia',
     era: 'c. 1050–1400 CE',
-    location: { lat: 38.661, lng: -90.061, place: 'Cahokia Mounds, near Collinsville, Illinois, USA' },
+    location: {
+      lat: 38.661,
+      lng: -90.061,
+      place: 'Cahokia Mounds, near Collinsville, Illinois, USA',
+    },
     summary:
       'Cahokia, the largest pre-Columbian settlement north of Mexico, rose rapidly around 1050 CE to perhaps 15,000–20,000 people with monumental earthen mounds, then steadily lost population after about 1200 and was essentially abandoned by around 1400. The Mississippian builders dispersed, leaving no written records.',
-    unexplained: 'Why a city of that scale was deliberately abandoned remains unexplained, and recent work has actively undercut a leading hypothesis (self-inflicted flooding from deforestation), deepening rather than resolving the question.',
+    unexplained:
+      'Why a city of that scale was deliberately abandoned remains unexplained, and recent work has actively undercut a leading hypothesis (self-inflicted flooding from deforestation), deepening rather than resolving the question.',
     theories: [
       'Debated: Climatic stress, including Little Ice Age drought and shifting flood regimes, made the floodplain less reliable for maize agriculture.',
       'Debated: Political and social upheaval or factional conflict drove out-migration rather than a single environmental shock.',
@@ -2941,28 +3035,6 @@ export const MYSTERIES = [
     ],
   },
   {
-    id: 'the-nazca-lines',
-    title: 'The Purpose of the Nazca Lines',
-    category: 'phenomena',
-    wikipedia: 'Nazca lines',
-    era: 'c. 200 BCE – 600 CE',
-    location: { lat: -14.739, lng: -75.13, place: 'Nazca Desert, Pampa de Jumana, Peru' },
-    summary:
-      'The Nazca lines are hundreds of large geoglyphs — straight lines, geometric forms, and figures of animals and plants — created on the arid Peruvian coastal plateau by removing dark surface stones to expose lighter ground. How they were made is well understood; their intended purpose is not.',
-    unexplained: 'Scholars still cannot agree what function the lines served, since many are best appreciated from above yet were made by a culture without flight, and different figures may have served different aims.',
-    theories: [
-      'Widely held: Ritual pathways walked in religious processions, with water and fertility as central concerns in a desert environment.',
-      'Supported: Many lines and figures relate to water sources, irrigation, and worship of water or rain deities.',
-      'Largely rejected: An astronomical calendar aligning lines to celestial events — statistical tests found little support beyond chance.',
-    ],
-    unsolvedMeaning:
-      'Genuinely unresolved on purpose (not on method): construction is explained, but intent remains debated with no single accepted answer. No credible evidence supports non-human explanations.',
-    sources: [
-      'Wikipedia: Nazca lines',
-      'Aveni, \'Between the Lines\' (2000)',
-    ],
-  },
-  {
     id: 'the-collapse-of-tiwanaku',
     title: 'The Collapse of Tiwanaku',
     category: 'events',
@@ -2971,7 +3043,8 @@ export const MYSTERIES = [
     location: { lat: -16.554, lng: -68.673, place: 'Tiwanaku, near Lake Titicaca, Bolivia' },
     summary:
       'Tiwanaku was a major Andean state centered south of Lake Titicaca, with monumental architecture including the unfinished Pumapunku complex. Its political and ceremonial system unraveled around 1000–1100 CE, after which the urban core was abandoned and its raised-field agriculture ceased.',
-    unexplained: 'The cause and tempo of the collapse are disputed: chronologies differ on whether a prolonged drought preceded or followed the decline, leaving open whether environment or internal upheaval was decisive.',
+    unexplained:
+      'The cause and tempo of the collapse are disputed: chronologies differ on whether a prolonged drought preceded or followed the decline, leaving open whether environment or internal upheaval was decisive.',
     theories: [
       'Long-standing: A prolonged regional drought collapsed the raised-field agricultural base, scattering populations into the highlands.',
       'Competing: New climate chronologies suggest drought postdated the start of collapse, pointing instead to internal social or political upheaval as the trigger.',
@@ -2981,7 +3054,7 @@ export const MYSTERIES = [
       'Genuinely unresolved: drought and social-collapse models compete, and refined climate dating has complicated the once-dominant drought-first narrative.',
     sources: [
       'Wikipedia: Tiwanaku',
-      'Marsh et al., \'A Radiocarbon Chronology of the Pumapunku Complex\', and related Tiwanaku climate studies',
+      "Marsh et al., 'A Radiocarbon Chronology of the Pumapunku Complex', and related Tiwanaku climate studies",
     ],
   },
   {
@@ -2990,10 +3063,15 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Crystal skull',
     era: 'Claimed pre-Columbian; actually 19th century',
-    location: { lat: 19.433, lng: -99.133, place: 'Said to be Mexico/Mesoamerica; provenance via European dealers' },
+    location: {
+      lat: 19.433,
+      lng: -99.133,
+      place: 'Said to be Mexico/Mesoamerica; provenance via European dealers',
+    },
     summary:
       'Several quartz human-skull carvings, including specimens at the British Museum and the Smithsonian, were long promoted as pre-Columbian Aztec or Maya masterpieces. Scientific examination of every skull made available for study found tool marks from rotary lapidary wheels unknown in the Americas before contact.',
-    unexplained: 'The genuinely open historical question is who manufactured the skulls and through which workshops and dealers they entered museum collections, not whether they are ancient.',
+    unexplained:
+      'The genuinely open historical question is who manufactured the skulls and through which workshops and dealers they entered museum collections, not whether they are ancient.',
     theories: [
       'Strongly supported: The skulls are 19th-century or later European-made carvings, likely linked to the Paris dealer Eugène Boban, not ancient Mesoamerican artifacts.',
       'Supported: Microscopy shows modern rotary-tool grinding inconsistent with pre-Columbian lapidary technique.',
@@ -3003,7 +3081,7 @@ export const MYSTERIES = [
       'Effectively debunked as pre-Columbian artifacts: the ancient attribution is refuted by materials analysis. The only remaining open question is the precise modern manufacturing and dealer history.',
     sources: [
       'Wikipedia: Crystal skull',
-      'Sax et al., \'The origins of two purportedly pre-Columbian Mexican crystal skulls\', Journal of Archaeological Science (2008)',
+      "Sax et al., 'The origins of two purportedly pre-Columbian Mexican crystal skulls', Journal of Archaeological Science (2008)",
     ],
   },
   {
@@ -3012,12 +3090,17 @@ export const MYSTERIES = [
     category: 'ciphers',
     wikipedia: 'Walam Olum',
     era: 'Published 1836; claimed ancient Lenape origin',
-    location: { lat: 39.95, lng: -75.165, place: 'Mid-Atlantic / Delaware (Lenape) region, eastern USA' },
+    location: {
+      lat: 39.95,
+      lng: -75.165,
+      place: 'Mid-Atlantic / Delaware (Lenape) region, eastern USA',
+    },
     summary:
-      'The Walam Olum (\'Red Record\') is a purported pictographic migration narrative of the Lenape, published by Constantine Rafinesque in the 1830s. Linguistic and manuscript analyses in the 1980s–90s found that its \'Lenape\' text matched published 19th-century word lists and that its glyphs were hybrids of printed Egyptian, Chinese, and Maya signs.',
-    unexplained: 'It remains debated how much, if any, authentic Lenape oral tradition Rafinesque drew upon when fabricating the document, and some Lenape descendants maintain it reflects real stories.',
+      "The Walam Olum ('Red Record') is a purported pictographic migration narrative of the Lenape, published by Constantine Rafinesque in the 1830s. Linguistic and manuscript analyses in the 1980s–90s found that its 'Lenape' text matched published 19th-century word lists and that its glyphs were hybrids of printed Egyptian, Chinese, and Maya signs.",
+    unexplained:
+      'It remains debated how much, if any, authentic Lenape oral tradition Rafinesque drew upon when fabricating the document, and some Lenape descendants maintain it reflects real stories.',
     theories: [
-      'Strongly supported: A 19th-century hoax composed by Rafinesque from already-printed Lenape vocabularies and borrowed pictographs (Oestreicher\'s analysis).',
+      "Strongly supported: A 19th-century hoax composed by Rafinesque from already-printed Lenape vocabularies and borrowed pictographs (Oestreicher's analysis).",
       'Minority/cultural: Some Delaware community members hold that genuine Lenape narratives underlie the text.',
       'Historical-interest: Even as a forgery it shaped a century of scholarship before being discredited.',
     ],
@@ -3025,7 +3108,7 @@ export const MYSTERIES = [
       'Now widely judged a forgery: the authenticity question is largely resolved against it, with only the degree of any genuine source material still debated at the margins.',
     sources: [
       'Wikipedia: Walam Olum',
-      'Oestreicher, \'Unmasking the Walam Olum\' (1994); Archaeology Magazine, \'Walam Olum Hokum\'',
+      "Oestreicher, 'Unmasking the Walam Olum' (1994); Archaeology Magazine, 'Walam Olum Hokum'",
     ],
   },
   {
@@ -3037,7 +3120,8 @@ export const MYSTERIES = [
     location: { lat: -9.97, lng: -67.8, place: 'Acre state, western Brazilian Amazon' },
     summary:
       'Hundreds of large geometric ditched enclosures — circles, squares, and connected forms up to roughly 300 m across — have been revealed across Acre as deforestation exposed them. Dating shows they were built and used over roughly two millennia in forests that people had managed rather than clear-cut.',
-    unexplained: 'There is no consensus on what the enclosures were for: they show little evidence of dense habitation or defense, and their precise social and ceremonial function is unresolved.',
+    unexplained:
+      'There is no consensus on what the enclosures were for: they show little evidence of dense habitation or defense, and their precise social and ceremonial function is unresolved.',
     theories: [
       'Leading: Ceremonial or ritual gathering places used periodically rather than permanently inhabited.',
       'Plausible: Multifunctional public or communal spaces, possibly for seasonal aggregation.',
@@ -3047,7 +3131,7 @@ export const MYSTERIES = [
       'Genuinely unresolved on function: their existence, age, and construction are documented, but archaeologists explicitly state there is no agreed interpretation of their purpose.',
     sources: [
       'Wikipedia: Acre geoglyphs',
-      'Watling et al., \'Impact of pre-Columbian geoglyph builders on Amazonian forests\', PNAS (2017)',
+      "Watling et al., 'Impact of pre-Columbian geoglyph builders on Amazonian forests', PNAS (2017)",
     ],
   },
   {
@@ -3056,12 +3140,17 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Maya codices',
     era: 'Destroyed largely 16th century CE',
-    location: { lat: 20.36, lng: -89.39, place: 'Maní, Yucatán, Mexico (site of Landa\'s 1562 book burning)' },
+    location: {
+      lat: 20.36,
+      lng: -89.39,
+      place: "Maní, Yucatán, Mexico (site of Landa's 1562 book burning)",
+    },
     summary:
       'The Maya produced numerous folding bark-paper books recording calendrical, astronomical, ritual, and historical knowledge. Spanish colonial authorities, notably Bishop Diego de Landa at Maní in 1562, destroyed them en masse; only a handful of pre-conquest Maya books survive today.',
-    unexplained: 'How much Maya knowledge was irretrievably lost — and what those destroyed books contained — cannot be recovered, leaving large gaps in Maya history that the surviving codices and inscriptions only partly fill.',
+    unexplained:
+      'How much Maya knowledge was irretrievably lost — and what those destroyed books contained — cannot be recovered, leaving large gaps in Maya history that the surviving codices and inscriptions only partly fill.',
     theories: [
-      'Documented fact: Deliberate colonial destruction (Landa\'s auto-da-fé and similar acts) eliminated the great majority of Maya books.',
+      "Documented fact: Deliberate colonial destruction (Landa's auto-da-fé and similar acts) eliminated the great majority of Maya books.",
       'Contributing: Tropical climate and time destroyed many others that escaped burning, since organic bark paper rarely survives.',
       'Open: The full scope and content of the lost corpus is unknowable; estimates of how many books existed are inferential.',
     ],
@@ -3069,7 +3158,7 @@ export const MYSTERIES = [
       'The destruction is historically explained; what is permanently unsolved is the lost content — genuinely unrecoverable knowledge rather than an open whodunit.',
     sources: [
       'Wikipedia: Maya codices',
-      'Landa, \'Relación de las cosas de Yucatán\' (1566); Coe, \'Breaking the Maya Code\'',
+      "Landa, 'Relación de las cosas de Yucatán' (1566); Coe, 'Breaking the Maya Code'",
     ],
   },
   {
@@ -3078,10 +3167,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Paititi',
     era: 'Post-1532 CE (Inca conquest aftermath)',
-    location: { lat: -12.5, lng: -71, place: 'Madre de Dios montane forest, southeastern Peru (purported region)' },
+    location: {
+      lat: -12.5,
+      lng: -71,
+      place: 'Madre de Dios montane forest, southeastern Peru (purported region)',
+    },
     summary:
       'Paititi is a legendary Inca city or rich land said to lie in the rainforest east of the Andes, often linked to Inca treasure unaccounted for after the Spanish conquest. A 2001 Vatican-archive letter from missionary Andrés López, published by researcher Mario Polia, describes a gold-rich jungle settlement, and numerous expeditions have searched the region.',
-    unexplained: 'Whether Paititi was a real refuge settlement or a conflation of myth and colonial rumor is unresolved; no site matching the legend has been confirmed, though genuine Inca and pre-Inca ruins have been found in the search zone.',
+    unexplained:
+      'Whether Paititi was a real refuge settlement or a conflation of myth and colonial rumor is unresolved; no site matching the legend has been confirmed, though genuine Inca and pre-Inca ruins have been found in the search zone.',
     theories: [
       'Plausible: A real late-Inca refuge or frontier settlement in the eastern montane forest, since the Inca did retreat eastward (e.g., Vilcabamba).',
       'Skeptical: A legend amplified by El Dorado-style treasure lore and colonial documents, with no single lost city to find.',
@@ -3089,10 +3183,7 @@ export const MYSTERIES = [
     ],
     unsolvedMeaning:
       'Possibly mythological but genuinely unresolved: there is real documentary basis for an eastern Inca refuge, but no verified site, so it sits between legend and unconfirmed history.',
-    sources: [
-      'Wikipedia: Paititi',
-      'Polia, on the López letter from the Vatican Archives (2001)',
-    ],
+    sources: ['Wikipedia: Paititi', 'Polia, on the López letter from the Vatican Archives (2001)'],
   },
   {
     id: 'the-maya-codex-of-mexico',
@@ -3100,10 +3191,15 @@ export const MYSTERIES = [
     category: 'ciphers',
     wikipedia: 'Maya Codex of Mexico',
     era: 'c. 1100–1250 CE; surfaced 1960s',
-    location: { lat: 16.75, lng: -92.63, place: 'Reportedly a cave in Chiapas, Mexico; surfaced via the antiquities market' },
+    location: {
+      lat: 16.75,
+      lng: -92.63,
+      place: 'Reportedly a cave in Chiapas, Mexico; surfaced via the antiquities market',
+    },
     summary:
-      'First shown publicly in 1971 as the \'Grolier Codex,\' this Maya bark-paper book presents a Venus almanac. Its looted, undocumented origin and unusually plain style fueled a 46-year dispute over whether it was a genuine pre-conquest manuscript or a modern forgery on ancient blank paper.',
-    unexplained: 'The remaining open question is its exact provenance and how it left Mexico, since the authenticity debate that defined it for decades has now been settled in its favor.',
+      "First shown publicly in 1971 as the 'Grolier Codex,' this Maya bark-paper book presents a Venus almanac. Its looted, undocumented origin and unusually plain style fueled a 46-year dispute over whether it was a genuine pre-conquest manuscript or a modern forgery on ancient blank paper.",
+    unexplained:
+      'The remaining open question is its exact provenance and how it left Mexico, since the authenticity debate that defined it for decades has now been settled in its favor.',
     theories: [
       'Now favored/resolved: Multidisciplinary analysis of pigments, paper, and iconography concluded it is authentic, making it the oldest surviving book of the Americas; Mexico renamed it the Códice Maya de México in 2018.',
       'Former position: Skeptics long argued the crude drawings and absent archaeological context indicated a 20th-century fake.',
@@ -3122,17 +3218,22 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Great Zimbabwe',
     era: 'c. 1100–1450 CE',
-    location: { lat: -20.2674, lng: 30.9337, place: 'Great Zimbabwe ruins, near Masvingo, Zimbabwe' },
+    location: {
+      lat: -20.2674,
+      lng: 30.9337,
+      place: 'Great Zimbabwe ruins, near Masvingo, Zimbabwe',
+    },
     summary:
       'Great Zimbabwe is a vast medieval dry-stone city in southeastern Zimbabwe, the largest such complex in sub-Saharan Africa, with mortarless granite walls up to 11 metres high. Colonial-era writers attributed it to Phoenicians, Arabs or other outsiders; excavations by David Randall-MacIver (1905) and Gertrude Caton-Thompson (1929) established it as an indigenous Shona-Bantu construction. Much early stratigraphy was destroyed by treasure-hunters before scientific study.',
-    unexplained: 'The builders\' African origin is settled, but the internal organization, exact function of structures like the Conical Tower, and the precise reasons for the site\'s 15th-century decline remain debated because so much context was destroyed before careful excavation.',
+    unexplained:
+      "The builders' African origin is settled, but the internal organization, exact function of structures like the Conical Tower, and the precise reasons for the site's 15th-century decline remain debated because so much context was destroyed before careful excavation.",
     theories: [
       'Indigenous Shona/Karanga capital and trade-and-ritual center — well supported, the scholarly consensus.',
       'Decline driven by environmental exhaustion (overgrazing, soil/water depletion) and shifting gold-trade routes — supported but not proven.',
       'Foreign (Phoenician/Sabaean) builders — discredited; a colonial-era racial fabrication with no evidence.',
     ],
     unsolvedMeaning:
-      'The \'who built it\' question is long resolved (indigenous African), but specific questions about function and collapse are genuinely open largely because early treasure-hunting destroyed the stratigraphic evidence.',
+      "The 'who built it' question is long resolved (indigenous African), but specific questions about function and collapse are genuinely open largely because early treasure-hunting destroyed the stratigraphic evidence.",
     sources: [
       'Caton-Thompson, G. (1931). The Zimbabwe Culture: Ruins and Reactions.',
       'Pikirayi, I. (2001). The Zimbabwe Culture: Origins and Decline of Southern Zambezian States.',
@@ -3147,7 +3248,8 @@ export const MYSTERIES = [
     location: { lat: -20.2674, lng: 30.9335, place: 'Great Zimbabwe, Zimbabwe' },
     summary:
       'At least eight carved soapstone birds, each roughly 40 cm tall and mounted on tall columns, were recovered from Great Zimbabwe. They blend avian and human features (lips rather than beaks, five-toed feet) and are stylistically unique — nothing comparable has been found anywhere else. One bird became the national emblem of Zimbabwe.',
-    unexplained: 'What the birds represent and what specific role they played in the city\'s ritual or political life is unknown, since no comparable iconography or explanatory texts survive.',
+    unexplained:
+      "What the birds represent and what specific role they played in the city's ritual or political life is unknown, since no comparable iconography or explanatory texts survive.",
     theories: [
       'Emblems of royal authority or dynastic ancestors used in ritual — plausible and widely held, but inferential.',
       'Representations of a specific raptor (e.g. fish eagle or bateleur) as a messenger between living and ancestors — supported by some Shona ethnography, not conclusive.',
@@ -3157,7 +3259,7 @@ export const MYSTERIES = [
       'Genuinely no decisive evidence either way; interpretations rest on later Shona ethnography and analogy, not on any contemporary explanatory source.',
     sources: [
       'Matenga, E. (1998). The Soapstone Birds of Great Zimbabwe.',
-      'Metropolitan Museum of Art essay, \'Great Zimbabwe\'.',
+      "Metropolitan Museum of Art essay, 'Great Zimbabwe'.",
     ],
   },
   {
@@ -3169,17 +3271,18 @@ export const MYSTERIES = [
     location: { lat: 9.6667, lng: 8.0833, place: 'Nok region, central Nigeria' },
     summary:
       'The Nok culture of central Nigeria produced distinctive large-scale terracotta figures and was among the earliest sub-Saharan societies to work iron. Its material record shows a sharp drop after roughly 300 CE, after which Nok terracotta and pottery effectively vanish from the archaeological layers.',
-    unexplained: 'There is no documented cause for the relatively abrupt decline and disappearance of Nok material culture around the early centuries CE.',
+    unexplained:
+      'There is no documented cause for the relatively abrupt decline and disappearance of Nok material culture around the early centuries CE.',
     theories: [
       'Environmental stress and resource overexploitation (including heavy charcoal use for iron-smelting) — discussed in recent research, not established.',
       'Epidemic, famine, or displacement by incoming groups — speculative, no direct evidence.',
-      'Cultural continuity that simply changed material form (so \'disappearance\' is partly an archaeological visibility artifact) — plausible, under-tested.',
+      "Cultural continuity that simply changed material form (so 'disappearance' is partly an archaeological visibility artifact) — plausible, under-tested.",
     ],
     unsolvedMeaning:
       'Genuinely unresolved: the archaeological record documents the decline but offers no evidence favoring any single cause.',
     sources: [
       'Breunig, P. (ed.) (2014). Nok: African Sculpture in Archaeological Context.',
-      'Archaeology Magazine, \'The Nok of Nigeria.\'',
+      "Archaeology Magazine, 'The Nok of Nigeria.'",
     ],
   },
   {
@@ -3191,7 +3294,8 @@ export const MYSTERIES = [
     location: { lat: 14.13, lng: 38.7167, place: 'Aksum, Tigray, Ethiopia' },
     summary:
       'Aksum was a major trading empire of the northern Ethiopian–Eritrean highlands, minting its own coinage and controlling Red Sea commerce via the port of Adulis. From the 6th–7th centuries it declined sharply, abandoned its coinage, and the capital lost regional dominance.',
-    unexplained: 'Scholars still debate the primary driver of the collapse; no single factor is demonstrably decisive for the specific 6th–7th century timing.',
+    unexplained:
+      'Scholars still debate the primary driver of the collapse; no single factor is demonstrably decisive for the specific 6th–7th century timing.',
     theories: [
       'Loss of Red Sea trade after the rise of the Caliphate and Arab control of the coasts — strongly supported as a major factor.',
       'Environmental degradation (deforestation, soil exhaustion, drought, locusts) — supported but criticized because such episodes recurred without collapse.',
@@ -3212,11 +3316,12 @@ export const MYSTERIES = [
     era: 'c. 300 BCE – 400 CE',
     location: { lat: 16.9333, lng: 33.75, place: 'Meroë, River Nile, Sudan' },
     summary:
-      'The Kingdom of Kush at Meroë used the Meroitic script, with both hieroglyphic and cursive forms. F. Ll. Griffith deciphered the script\'s phonetic values around 1909, so the signs can be read aloud, but the underlying language is still only partially understood.',
-    unexplained: 'Although words can be transliterated, the grammar and most vocabulary of Meroitic remain untranslated, so the bulk of texts cannot be read for meaning.',
+      "The Kingdom of Kush at Meroë used the Meroitic script, with both hieroglyphic and cursive forms. F. Ll. Griffith deciphered the script's phonetic values around 1909, so the signs can be read aloud, but the underlying language is still only partially understood.",
+    unexplained:
+      'Although words can be transliterated, the grammar and most vocabulary of Meroitic remain untranslated, so the bulk of texts cannot be read for meaning.',
     theories: [
-      'Meroitic belongs to the Northern Eastern Sudanic languages — increasingly supported (per Claude Rilly\'s work) but does not yet yield full translation.',
-      'Decipherment is blocked mainly by the absence of a long bilingual \'Rosetta Stone\'-type text — widely accepted as the core obstacle.',
+      "Meroitic belongs to the Northern Eastern Sudanic languages — increasingly supported (per Claude Rilly's work) but does not yet yield full translation.",
+      "Decipherment is blocked mainly by the absence of a long bilingual 'Rosetta Stone'-type text — widely accepted as the core obstacle.",
       'It is a language isolate with no close living relatives — a minority view, weakening as linguistic links are proposed.',
     ],
     unsolvedMeaning:
@@ -3228,17 +3333,18 @@ export const MYSTERIES = [
   },
   {
     id: 'atlantic-voyage-predecessor-mansa-musa',
-    title: 'The Atlantic Voyage of Mansa Musa\'s Predecessor',
+    title: "The Atlantic Voyage of Mansa Musa's Predecessor",
     category: 'disappearances',
-    wikipedia: 'Atlantic voyages of the predecessor of Mansa Musa',
+    wikipedia: 'Mansa Musa',
     era: 'early 14th century CE',
     location: { lat: 19.9, lng: -17, place: 'Atlantic coast off West Africa (departure region)' },
     summary:
-      'The 14th-century Egyptian writer al-Umari recorded Mansa Musa\'s account that his predecessor (often named Abu Bakr II) sent a large fleet across the Atlantic to find its far shore; one ship reportedly returned, after which the ruler led an even larger fleet himself and never came back. This single second-hand report is the entire documentary basis.',
-    unexplained: 'Whether such voyages actually occurred at the described scale — and what became of the ships — cannot be confirmed or refuted from the surviving evidence.',
+      "The 14th-century Egyptian writer al-Umari recorded Mansa Musa's account that his predecessor (often named Abu Bakr II) sent a large fleet across the Atlantic to find its far shore; one ship reportedly returned, after which the ruler led an even larger fleet himself and never came back. This single second-hand report is the entire documentary basis.",
+    unexplained:
+      'Whether such voyages actually occurred at the described scale — and what became of the ships — cannot be confirmed or refuted from the surviving evidence.',
     theories: [
       'The fleets sailed and were lost at sea (storms, currents) — consistent with the text if the account is genuine.',
-      'The story is a court anecdote or exaggeration, possibly legitimizing Musa\'s accession — quite possible.',
+      "The story is a court anecdote or exaggeration, possibly legitimizing Musa's accession — quite possible.",
       'The fleet reached the Americas (pre-Columbian contact) — popular but unsupported; no archaeological evidence exists.',
     ],
     unsolvedMeaning:
@@ -3257,7 +3363,8 @@ export const MYSTERIES = [
     location: { lat: 6.0167, lng: 7.0167, place: 'Igbo-Ukwu, Anambra State, Nigeria' },
     summary:
       'Excavations at Igbo-Ukwu by Thurstan Shaw revealed hundreds of extraordinarily intricate leaded-bronze objects made by the lost-wax method, plus approximately 165,000 imported glass and carnelian beads. Radiocarbon dates point to roughly the 9th–10th century CE, making them among the oldest bronzes in West Africa with no obvious local antecedents.',
-    unexplained: 'How such technically sophisticated metalworking appears with no known local precursors — and whether the early radiocarbon dating is correct — remains contested.',
+    unexplained:
+      'How such technically sophisticated metalworking appears with no known local precursors — and whether the early radiocarbon dating is correct — remains contested.',
     theories: [
       'Indigenous innovation by an early Igbo polity with long-distance trade links (explaining the beads) — the mainstream view.',
       'The 9th-century radiocarbon dates are too early and the objects are later medieval — a minority dating dispute that persists.',
@@ -3278,8 +3385,9 @@ export const MYSTERIES = [
     era: 'c. 2500–1000 BCE (recorded contacts)',
     location: { lat: 15, lng: 39.5, place: 'Horn of Africa / southern Red Sea coast (disputed)' },
     summary:
-      'Punt was a wealthy land recorded in Egyptian texts as a source of gold, incense, ebony and exotic animals, most famously depicted in Hatshepsut\'s expedition reliefs at Deir el-Bahari. Despite over a millennium of documented trade, its physical location was never fixed by the Egyptians in modern geographic terms.',
-    unexplained: 'The exact location of Punt — and whether it was a single fixed polity — is still debated, ranging across Eritrea, Sudan, the Somali coast, the Ethiopian highlands and the Arabian side of the Red Sea.',
+      "Punt was a wealthy land recorded in Egyptian texts as a source of gold, incense, ebony and exotic animals, most famously depicted in Hatshepsut's expedition reliefs at Deir el-Bahari. Despite over a millennium of documented trade, its physical location was never fixed by the Egyptians in modern geographic terms.",
+    unexplained:
+      'The exact location of Punt — and whether it was a single fixed polity — is still debated, ranging across Eritrea, Sudan, the Somali coast, the Ethiopian highlands and the Arabian side of the Red Sea.',
     theories: [
       'A region of the African Red Sea coast around Eritrea and eastern Sudan — currently the most accepted view.',
       'The broader Horn of Africa, supported by isotopic analysis of mummified baboons pointing to that region — strong recent evidence.',
@@ -3288,8 +3396,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely narrowing toward the African Red Sea coast and Horn of Africa (recent isotope work on mummified baboons), but not definitively resolved to a precise place or polity.',
     sources: [
-      'Dominy, N. et al. (2020), \'Mummified baboons reveal the far reach of early Egyptian mariners,\' eLife.',
-      'Kitchen, K.A. (1993), \'The Land of Punt,\' in The Archaeology of Africa.',
+      "Dominy, N. et al. (2020), 'Mummified baboons reveal the far reach of early Egyptian mariners,' eLife.",
+      "Kitchen, K.A. (1993), 'The Land of Punt,' in The Archaeology of Africa.",
     ],
   },
   {
@@ -3300,18 +3408,19 @@ export const MYSTERIES = [
     era: 'c. 7th–13th century CE (debated)',
     location: { lat: 12.0317, lng: 39.0411, place: 'Lalibela, Amhara Region, Ethiopia' },
     summary:
-      'Lalibela\'s eleven monolithic churches were carved downward and inward out of solid volcanic rock, complete with interiors, columns and connecting tunnels. Tradition credits King Lalibela with building them in a single reign; archaeologists argue for multiple phases, some possibly reusing earlier Aksumite-era rock structures.',
-    unexplained: 'The precise dating, sequence of construction, and the engineering logistics — including where the substantial volume of excavated rock was deposited — are not fully established.',
+      "Lalibela's eleven monolithic churches were carved downward and inward out of solid volcanic rock, complete with interiors, columns and connecting tunnels. Tradition credits King Lalibela with building them in a single reign; archaeologists argue for multiple phases, some possibly reusing earlier Aksumite-era rock structures.",
+    unexplained:
+      'The precise dating, sequence of construction, and the engineering logistics — including where the substantial volume of excavated rock was deposited — are not fully established.',
     theories: [
       'Multi-phase construction over several centuries, partly reusing pre-existing rock-cut structures (per D. Phillipson) — the best-supported scholarly position.',
       'Single concentrated 12th–13th-century royal program as tradition holds — possible for some churches, but a 24-year single-reign timeline is considered unrealistic for all eleven.',
       'Supernatural or angelic construction as in local legend — folklore, not a historical explanation.',
     ],
     unsolvedMeaning:
-      'Broadly explained (human, multi-phase carving) but genuinely unresolved in detail: dating and construction sequence remain open. The \'missing spoil\' is a real but mundane engineering question, not evidence of mystery.',
+      "Broadly explained (human, multi-phase carving) but genuinely unresolved in detail: dating and construction sequence remain open. The 'missing spoil' is a real but mundane engineering question, not evidence of mystery.",
     sources: [
       'Phillipson, D.W. (2009). Ancient Churches of Ethiopia.',
-      'UNESCO World Heritage Centre, \'Rock-Hewn Churches, Lalibela.\'',
+      "UNESCO World Heritage Centre, 'Rock-Hewn Churches, Lalibela.'",
     ],
   },
   {
@@ -3322,8 +3431,9 @@ export const MYSTERIES = [
     era: 'Mid-14th century, 1346–1353',
     location: { lat: 45.031, lng: 35.383, place: 'Caffa (Feodosiya), Crimea' },
     summary:
-      'The Black Death killed an estimated 30–60% of Europe\'s population between 1347 and 1351, one of the deadliest pandemics in human history. Modern ancient-DNA analysis has confirmed Yersinia pestis as the causative bacterium, tracing the outbreak to Central Asia. The precise ecological and social conditions that caused the bacterium to erupt into pandemic form in the 1340s are still debated.',
-    unexplained: 'Why the mid-14th-century outbreak was so catastrophically virulent compared to earlier and later plague epidemics, and why it disappeared from Western Europe after the 1350s only to return in waves, remains incompletely explained.',
+      "The Black Death killed an estimated 30–60% of Europe's population between 1347 and 1351, one of the deadliest pandemics in human history. Modern ancient-DNA analysis has confirmed Yersinia pestis as the causative bacterium, tracing the outbreak to Central Asia. The precise ecological and social conditions that caused the bacterium to erupt into pandemic form in the 1340s are still debated.",
+    unexplained:
+      'Why the mid-14th-century outbreak was so catastrophically virulent compared to earlier and later plague epidemics, and why it disappeared from Western Europe after the 1350s only to return in waves, remains incompletely explained.',
     theories: [
       'Well supported: A confluence of climatic cooling (onset of Little Ice Age), famine, and rodent population disruption in Central Asia drove the initial epizootic and human spillover.',
       'Contested: A unique, more virulent strain of Y. pestis circulated in the 14th century that was later replaced — ancient-DNA studies show some genetic distinctiveness but no proven virulence difference.',
@@ -3332,8 +3442,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explained but unproven: Y. pestis is confirmed as the agent, but the specific ecological trigger for the 1340s pandemic scale and the reasons for its peculiar epidemiological pattern remain open research questions.',
     sources: [
-      'Benedictow, O.J., \'The Black Death 1346-1353: The Complete History\' (2004), Boydell Press.',
-      'Spyrou, M.A. et al., \'Phylogeography of the second plague pandemic revealed through analysis of historical Y. pestis genomes\', Nature Communications 10, 2019.',
+      "Benedictow, O.J., 'The Black Death 1346-1353: The Complete History' (2004), Boydell Press.",
+      "Spyrou, M.A. et al., 'Phylogeography of the second plague pandemic revealed through analysis of historical Y. pestis genomes', Nature Communications 10, 2019.",
     ],
   },
   {
@@ -3344,18 +3454,19 @@ export const MYSTERIES = [
     era: 'First attested c. 1354; radiocarbon-dated to 1260–1390',
     location: { lat: 45.0703, lng: 7.6869, place: 'Turin Cathedral, Turin, Italy' },
     summary:
-      'The Shroud of Turin is a linen cloth bearing the negative image of a man bearing wounds consistent with crucifixion, venerated by many Catholics as the burial cloth of Jesus. In 1988, independent radiocarbon dating by three laboratories dated the cloth to 1260–1390 CE. The image\'s formation mechanism has not been fully replicated despite numerous scientific attempts.',
-    unexplained: 'How the image was formed — whether by a medieval artistic or chemical process, by decomposition gases, or by some other mechanism — has not been definitively established. The 1988 radiocarbon date is accepted by most scientists but disputed by some researchers who cite possible contamination.',
+      "The Shroud of Turin is a linen cloth bearing the negative image of a man bearing wounds consistent with crucifixion, venerated by many Catholics as the burial cloth of Jesus. In 1988, independent radiocarbon dating by three laboratories dated the cloth to 1260–1390 CE. The image's formation mechanism has not been fully replicated despite numerous scientific attempts.",
+    unexplained:
+      'How the image was formed — whether by a medieval artistic or chemical process, by decomposition gases, or by some other mechanism — has not been definitively established. The 1988 radiocarbon date is accepted by most scientists but disputed by some researchers who cite possible contamination.',
     theories: [
       'Well supported by radiocarbon evidence: The shroud is a medieval artifact, likely created c. 1300–1400, possibly as a devotional object — consistent with its first documented appearance in Lirey, France, c. 1354.',
-      'Contested: The radiocarbon sample was taken from a repaired section and does not represent the cloth\'s true age — some textile and chemical analyses have been cited in support, but not independently replicated.',
+      "Contested: The radiocarbon sample was taken from a repaired section and does not represent the cloth's true age — some textile and chemical analyses have been cited in support, but not independently replicated.",
       'Speculative: The image was produced by a burst of radiation during resurrection — asserted by some proponents but has no scientific basis and no testable mechanism.',
     ],
     unsolvedMeaning:
       'Likely explained but unproven: the balance of scientific evidence strongly favours a medieval origin, but the exact method of image formation has not been reproduced, and the radiocarbon-sample controversy means the authentication debate persists in specialist literature.',
     sources: [
-      'Damon, P.E. et al., \'Radiocarbon dating of the Shroud of Turin\', Nature 337, 1989, pp. 611–615.',
-      'Nickell, J., \'Inquest on the Shroud of Turin\' (1983, updated 1998), Prometheus Books.',
+      "Damon, P.E. et al., 'Radiocarbon dating of the Shroud of Turin', Nature 337, 1989, pp. 611–615.",
+      "Nickell, J., 'Inquest on the Shroud of Turin' (1983, updated 1998), Prometheus Books.",
     ],
   },
   {
@@ -3367,17 +3478,18 @@ export const MYSTERIES = [
     location: { lat: 51.691, lng: -2.458, place: 'Berkeley Castle, Gloucestershire, England' },
     summary:
       'Edward II was deposed in January 1327 and imprisoned at Berkeley Castle, where he was officially declared dead on 21 September 1327. His death was announced by his captors Roger Mortimer and Queen Isabella; a funeral was held and he was buried at Gloucester Cathedral. No contemporary independent witness confirmed seeing his corpse, and rumours of his survival circulated almost immediately.',
-    unexplained: 'Whether Edward II was actually murdered at Berkeley Castle or escaped and lived on the continent remains unresolved. A letter (the Fieschi Letter, c. 1337) purportedly written by a papal notary claims Edward escaped and lived as a hermit in Italy.',
+    unexplained:
+      'Whether Edward II was actually murdered at Berkeley Castle or escaped and lived on the continent remains unresolved. A letter (the Fieschi Letter, c. 1337) purportedly written by a papal notary claims Edward escaped and lived as a hermit in Italy.',
     theories: [
       'Likely: Edward II was murdered at Berkeley Castle, probably by suffocation or other violent means arranged by Mortimer — the traditional view supported by the speed of the official announcement and political motive.',
-      'Contested: The Fieschi Letter is genuine and Edward escaped; some Italian archival evidence has been cited as corroboration, though historians remain divided on the letter\'s reliability.',
+      "Contested: The Fieschi Letter is genuine and Edward escaped; some Italian archival evidence has been cited as corroboration, though historians remain divided on the letter's reliability.",
       'Speculative: Edward was transferred to Corfe Castle and survived for years in secret captivity — based on a later chronicle account but lacking corroborating evidence.',
     ],
     unsolvedMeaning:
-      'Genuinely no evidence either way: no autopsy, no independent deathbed witness, and the Fieschi Letter\'s authenticity and meaning remain debated by medievalists, leaving the manner and even fact of his death at Berkeley formally unproven.',
+      "Genuinely no evidence either way: no autopsy, no independent deathbed witness, and the Fieschi Letter's authenticity and meaning remain debated by medievalists, leaving the manner and even fact of his death at Berkeley formally unproven.",
     sources: [
-      'Ian Mortimer, \'The Greatest Traitor: The Life of Sir Roger Mortimer\' (2003), Pimlico.',
-      'Cuttino, G.P. and Lyman, T.W., \'Where is Edward II?\', Speculum 53(3), 1978, pp. 522–544.',
+      "Ian Mortimer, 'The Greatest Traitor: The Life of Sir Roger Mortimer' (2003), Pimlico.",
+      "Cuttino, G.P. and Lyman, T.W., 'Where is Edward II?', Speculum 53(3), 1978, pp. 522–544.",
     ],
   },
   {
@@ -3386,64 +3498,75 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Knights Templar',
     era: 'Late Medieval, 1307',
-    location: { lat: 46.16, lng: -1.151, place: 'La Rochelle, France (last known departure point)' },
+    location: {
+      lat: 46.16,
+      lng: -1.151,
+      place: 'La Rochelle, France (last known departure point)',
+    },
     summary:
       'When Philip IV of France ordered the arrest of the Knights Templar on 13 October 1307, the Templar fleet based at La Rochelle reportedly sailed before the arrests could be executed. No contemporary document records where the fleet went, what cargo it carried, or what became of the ships and men aboard.',
-    unexplained: 'The destination and fate of the Templar fleet that departed La Rochelle in October 1307 — including whether it carried the order\'s treasury, relics, or archives — is entirely undocumented.',
+    unexplained:
+      "The destination and fate of the Templar fleet that departed La Rochelle in October 1307 — including whether it carried the order's treasury, relics, or archives — is entirely undocumented.",
     theories: [
       'Plausible: The fleet sailed to Scotland, Portugal, or other kingdoms sympathetic to the Templars, where the order continued in altered form — circumstantial evidence exists for Templar activity in Portugal (which became the Order of Christ).',
       'Speculative: The fleet carried the Templar treasure or the Holy Grail to a hidden location — a popular legend with no documentary support.',
       'Possible: The fleet dispersed, with individual ships absorbed into local maritime commerce or other orders, leaving no single destination — consistent with the complete absence of any unified record.',
     ],
     unsolvedMeaning:
-      'Genuinely no evidence either way: the fleet\'s departure is attested by a single near-contemporary source; its subsequent history is entirely absent from the historical record, making this one of the cleanest genuine historical unknowns of the medieval period.',
+      "Genuinely no evidence either way: the fleet's departure is attested by a single near-contemporary source; its subsequent history is entirely absent from the historical record, making this one of the cleanest genuine historical unknowns of the medieval period.",
     sources: [
-      'Barber, M., \'The Trial of the Templars\' (2nd ed., 2006), Cambridge University Press.',
-      'Nicholson, H., \'The Knights Templar: A New History\' (2001), Sutton Publishing.',
+      "Barber, M., 'The Trial of the Templars' (2nd ed., 2006), Cambridge University Press.",
+      "Nicholson, H., 'The Knights Templar: A New History' (2001), Sutton Publishing.",
     ],
   },
   {
     id: 'massacre-at-beziers',
-    title: 'Massacre at Béziers and the \'Kill Them All\' Quote',
+    title: "Massacre at Béziers and the 'Kill Them All' Quote",
     category: 'events',
     wikipedia: 'Massacre at Béziers',
     era: 'Medieval, 1209',
     location: { lat: 43.3441, lng: 3.215, place: 'Béziers, Languedoc, France' },
     summary:
-      'During the Albigensian Crusade, crusader forces sacked Béziers on 22 July 1209 and killed a large portion of its population. The chronicler Caesarius of Heisterbach, writing decades later, attributed to the papal legate Arnaud Amalric the phrase \'Kill them all, God will know his own\' when asked how to distinguish Catholics from Cathars. Modern estimates of the death toll range widely from several thousand to the entire population.',
-    unexplained: 'Whether Arnaud Amalric actually uttered the famous command, and what the actual death toll of the massacre was, cannot be determined from surviving sources.',
+      "During the Albigensian Crusade, crusader forces sacked Béziers on 22 July 1209 and killed a large portion of its population. The chronicler Caesarius of Heisterbach, writing decades later, attributed to the papal legate Arnaud Amalric the phrase 'Kill them all, God will know his own' when asked how to distinguish Catholics from Cathars. Modern estimates of the death toll range widely from several thousand to the entire population.",
+    unexplained:
+      'Whether Arnaud Amalric actually uttered the famous command, and what the actual death toll of the massacre was, cannot be determined from surviving sources.',
     theories: [
       'Likely: A large-scale indiscriminate massacre did occur, as attested by multiple near-contemporary sources including a letter by Arnaud Amalric himself (though he does not mention the quote).',
       'Contested: The famous quote is a later literary invention by Caesarius, who was not present and wrote approximately 30 years after the event — most historians regard it as apocryphal.',
-      'Uncertain: Death toll estimates range from 7,000 to 20,000; Arnaud Amalric\'s own letter to the Pope claims 20,000 killed, but this may be rhetorical exaggeration.',
+      "Uncertain: Death toll estimates range from 7,000 to 20,000; Arnaud Amalric's own letter to the Pope claims 20,000 killed, but this may be rhetorical exaggeration.",
     ],
     unsolvedMeaning:
       'Likely explained but unproven: the massacre itself is well-attested, but the famous quote is almost certainly a later invention, and the precise scale of killing cannot be verified from surviving archaeological or documentary evidence.',
     sources: [
-      'Pegg, M.G., \'A Most Holy War: The Albigensian Crusade and the Battle for Christendom\' (2008), Oxford University Press.',
-      'Sumption, J., \'The Albigensian Crusade\' (1978), Faber and Faber.',
+      "Pegg, M.G., 'A Most Holy War: The Albigensian Crusade and the Battle for Christendom' (2008), Oxford University Press.",
+      "Sumption, J., 'The Albigensian Crusade' (1978), Faber and Faber.",
     ],
   },
   {
     id: 'devil-s-bible-origin',
-    title: 'Codex Gigas (Devil\'s Bible) — Origin and Missing Pages',
+    title: "Codex Gigas (Devil's Bible) — Origin and Missing Pages",
     category: 'phenomena',
     wikipedia: 'Codex Gigas',
     era: 'Early 13th century (c. 1204–1230)',
-    location: { lat: 49.951, lng: 15.793, place: 'Podlažice Monastery, Bohemia (now Czech Republic); now Stockholm, Sweden' },
+    location: {
+      lat: 49.951,
+      lng: 15.793,
+      place: 'Podlažice Monastery, Bohemia (now Czech Republic); now Stockholm, Sweden',
+    },
     summary:
       'The Codex Gigas, the largest surviving medieval manuscript, was produced at the Benedictine monastery of Podlažice in Bohemia and contains a full Bible, several other complete texts, and a striking full-page illustration of the Devil. Ink and parchment analysis suggests it was the work of a single scribe over a period of decades. Eight pages have been cut from the manuscript at an unknown date; their content is entirely unknown.',
-    unexplained: 'What was written on the eight excised pages, who removed them, and why they were removed has never been established. The legend attributing the manuscript to a monk who made a pact with the Devil is obviously folkloric, but the remarkable uniformity of a single hand across such a vast work remains unusual.',
+    unexplained:
+      'What was written on the eight excised pages, who removed them, and why they were removed has never been established. The legend attributing the manuscript to a monk who made a pact with the Devil is obviously folkloric, but the remarkable uniformity of a single hand across such a vast work remains unusual.',
     theories: [
-      'Plausible: The missing pages contained the monastery\'s rules or other institutional documents that became embarrassing or irrelevant and were removed for practical reasons — a reasonable but unproven explanation.',
-      'Possible: The pages were removed during the manuscript\'s turbulent history (it was seized as war booty by Swedish forces in 1648) by someone who wanted the content suppressed.',
+      "Plausible: The missing pages contained the monastery's rules or other institutional documents that became embarrassing or irrelevant and were removed for practical reasons — a reasonable but unproven explanation.",
+      "Possible: The pages were removed during the manuscript's turbulent history (it was seized as war booty by Swedish forces in 1648) by someone who wanted the content suppressed.",
       'Speculative: The pages contained occult or heretical content — the legend-driven explanation with no evidentiary support.',
     ],
     unsolvedMeaning:
       'Genuinely no evidence either way: the excised pages leave a documented gap in the manuscript, but no record of their removal or content has been identified in any archive.',
     sources: [
       'National Library of Sweden, Codex Gigas digital edition and research notes: https://www.kb.se/codex-gigas',
-      'Broderick, H.R., \'The Devil in the Details\', in \'Pen and Parchment: Drawing in the Middle Ages\' (2009), Metropolitan Museum of Art.',
+      "Broderick, H.R., 'The Devil in the Details', in 'Pen and Parchment: Drawing in the Middle Ages' (2009), Metropolitan Museum of Art.",
     ],
   },
   {
@@ -3452,20 +3575,25 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Western Settlement (Greenland)',
     era: 'Late Medieval, c. 1340s',
-    location: { lat: 64.1814, lng: -51.6941, place: 'Western Settlement, Greenland (near modern Nuuk)' },
+    location: {
+      lat: 64.1814,
+      lng: -51.6941,
+      place: 'Western Settlement, Greenland (near modern Nuuk)',
+    },
     summary:
       'The Norse Western Settlement in Greenland, established c. 985 CE, was found abandoned when Ivar Bárdsson visited around 1350, describing livestock roaming untended and no people present, either Christian or heathen. The Eastern Settlement persisted until the early 15th century. No mass graves, evidence of violent assault, or records of voluntary evacuation have been found at the Western Settlement.',
-    unexplained: 'What happened to the approximately 1,000–1,500 Norse inhabitants of the Western Settlement — whether they died in place, emigrated to Iceland or Norway, were assimilated into Inuit populations, or perished from famine — remains unresolved.',
+    unexplained:
+      'What happened to the approximately 1,000–1,500 Norse inhabitants of the Western Settlement — whether they died in place, emigrated to Iceland or Norway, were assimilated into Inuit populations, or perished from famine — remains unresolved.',
     theories: [
       'Moderately supported: Climate deterioration (onset of Little Ice Age) combined with soil exhaustion and economic marginalisation made the settlement unsustainable, leading to emigration or gradual population decline — the leading modern view.',
       'Contested: Conflict with expanding Thule Inuit populations drove the Norse out or killed them — some evidence of Inuit presence nearby but no confirmed massacre site.',
       'Possible: Voluntary emigration to Iceland or North America, leaving behind only livestock — consistent with the absence of human remains but lacking documentary confirmation.',
     ],
     unsolvedMeaning:
-      'Genuinely no evidence either way: archaeological work has not produced a mass death event, and no emigration records survive; the fate of the Western Settlement\'s population is one of the cleanest unresolved demographic mysteries of medieval Europe.',
+      "Genuinely no evidence either way: archaeological work has not produced a mass death event, and no emigration records survive; the fate of the Western Settlement's population is one of the cleanest unresolved demographic mysteries of medieval Europe.",
     sources: [
-      'Diamond, J., \'Collapse: How Societies Choose to Fail or Succeed\' (2005), Viking Press, Chapter 6.',
-      'Arneborg, J. et al., \'Change of Diet of the Greenland Vikings Determined from Stable Carbon Isotope Analysis\', Radiocarbon 41(2), 1999, pp. 157–168.',
+      "Diamond, J., 'Collapse: How Societies Choose to Fail or Succeed' (2005), Viking Press, Chapter 6.",
+      "Arneborg, J. et al., 'Change of Diet of the Greenland Vikings Determined from Stable Carbon Isotope Analysis', Radiocarbon 41(2), 1999, pp. 157–168.",
     ],
   },
   {
@@ -3477,39 +3605,45 @@ export const MYSTERIES = [
     location: { lat: 36.2021, lng: 36.1604, place: 'Antioch (modern Antakya, Turkey)' },
     summary:
       'During the First Crusade, a monk named Peter Bartholomew reported visions directing him to dig beneath the floor of the Cathedral of St Peter in Antioch, where a lance was reportedly found in June 1098. The discovery rallied crusader morale before the decisive Battle of Antioch. The papal legate Adhemar of Le Puy was sceptical of its authenticity; a trial by fire was arranged, after which Peter Bartholomew died of his injuries.',
-    unexplained: 'Whether the object discovered at Antioch was planted, genuinely found, or was the actual lance used at the Crucifixion cannot be determined. Several competing relics claiming to be the Holy Lance exist across Europe.',
+    unexplained:
+      'Whether the object discovered at Antioch was planted, genuinely found, or was the actual lance used at the Crucifixion cannot be determined. Several competing relics claiming to be the Holy Lance exist across Europe.',
     theories: [
-      'Likely: The relic was planted or fabricated to boost crusader morale during a desperate siege — Adhemar\'s contemporary scepticism and the implausibility of the find location support this view.',
+      "Likely: The relic was planted or fabricated to boost crusader morale during a desperate siege — Adhemar's contemporary scepticism and the implausibility of the find location support this view.",
       'Possible: An ancient lance head was genuinely found beneath the cathedral floor but was not the instrument of the Crucifixion — consistent with the physical discovery but not the theological claim.',
-      'Speculative: The Antioch lance is identical with the lance in Vienna\'s Hofburg treasury — a later conflation with no documentary chain of custody connecting the two objects.',
+      "Speculative: The Antioch lance is identical with the lance in Vienna's Hofburg treasury — a later conflation with no documentary chain of custody connecting the two objects.",
     ],
     unsolvedMeaning:
-      'Possibly a hoax or staged discovery: contemporary scepticism was strong, and the trial-by-fire outcome undermined the relic\'s credibility almost immediately. The theological claim is not historically verifiable by any method.',
+      "Possibly a hoax or staged discovery: contemporary scepticism was strong, and the trial-by-fire outcome undermined the relic's credibility almost immediately. The theological claim is not historically verifiable by any method.",
     sources: [
-      'France, J., \'Victory in the East: A Military History of the First Crusade\' (1994), Cambridge University Press.',
-      'Peters, E. (ed.), \'The First Crusade: The Chronicle of Fulcher of Chartres and Other Source Materials\' (2nd ed., 1998), University of Pennsylvania Press.',
+      "France, J., 'Victory in the East: A Military History of the First Crusade' (1994), Cambridge University Press.",
+      "Peters, E. (ed.), 'The First Crusade: The Chronicle of Fulcher of Chartres and Other Source Materials' (2nd ed., 1998), University of Pennsylvania Press.",
     ],
   },
   {
     id: 'children-s-crusade',
-    title: 'Children\'s Crusade',
+    title: "Children's Crusade",
     category: 'events',
-    wikipedia: 'Children\'s Crusade',
+    wikipedia: "Children's Crusade",
     era: 'Medieval, 1212',
-    location: { lat: 48.8566, lng: 2.3522, place: 'France and the Rhineland (origin points); Genoa and Brindisi (dispersal points)' },
+    location: {
+      lat: 48.8566,
+      lng: 2.3522,
+      place: 'France and the Rhineland (origin points); Genoa and Brindisi (dispersal points)',
+    },
     summary:
       'In 1212, two popular movements separately arose in France and the Rhineland in which large groups — described in sources as including children and the poor — marched toward the Mediterranean coast with the stated intention of reaching the Holy Land. The French movement, led by a shepherd boy named Stephen of Cloyes, dispersed at Marseille; the German movement, led by Nicholas of Cologne, largely dissolved in Italy. Sources are sparse, contradictory, and written decades after the events.',
-    unexplained: 'Whether the participants were primarily children or adults, whether the movements were genuinely directed toward crusade, and what ultimately became of the thousands of participants who did not return home is unknown.',
+    unexplained:
+      'Whether the participants were primarily children or adults, whether the movements were genuinely directed toward crusade, and what ultimately became of the thousands of participants who did not return home is unknown.',
     theories: [
-      'Contested: The \'children\' designation is a mistranslation or misunderstanding of the Latin \'pueri\', which could mean \'young people\', \'the poor\', or \'servants\' rather than literal children — a view held by several modern historians including Peter Raedts.',
+      "Contested: The 'children' designation is a mistranslation or misunderstanding of the Latin 'pueri', which could mean 'young people', 'the poor', or 'servants' rather than literal children — a view held by several modern historians including Peter Raedts.",
       'Possible: Some participants were sold into slavery in North Africa by unscrupulous merchants — reported by later chronicles but not corroborated by contemporary sources.',
       'Speculative: The movements were a coherent religious phenomenon analogous to other popular religious revivals of the period — plausible but difficult to distinguish from the evidence.',
     ],
     unsolvedMeaning:
-      'Likely explained but unproven: modern scholarship has substantially demythologised the event, suggesting the \'children\' were largely poor adults, but the sources are so thin and late that the full nature and outcome of the movements cannot be established with confidence.',
+      "Likely explained but unproven: modern scholarship has substantially demythologised the event, suggesting the 'children' were largely poor adults, but the sources are so thin and late that the full nature and outcome of the movements cannot be established with confidence.",
     sources: [
-      'Raedts, P., \'The Children\'s Crusade of 1212\', Journal of Medieval History 3(4), 1977, pp. 279–323.',
-      'Dickson, G., \'The Children\'s Crusade: Medieval History, Modern Mythistory\' (2008), Palgrave Macmillan.',
+      "Raedts, P., 'The Children's Crusade of 1212', Journal of Medieval History 3(4), 1977, pp. 279–323.",
+      "Dickson, G., 'The Children's Crusade: Medieval History, Modern Mythistory' (2008), Palgrave Macmillan.",
     ],
   },
   {
@@ -3521,7 +3655,8 @@ export const MYSTERIES = [
     location: { lat: 23, lng: -70, place: 'Western Atlantic, between Barbados and Chesapeake Bay' },
     summary:
       'The USS Cyclops, a 19,000-ton US Navy collier carrying 309 crew and passengers, departed Barbados on 4 March 1918 and never arrived in Baltimore. No distress signal was sent, no wreckage was found, and the ship has never been located. It remains the largest single non-combat loss of life in US Navy history.',
-    unexplained: 'Why no distress call was sent, and whether the vessel sank, was captured, or met some other end remains entirely unknown — no confirmed debris or remains have ever been recovered.',
+    unexplained:
+      'Why no distress call was sent, and whether the vessel sank, was captured, or met some other end remains entirely unknown — no confirmed debris or remains have ever been recovered.',
     theories: [
       'Structural failure or cargo shift (moderately supported): the ship was overloaded with manganese ore and had a known defective engine; a sudden capsize or flooding could explain the lack of distress signal.',
       'German submarine action (weakly supported): Germany denied any involvement and postwar records found no corroborating evidence.',
@@ -3543,7 +3678,8 @@ export const MYSTERIES = [
     location: { lat: -13.5, lng: -172.5, place: 'South Pacific, between Samoa and Tokelau' },
     summary:
       'The MV Joyita, a 70-foot vessel carrying 25 people including passengers and crew, departed Western Samoa on 3 October 1955 and failed to arrive at Tokelau. She was found five weeks later, partly submerged and listing heavily, about 600 miles off course — with no one aboard. The cargo and most equipment were missing but the vessel itself was afloat due to her cork insulation.',
-    unexplained: 'What happened to all 25 people, why they apparently abandoned an essentially unsinkable vessel, and who removed the cargo and medical equipment remain unresolved.',
+    unexplained:
+      'What happened to all 25 people, why they apparently abandoned an essentially unsinkable vessel, and who removed the cargo and medical equipment remain unresolved.',
     theories: [
       'Flooding from a corroded seawater pipe caused the crew to abandon ship in panic (moderately supported): a faulty pipe was identified as likely source of flooding, but the vessel floated regardless.',
       'Piracy (speculative): the missing cargo and medical supplies suggested a deliberate removal, possibly by outside parties.',
@@ -3553,7 +3689,7 @@ export const MYSTERIES = [
       'Likely partially explained by mechanical failure causing abandonment, but the fate of all 25 people and the removal of cargo remain genuinely unresolved.',
     sources: [
       'New Zealand government official inquiry report, 1956',
-      'Doris Druett, \'Deadly Voyage\' (2006) — historical reconstruction of the Joyita disappearance',
+      "Doris Druett, 'Deadly Voyage' (2006) — historical reconstruction of the Joyita disappearance",
     ],
   },
   {
@@ -3565,7 +3701,8 @@ export const MYSTERIES = [
     location: { lat: 2, lng: 98, place: 'Strait of Malacca, near Sumatra' },
     summary:
       'According to contemporary reports published in 1948, two American ships received a distress call from the Dutch freighter Ourang Medan in the Strait of Malacca, reporting that all officers and crew were dead. When a rescue vessel boarded, they allegedly found the entire crew dead with expressions of terror, with no sign of injury. The ship reportedly caught fire and exploded before salvage.',
-    unexplained: 'Whether the incident occurred at all is itself unresolved — no verified registry record of the Ourang Medan has been found in Dutch, British, or US maritime records.',
+    unexplained:
+      'Whether the incident occurred at all is itself unresolved — no verified registry record of the Ourang Medan has been found in Dutch, British, or US maritime records.',
     theories: [
       'Possibly a hoax or literary fabrication (well supported): researchers including Matthias Haubold have found no verifiable shipping records, cargo manifests, or official reports confirming the vessel existed.',
       'Cargo of undeclared chemical or toxic agents causing asphyxiation (speculative, contingent on the ship existing): the sudden deaths without injury and subsequent fire are consistent with chemical cargo accidents, but the premise requires the vessel to have existed.',
@@ -3574,7 +3711,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Possibly a hoax or myth — the fundamental question of whether this ship existed at all has not been resolved, making it one of the least reliably documented entries in maritime mystery literature.',
     sources: [
-      'Roy Bainton, \'The Mammoth Book of Lost Ships\' (2000) — critical analysis of the Ourang Medan legend',
+      "Roy Bainton, 'The Mammoth Book of Lost Ships' (2000) — critical analysis of the Ourang Medan legend",
       'Matthias Haubold, archival research published in Fortean Times (2003)',
     ],
   },
@@ -3586,8 +3723,9 @@ export const MYSTERIES = [
     era: '1931–1969',
     location: { lat: 71, lng: -156, place: 'Arctic Ocean, Beaufort Sea, Alaska coast' },
     summary:
-      'The SS Baychimo, a Hudson\'s Bay Company cargo steamer, was abandoned in pack ice off Alaska in October 1931 after becoming trapped. The crew was evacuated but the vessel did not sink; instead it drifted freely in Arctic waters and was reportedly sighted numerous times over the following 38 years. The last reported sighting was in 1969 near Icy Cape, Alaska.',
-    unexplained: 'Whether the Baychimo eventually sank, grounded, or remains somewhere in Arctic waters is unknown, as no confirmed final resting place has been established despite searches.',
+      "The SS Baychimo, a Hudson's Bay Company cargo steamer, was abandoned in pack ice off Alaska in October 1931 after becoming trapped. The crew was evacuated but the vessel did not sink; instead it drifted freely in Arctic waters and was reportedly sighted numerous times over the following 38 years. The last reported sighting was in 1969 near Icy Cape, Alaska.",
+    unexplained:
+      'Whether the Baychimo eventually sank, grounded, or remains somewhere in Arctic waters is unknown, as no confirmed final resting place has been established despite searches.',
     theories: [
       'The vessel eventually broke up in pack ice (most likely): no steel hull could survive Arctic conditions indefinitely, and cessation of sightings after 1969 suggests eventual loss.',
       'The wreck is preserved on the Arctic seabed and could be located (plausible): the Alaskan government launched searches in the 2000s, suggesting official belief it could still be found.',
@@ -3597,7 +3735,7 @@ export const MYSTERIES = [
       'Genuinely no evidence either way as to the final fate — the wreck has not been found, and the prolonged drift is historically documented, but its current resting place remains unknown.',
     sources: [
       'Alaska Department of Natural Resources, 2006 search initiative records',
-      'Hudson\'s Bay Company archive reports and press accounts, 1931–1932',
+      "Hudson's Bay Company archive reports and press accounts, 1931–1932",
     ],
   },
   {
@@ -3609,16 +3747,17 @@ export const MYSTERIES = [
     location: { lat: -18.2, lng: 146.8, place: 'Coral Sea, off Queensland, Australia' },
     summary:
       'On 20 April 2007, the 9.8-metre catamaran Kaz II was found drifting off the Queensland coast with its engine running, sails set, and a meal laid out — but all three crew members were missing. A thorough search found no survivors or bodies. The vessel showed no signs of collision or distress.',
-    unexplained: 'How and why all three experienced sailors vanished without any clear sign of emergency, and where their bodies went, has never been formally proven.',
+    unexplained:
+      'How and why all three experienced sailors vanished without any clear sign of emergency, and where their bodies went, has never been formally proven.',
     theories: [
-      'Accidental man-overboard sequence (moderately supported): a coroner\'s inquest in 2008 concluded the most probable cause was that one crewman fell overboard and the other two fell in attempting rescue, consistent with the running engine and set sails.',
+      "Accidental man-overboard sequence (moderately supported): a coroner's inquest in 2008 concluded the most probable cause was that one crewman fell overboard and the other two fell in attempting rescue, consistent with the running engine and set sails.",
       'Sudden weather event or rogue wave (possible): conditions in the area can change rapidly, potentially sweeping crew from deck without warning.',
       'Foul play (speculative and officially discounted): investigators found no evidence of violence or third-party involvement.',
     ],
     unsolvedMeaning:
       'Likely explained by accidental man-overboard cascades, but officially unproven as no witnesses or bodies have confirmed the sequence of events.',
     sources: [
-      'Queensland Coroner\'s Court finding, 2008 inquest into deaths of Derek Batten, Peter Tunstead, James Tunstead',
+      "Queensland Coroner's Court finding, 2008 inquest into deaths of Derek Batten, Peter Tunstead, James Tunstead",
       'Australian Transport Safety Bureau incident report, 2007',
     ],
   },
@@ -3631,17 +3770,18 @@ export const MYSTERIES = [
     location: { lat: -33, lng: 29, place: 'South African coast, between Durban and Cape Town' },
     summary:
       'The SS Waratah, a British passenger-cargo liner, departed Durban on 26 July 1909 with 211 passengers and crew and was never seen again. She had completed one prior round voyage to Australia and was considered top-heavy by some passengers and a marine engineer who disembarked at Durban, citing concerns about her stability. Despite extensive searches at the time and repeated modern sonar surveys, no confirmed wreck has been found.',
-    unexplained: 'The exact location of the wreck and the precise cause of sinking — whether capsize, storm damage, or structural failure — remain unconfirmed.',
+    unexplained:
+      'The exact location of the wreck and the precise cause of sinking — whether capsize, storm damage, or structural failure — remain unconfirmed.',
     theories: [
-      'Capsize due to inherent instability in heavy weather (well supported): multiple witnesses documented the ship\'s excessive rolling and a formal inquiry highlighted her suspect stability, and severe storms struck the coast shortly after her departure.',
+      "Capsize due to inherent instability in heavy weather (well supported): multiple witnesses documented the ship's excessive rolling and a formal inquiry highlighted her suspect stability, and severe storms struck the coast shortly after her departure.",
       'Collision with an unknown vessel (weakly supported): some contemporary accounts described sightings of a vessel in distress, but these were never verified.',
       'Possible wreck identification off the Eastern Cape (inconclusive): sonar anomalies identified in the 1980s and 2000s have not been positively confirmed as Waratah.',
     ],
     unsolvedMeaning:
       'Likely explained by capsize in a storm given strong evidence of instability, but unproven because the wreck has not been definitively located.',
     sources: [
-      'UK Wreck Commissioner\'s Court formal inquiry report, 1910',
-      'Clive Cussler and Craig Dirgo, \'The Sea Hunters\' (1996) — account of sonar search expeditions',
+      "UK Wreck Commissioner's Court formal inquiry report, 1910",
+      "Clive Cussler and Craig Dirgo, 'The Sea Hunters' (1996) — account of sonar search expeditions",
     ],
   },
   {
@@ -3650,10 +3790,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'High Aim 6',
     era: '2003',
-    location: { lat: -17.5, lng: 121.5, place: 'Indian Ocean, off the northwest coast of Australia' },
+    location: {
+      lat: -17.5,
+      lng: 121.5,
+      place: 'Indian Ocean, off the northwest coast of Australia',
+    },
     summary:
-      'On 8 January 2003, the Taiwanese fishing vessel High Aim 6 was found drifting off the Australian coast with no one aboard. The ship\'s logbook, food, and personal belongings were intact; the engine was functioning. Twelve crew members, including the captain, were missing.',
-    unexplained: 'What happened to the twelve crew members and why they left or were removed from a fully operational vessel remains unproven.',
+      "On 8 January 2003, the Taiwanese fishing vessel High Aim 6 was found drifting off the Australian coast with no one aboard. The ship's logbook, food, and personal belongings were intact; the engine was functioning. Twelve crew members, including the captain, were missing.",
+    unexplained:
+      'What happened to the twelve crew members and why they left or were removed from a fully operational vessel remains unproven.',
     theories: [
       'Crew murdered by fellow crew members (moderately supported): Australian Federal Police investigation concluded that the Indonesian crew likely murdered the Taiwanese captain and officers, then fled, based on circumstantial evidence and interviews with suspects.',
       'Mass man-overboard accident (weakly supported): considered less plausible given the number of people involved and the intact state of the vessel.',
@@ -3670,12 +3815,13 @@ export const MYSTERIES = [
     id: 'loss-of-hms-erebus-and-terror-franklin-expedition',
     title: 'Franklin Expedition Loss of HMS Erebus and Terror',
     category: 'disappearances',
-    wikipedia: 'Franklin\'s lost expedition',
+    wikipedia: "Franklin's lost expedition",
     era: '1845–1848',
     location: { lat: 70, lng: -98, place: 'Canadian Arctic Archipelago, King William Island' },
     summary:
       'The British Royal Navy expedition under Sir John Franklin, comprising HMS Erebus and HMS Terror with 129 men, departed in 1845 to navigate the Northwest Passage and was never heard from again. A note found in 1859 confirmed both ships became icebound near King William Island in September 1846, Franklin died in June 1847, and the remaining crew abandoned the ships in April 1848. None survived. Both wrecks were located — Erebus in 2014 and Terror in 2016.',
-    unexplained: 'While the broad fate is documented, the exact causes of the extraordinarily rapid crew deaths, the routes taken during the fatal march south, and the fate of specific individuals remain uncertain. The apparent re-occupation of HMS Terror after abandonment — suggested by the wreck\'s condition — is also unexplained.',
+    unexplained:
+      "While the broad fate is documented, the exact causes of the extraordinarily rapid crew deaths, the routes taken during the fatal march south, and the fate of specific individuals remain uncertain. The apparent re-occupation of HMS Terror after abandonment — suggested by the wreck's condition — is also unexplained.",
     theories: [
       'Lead poisoning from poorly soldered tin cans combined with scurvy and tuberculosis (well supported by forensic bone analysis): studies of skeletal remains from King William Island show elevated lead levels consistent with food tin contamination.',
       'Botulism from improperly preserved food (moderately supported): the rapid deterioration of a large crew is consistent with mass illness from contaminated provisions.',
@@ -3684,7 +3830,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Largely explained in broad terms, but specific individual fates, the sequence of decisions, and questions about why Terror was apparently re-occupied after abandonment remain genuinely open.',
     sources: [
-      'Owen Beattie and John Geiger, \'Frozen in Time: The Fate of the Franklin Expedition\' (1987)',
+      "Owen Beattie and John Geiger, 'Frozen in Time: The Fate of the Franklin Expedition' (1987)",
       'Parks Canada Archaeological Reports, HMS Erebus (2014) and HMS Terror (2016) discovery documentation',
     ],
   },
@@ -3692,12 +3838,13 @@ export const MYSTERIES = [
     id: 'disappearance-of-mv-bulk-jupiter',
     title: 'Sinking of MV Bulk Jupiter',
     category: 'disappearances',
-    wikipedia: 'MV Bulk Jupiter',
+    wikipedia: 'Bulk Jupiter',
     era: '2015',
     location: { lat: 10.5, lng: 107.5, place: 'South China Sea, off Vietnam' },
     summary:
       'The Bahamian-flagged bulk carrier MV Bulk Jupiter sank on 2 January 2015 in the South China Sea approximately 250 kilometres south of Ho Chi Minh City while carrying a cargo of bauxite. Of the 19 crew, only one survived. The vessel sank in approximately five minutes with no distress call.',
-    unexplained: 'The rapidity of sinking — approximately five minutes — and the failure to issue any distress signal have not been fully explained; the precise sequence of events leading to catastrophic flooding remains unknown.',
+    unexplained:
+      'The rapidity of sinking — approximately five minutes — and the failure to issue any distress signal have not been fully explained; the precise sequence of events leading to catastrophic flooding remains unknown.',
     theories: [
       'Liquefaction of bauxite cargo causing sudden shift and capsize (well supported): bauxite is known to liquefy under certain moisture conditions, and the International Maritime Organization has flagged this as a significant cargo risk; investigators considered this the most probable cause.',
       'Structural failure or collision (considered but not confirmed): no evidence of collision was found, and the vessel was not known to be in poor structural condition.',
@@ -3719,7 +3866,8 @@ export const MYSTERIES = [
     location: { lat: 32.9, lng: -33.4, place: 'North Atlantic, southwest of the Azores' },
     summary:
       'The US Navy nuclear submarine USS Scorpion (SSN-589) was lost on 22 May 1968 with all 99 crew members while returning to Norfolk from the Mediterranean. The wreck was located in October 1968 approximately 400 miles southwest of the Azores at a depth of about 9,800 feet. The cause of sinking has never been officially determined.',
-    unexplained: 'The specific mechanism that caused the Scorpion to sink — whether a torpedo malfunction, structural failure, or external cause — has never been confirmed despite multiple investigations.',
+    unexplained:
+      'The specific mechanism that caused the Scorpion to sink — whether a torpedo malfunction, structural failure, or external cause — has never been confirmed despite multiple investigations.',
     theories: [
       'Uncontrolled torpedo detonation (moderately supported): acoustic analysis of SOSUS recordings suggests an internal explosion prior to hull collapse, consistent with a malfunctioning torpedo warhead or hot-running torpedo.',
       'Structural failure or flooding (possible): the Scorpion had a history of maintenance issues and hydraulic problems.',
@@ -3729,7 +3877,7 @@ export const MYSTERIES = [
       'Likely explained by an internal explosion, probably torpedo-related, but officially unresolved — the Court of Inquiry concluded the cause could not be determined with available evidence.',
     sources: [
       'US Navy Court of Inquiry report, 1968 (declassified portions)',
-      'Ed Offley, \'Scorpion Down: Sunk by the Soviets, Buried by the Pentagon\' (2007) — note: the book\'s central thesis of Soviet action is widely contested by naval historians',
+      "Ed Offley, 'Scorpion Down: Sunk by the Soviets, Buried by the Pentagon' (2007) — note: the book's central thesis of Soviet action is widely contested by naval historians",
     ],
   },
   {
@@ -3738,10 +3886,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Flight 19',
     era: '1945',
-    location: { lat: 27, lng: -79.5, place: 'Atlantic Ocean east of Fort Lauderdale, Florida, USA' },
+    location: {
+      lat: 27,
+      lng: -79.5,
+      place: 'Atlantic Ocean east of Fort Lauderdale, Florida, USA',
+    },
     summary:
       'Flight 19 was a training flight of five U.S. Navy TBM Avenger torpedo bombers that disappeared on December 5, 1945, during a navigation exercise over the Atlantic Ocean off Florida. All 14 airmen aboard were lost, and a PBM Mariner flying boat sent to search for them also disappeared with 13 crew. No confirmed wreckage of any of the six aircraft has ever been recovered.',
-    unexplained: 'The exact location where Flight 19 went down and why the experienced lead instructor, Lieutenant Charles Taylor, became so disoriented have never been definitively established from recovered physical evidence.',
+    unexplained:
+      'The exact location where Flight 19 went down and why the experienced lead instructor, Lieutenant Charles Taylor, became so disoriented have never been definitively established from recovered physical evidence.',
     theories: [
       'Most supported: Navigator error and fuel exhaustion caused all five planes to ditch in the open ocean after Taylor mistakenly believed his compasses were malfunctioning and flew northeast instead of west.',
       'Moderately supported: The search aircraft PBM Mariner likely exploded mid-air due to fuel vapour ignition, a known hazard with that type — a ship in the area reported seeing an explosion.',
@@ -3750,8 +3903,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explained but unproven due to lack of recovered wreckage: the probable cause (disorientation, fuel exhaustion, ocean ditching) is well-supported by the radio transcripts, but no physical confirmation has been made.',
     sources: [
-      'U.S. Navy Board of Investigation report (1945), declassified and summarised in Lawrence David Kusche, \'The Bermuda Triangle Mystery — Solved\' (1975).',
-      'Wikipedia: \'Flight 19\' — cites primary naval records and subsequent searches.',
+      "U.S. Navy Board of Investigation report (1945), declassified and summarised in Lawrence David Kusche, 'The Bermuda Triangle Mystery — Solved' (1975).",
+      "Wikipedia: 'Flight 19' — cites primary naval records and subsequent searches.",
     ],
   },
   {
@@ -3762,18 +3915,19 @@ export const MYSTERIES = [
     era: '2007',
     location: { lat: 37.09, lng: -8.67, place: 'Praia da Luz, Algarve, Portugal' },
     summary:
-      'Madeleine McCann, a three-year-old British girl, disappeared from her family\'s holiday apartment in Praia da Luz, Portugal, on the night of 3 May 2007 while her parents dined at a nearby restaurant. Despite one of the most extensive and internationally high-profile missing-child investigations in history, involving Portuguese, British, and German police forces, her fate and whereabouts have never been confirmed. German prosecutors formally charged Christian Brückner, a convicted sex offender who was in the Algarve at the time, with Madeleine\'s murder in 2024, but no verdict has been reached and the case remains unresolved.',
-    unexplained: 'Whether Madeleine McCann is alive or dead, and who is ultimately responsible for her disappearance, remain officially unresolved; no body or confirmed crime scene evidence has been produced, and the criminal proceedings against the named suspect were ongoing as of 2025.',
+      "Madeleine McCann, a three-year-old British girl, disappeared from her family's holiday apartment in Praia da Luz, Portugal, on the night of 3 May 2007 while her parents dined at a nearby restaurant. Despite one of the most extensive and internationally high-profile missing-child investigations in history, involving Portuguese, British, and German police forces, her fate and whereabouts have never been confirmed. German prosecutors formally charged Christian Brückner, a convicted sex offender who was in the Algarve at the time, with Madeleine's murder in 2024, but no verdict has been reached and the case remains unresolved.",
+    unexplained:
+      'Whether Madeleine McCann is alive or dead, and who is ultimately responsible for her disappearance, remain officially unresolved; no body or confirmed crime scene evidence has been produced, and the criminal proceedings against the named suspect were ongoing as of 2025.',
     theories: [
       'Moderately supported: Abduction by an unknown individual or individuals, supported by witness accounts of a man carrying a child near the apartment on the night in question.',
-      'Primary suspect of German prosecutors: Christian Brückner, a convicted sex offender who was in the Algarve at the time, was formally charged with Madeleine\'s murder by German prosecutors in 2024; the case was proceeding through the German courts as of 2025.',
+      "Primary suspect of German prosecutors: Christian Brückner, a convicted sex offender who was in the Algarve at the time, was formally charged with Madeleine's murder by German prosecutors in 2024; the case was proceeding through the German courts as of 2025.",
       'Officially investigated but not substantiated: Early Portuguese police suspicion fell on the parents; they were made arguidos (formal suspects) in 2007 but were cleared by the Portuguese Attorney General in 2008.',
     ],
     unsolvedMeaning:
       'Genuinely unresolved: no body or confirmed physical evidence of what happened to Madeleine McCann has been established, and while a suspect has been charged in Germany, no verdict had been reached as of 2025 and her remains have never been found.',
     sources: [
-      'Portuguese Polícia Judiciária case files released in 2008; UK Metropolitan Police Operation Grange (ongoing from 2011); German prosecutor\'s office, Braunschweig, charging announcement (2024).',
-      'Wikipedia: \'Disappearance of Madeleine McCann\' — comprehensive sourced summary of investigations.',
+      "Portuguese Polícia Judiciária case files released in 2008; UK Metropolitan Police Operation Grange (ongoing from 2011); German prosecutor's office, Braunschweig, charging announcement (2024).",
+      "Wikipedia: 'Disappearance of Madeleine McCann' — comprehensive sourced summary of investigations.",
     ],
   },
   {
@@ -3785,17 +3939,18 @@ export const MYSTERIES = [
     location: { lat: 31, lng: -64.5, place: 'North Atlantic Ocean, approaching Bermuda' },
     summary:
       'BSAA Star Tiger, an Avro Tudor IV airliner operated by British South American Airways, disappeared on January 30, 1948, on a flight from Santa Maria in the Azores to Bermuda with 25 passengers and crew. The aircraft sent a routine radio message about 400 miles from Bermuda and was never heard from again; no wreckage or bodies were found despite an extensive search. A British Ministry of Civil Aviation inquiry concluded in 1948 that the cause of the accident was unknown.',
-    unexplained: 'What caused the sudden and total loss of Star Tiger — leaving no distress signal, no wreckage trail, and no survivors — has never been established.',
+    unexplained:
+      'What caused the sudden and total loss of Star Tiger — leaving no distress signal, no wreckage trail, and no survivors — has never been established.',
     theories: [
       'Most plausible per the official inquiry: A combination of navigational uncertainty, adverse winds, and fuel exhaustion led the aircraft to ditch at sea; the warm Gulf Stream waters and absence of a wreckage trail are consistent with a controlled ditching that left nothing afloat.',
-      'Moderately supported: Malfunction of the aircraft\'s heating system (a known weakness of the Tudor) may have incapacitated the crew; the Tudor type had a troubled operational history.',
+      "Moderately supported: Malfunction of the aircraft's heating system (a known weakness of the Tudor) may have incapacitated the crew; the Tudor type had a troubled operational history.",
       'Unsupported/myth: The disappearance became part of Bermuda Triangle mythology, but investigators found no anomalous factors distinguishing it from accidents in other oceanic regions.',
     ],
     unsolvedMeaning:
       'Genuinely unresolved: the official verdict explicitly recorded an unknown cause, and the absence of any recovered physical evidence means the specific failure mode cannot be determined.',
     sources: [
-      'UK Ministry of Civil Aviation, \'Report of the Court of Investigation into the loss of Star Tiger\' (1948), HMSO.',
-      'Wikipedia: \'BSAA Star Tiger\' — cites the official report and contemporaneous press coverage.',
+      "UK Ministry of Civil Aviation, 'Report of the Court of Investigation into the loss of Star Tiger' (1948), HMSO.",
+      "Wikipedia: 'BSAA Star Tiger' — cites the official report and contemporaneous press coverage.",
     ],
   },
   {
@@ -3804,20 +3959,25 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Disappearance of Amy Bradley',
     era: '1998',
-    location: { lat: 12.1, lng: -68.93, place: 'Caribbean Sea, near Curaçao (aboard cruise ship Rhapsody of the Seas)' },
+    location: {
+      lat: 12.1,
+      lng: -68.93,
+      place: 'Caribbean Sea, near Curaçao (aboard cruise ship Rhapsody of the Seas)',
+    },
     summary:
-      'Amy Lynn Bradley, a 23-year-old American woman, disappeared from the Royal Caribbean cruise ship Rhapsody of the Seas on March 24, 1998, as the vessel was docked in Curaçao. She was last seen on the ship\'s Lido deck in the early morning hours; her family reported she had been socialising with a band called Blue Orchid the night before. Despite FBI involvement, extensive searches, and multiple reported sightings over the following years — including an alleged sighting in a Curaçao brothel — she has never been found.',
-    unexplained: 'Whether Amy Bradley fell overboard, left the ship voluntarily, or was abducted for sex trafficking remains officially unresolved, and her current status — alive or dead — is unknown.',
+      "Amy Lynn Bradley, a 23-year-old American woman, disappeared from the Royal Caribbean cruise ship Rhapsody of the Seas on March 24, 1998, as the vessel was docked in Curaçao. She was last seen on the ship's Lido deck in the early morning hours; her family reported she had been socialising with a band called Blue Orchid the night before. Despite FBI involvement, extensive searches, and multiple reported sightings over the following years — including an alleged sighting in a Curaçao brothel — she has never been found.",
+    unexplained:
+      'Whether Amy Bradley fell overboard, left the ship voluntarily, or was abducted for sex trafficking remains officially unresolved, and her current status — alive or dead — is unknown.',
     theories: [
-      'Investigated but unconfirmed: Reports from multiple independent witnesses, including a U.S. Navy petty officer, claim to have encountered a woman matching Bradley\'s description in situations consistent with sexual slavery in the Caribbean, suggesting abduction for trafficking.',
+      "Investigated but unconfirmed: Reports from multiple independent witnesses, including a U.S. Navy petty officer, claim to have encountered a woman matching Bradley's description in situations consistent with sexual slavery in the Caribbean, suggesting abduction for trafficking.",
       'Plausible but unproven: Bradley may have left the ship with members of the Blue Orchid band, who were questioned but cleared; the circumstances of her last known movements remain incompletely accounted for.',
       'Less supported: Accidental overboard drowning, though no body was recovered and the ship was docked at the time of her disappearance.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved: the FBI\'s investigation remains open, multiple credible sighting reports have not been traced to a confirmed outcome, and no physical evidence has been recovered.',
+      "Genuinely unresolved: the FBI's investigation remains open, multiple credible sighting reports have not been traced to a confirmed outcome, and no physical evidence has been recovered.",
     sources: [
       'FBI official missing persons bulletin for Amy Bradley (updated periodically); extensive reporting by Dateline NBC and other outlets.',
-      'Wikipedia: \'Disappearance of Amy Bradley\' — cites FBI case details and documented sighting reports.',
+      "Wikipedia: 'Disappearance of Amy Bradley' — cites FBI case details and documented sighting reports.",
     ],
   },
   {
@@ -3828,8 +3988,9 @@ export const MYSTERIES = [
     era: '1945',
     location: { lat: 55.75, lng: 37.62, place: 'Moscow, Soviet Union (Russia)' },
     summary:
-      'Raoul Wallenberg, the Swedish diplomat who saved tens of thousands of Hungarian Jews during the Holocaust by issuing protective passports, was detained by Soviet forces in Budapest in January 1945 and transferred to Moscow\'s Lubyanka prison. The Soviet government officially claimed in 1957 that Wallenberg had died of a heart attack in Lubyanka on July 17, 1947, but this account has been widely questioned. Credible witness testimonies and partial documentary releases suggested Wallenberg may have remained alive in Soviet custody well beyond 1947.',
-    unexplained: 'The precise date, cause, and circumstances of Raoul Wallenberg\'s death in Soviet custody remain unverified, and Sweden has never received full documentation satisfying the official account.',
+      "Raoul Wallenberg, the Swedish diplomat who saved tens of thousands of Hungarian Jews during the Holocaust by issuing protective passports, was detained by Soviet forces in Budapest in January 1945 and transferred to Moscow's Lubyanka prison. The Soviet government officially claimed in 1957 that Wallenberg had died of a heart attack in Lubyanka on July 17, 1947, but this account has been widely questioned. Credible witness testimonies and partial documentary releases suggested Wallenberg may have remained alive in Soviet custody well beyond 1947.",
+    unexplained:
+      "The precise date, cause, and circumstances of Raoul Wallenberg's death in Soviet custody remain unverified, and Sweden has never received full documentation satisfying the official account.",
     theories: [
       'Official Soviet/Russian position: Wallenberg died of cardiac arrest in Lubyanka prison on July 17, 1947; Russia has released some documents supporting this but has not provided full access to relevant KGB/GRU archives.',
       'Credibly alleged: Multiple former Soviet prisoners reported encountering or receiving messages from a person identified as Wallenberg in Soviet camps as late as the 1950s and possibly 1960s, suggesting he was held far longer than admitted.',
@@ -3838,8 +3999,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explained in outcome (death in Soviet custody) but genuinely unresolved in specifics: Russia has repeatedly denied full archival access, and the Swedish-Russian Working Group concluded in 2000 that the true circumstances of his death cannot be established from currently available evidence.',
     sources: [
-      'Swedish-Russian Working Group on Wallenberg, \'Report\' (2000); Susanne Berger, \'Stuck in Neutral: Sixty Years of Failure to Resolve the Raoul Wallenberg Case\' (2005).',
-      'Wikipedia: \'Raoul Wallenberg\' — cites official inquiries, witness testimonies, and diplomatic correspondence.',
+      "Swedish-Russian Working Group on Wallenberg, 'Report' (2000); Susanne Berger, 'Stuck in Neutral: Sixty Years of Failure to Resolve the Raoul Wallenberg Case' (2005).",
+      "Wikipedia: 'Raoul Wallenberg' — cites official inquiries, witness testimonies, and diplomatic correspondence.",
     ],
   },
   {
@@ -3851,7 +4012,8 @@ export const MYSTERIES = [
     location: { lat: 29.5, lng: 33.5, place: 'Sinai Peninsula, Egypt/Israel' },
     summary:
       'Proto-Sinaitic is among the earliest alphabetic writing systems, attested in short inscriptions carved into turquoise mine walls at Serabit el-Khadim and in a handful of other sites. The script appears to derive from Egyptian hieroglyphs via an acrophonic principle, using pictographic signs for their initial consonant sounds. It is widely considered the ancestor of the Phoenician alphabet and thus of most modern alphabets.',
-    unexplained: 'The precise reading of many individual inscriptions remains disputed, and the identity and social status of the scribes — likely Semitic workers in Egyptian mines — as well as the exact mechanism of the script\'s invention, are not established.',
+    unexplained:
+      "The precise reading of many individual inscriptions remains disputed, and the identity and social status of the scribes — likely Semitic workers in Egyptian mines — as well as the exact mechanism of the script's invention, are not established.",
     theories: [
       'Widely supported: Semitic-speaking workers adapted Egyptian hieroglyphs acrophonically, producing the first consonantal alphabet, ancestor of Phoenician.',
       'Debated: A small minority of researchers argue some inscriptions may be meaningless imitations of writing rather than functional text.',
@@ -3860,7 +4022,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explained in broad outline (alphabetic ancestor derived from Egyptian signs), but the reading of individual texts and the social context of composition remain genuinely open scholarly questions.',
     sources: [
-      'Goldwasser, O. (2010). \'How the Alphabet Was Born from Hieroglyphs.\' Biblical Archaeology Review 36(1).',
+      "Goldwasser, O. (2010). 'How the Alphabet Was Born from Hieroglyphs.' Biblical Archaeology Review 36(1).",
       'Sass, B. (1988). The Genesis of the Alphabet. Wiesbaden: Harrassowitz.',
     ],
   },
@@ -3873,16 +4035,17 @@ export const MYSTERIES = [
     location: { lat: 18.08, lng: -95.2, place: 'San Andrés Tuxtla, Veracruz, Mexico' },
     summary:
       'The Tuxtla Statuette is a jade figurine discovered in 1902 near San Andrés Tuxtla, bearing one of the earliest securely dated Long Count calendar inscriptions in Mesoamerica. The figure depicts a duck-billed human form and is covered in approximately 75 glyphs, many of which remain undeciphered. Its script resembles but does not fully match later Mayan or Isthmian inscriptions.',
-    unexplained: 'The majority of the non-calendrical glyphs on the statuette cannot be read, and it is unclear whether the script represents a transitional or entirely independent writing system.',
+    unexplained:
+      'The majority of the non-calendrical glyphs on the statuette cannot be read, and it is unclear whether the script represents a transitional or entirely independent writing system.',
     theories: [
       'Moderately supported: The inscription belongs to the Isthmian (Epi-Olmec) script tradition and records a name or title alongside the calendar date.',
       'Debated: Some scholars see the script as a direct precursor to Maya writing; others view it as a parallel development with no proven genealogical link.',
       'Speculative and unsupported: Amateur claims that the inscription records pre-Columbian transoceanic contact have no scholarly backing.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved: the non-calendrical portions of the inscription have not been convincingly deciphered, and the script\'s relationship to other Mesoamerican systems is uncertain.',
+      "Genuinely unresolved: the non-calendrical portions of the inscription have not been convincingly deciphered, and the script's relationship to other Mesoamerican systems is uncertain.",
     sources: [
-      'Saville, M.H. (1900). \'A Jade Statuette from Mexico.\' Bulletin of the American Museum of Natural History 13.',
+      "Saville, M.H. (1900). 'A Jade Statuette from Mexico.' Bulletin of the American Museum of Natural History 13.",
       'Kaufman, T. & Justeson, J. (2001). Epi-Olmec Hieroglyphic Writing and Texts. FAMSI.',
     ],
   },
@@ -3895,7 +4058,8 @@ export const MYSTERIES = [
     location: { lat: 34.12, lng: 35.65, place: 'Byblos (Jubayl), Lebanon' },
     summary:
       'The Byblos syllabary is an undeciphered writing system found on ten bronze tablets and a few stone inscriptions excavated from Byblos, Lebanon, during the 1920s–1930s. The script consists of approximately 90–100 distinct signs, suggesting a syllabic rather than purely alphabetic or logographic system. Despite several decipherment attempts, none has achieved scholarly consensus.',
-    unexplained: 'The underlying language of the Byblos syllabary is unknown — it may be a Semitic language or something else entirely — and no bilingual key has been found.',
+    unexplained:
+      'The underlying language of the Byblos syllabary is unknown — it may be a Semitic language or something else entirely — and no bilingual key has been found.',
     theories: [
       'Moderately proposed: The script records an early form of a Northwest Semitic language, possibly ancestral to Phoenician, based on geographical and temporal context.',
       'Debated: Dhorme (1946) and later Mendenhall (1985) each proposed independent decipherments that are not mutually compatible and neither is widely accepted.',
@@ -3905,29 +4069,7 @@ export const MYSTERIES = [
       'Genuinely unresolved: no decipherment has achieved scholarly acceptance, and the language encoded remains unknown.',
     sources: [
       'Mendenhall, G.E. (1985). The Syllabic Inscriptions from Byblos. Beirut: American University of Beirut.',
-      'Dunand, M. (1945). Byblia Grammata: Documents et recherches sur le développement de l\'écriture en Phénicie. Beirut: Imprimerie Catholique.',
-    ],
-  },
-  {
-    id: 'merotic-script',
-    title: 'Meroitic alphabet',
-    category: 'phenomena',
-    wikipedia: 'Meroitic alphabet',
-    era: 'c. 300 BCE – 400 CE',
-    location: { lat: 16.93, lng: 33.73, place: 'Meroe, Sudan' },
-    summary:
-      'The Meroitic script, used in the ancient Nubian Kingdom of Kush, consists of two related forms — an alphabetic cursive and a hieroglyphic variant — attested in hundreds of inscriptions from modern Sudan. The script itself was deciphered phonetically by Francis Griffith in 1909, but the language it encodes, Meroitic, remains only partially understood. Most longer texts cannot be translated beyond formulaic phrases.',
-    unexplained: 'The vocabulary and grammar of the Meroitic language remain largely opaque; without a bilingual text, the meaning of most inscriptions beyond known titles and funerary formulas cannot be determined.',
-    theories: [
-      'Moderately supported: Meroitic belongs to a now-extinct branch of the Nilo-Saharan or Afro-Asiatic language families, based on limited lexical comparisons.',
-      'Proposed but uncertain: Some linguists suggest affinities with modern Cushitic languages of the region, which could aid in decipherment.',
-      'Unlikely: Claims that Meroitic is closely related to ancient Egyptian have little phonological support.',
-    ],
-    unsolvedMeaning:
-      'Likely explained in phonology (the sound values are known) but genuinely unresolved in meaning: the language itself remains substantially undeciphered.',
-    sources: [
-      'Griffith, F.Ll. (1911). Meroitic Inscriptions. London: Egypt Exploration Fund.',
-      'Rilly, C. (2010). Le méroïtique et sa famille linguistique. Paris: Peeters.',
+      "Dunand, M. (1945). Byblia Grammata: Documents et recherches sur le développement de l'écriture en Phénicie. Beirut: Imprimerie Catholique.",
     ],
   },
   {
@@ -3936,10 +4078,15 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Carian alphabets',
     era: 'c. 650–300 BCE',
-    location: { lat: 37.3, lng: 28.1, place: 'Caria (southwestern Turkey) and Egyptian mercenary sites' },
+    location: {
+      lat: 37.3,
+      lng: 28.1,
+      place: 'Caria (southwestern Turkey) and Egyptian mercenary sites',
+    },
     summary:
       'The Carian script was used to write the Carian language, an Anatolian Indo-European tongue, in southwestern Turkey and in Egypt where Carian mercenaries served. Numerous inscriptions were found at Memphis and Abu Simbel. The script was substantially deciphered in the 1980s–1990s, primarily through bilingual Greek-Carian inscriptions discovered at Kaunos and Saqqara.',
-    unexplained: 'While the phonetic values of most signs are now established, significant portions of Carian vocabulary and grammar remain unclear, and some sign values are still disputed among specialists.',
+    unexplained:
+      'While the phonetic values of most signs are now established, significant portions of Carian vocabulary and grammar remain unclear, and some sign values are still disputed among specialists.',
     theories: [
       'Well supported: Carian is an Anatolian branch of Indo-European, related to Lydian and Lycian, deciphered through bilingual texts.',
       'Debated: The exact values of several Carian letters remain contested between competing decipherment proposals by Adiego and Schürr.',
@@ -3949,7 +4096,7 @@ export const MYSTERIES = [
       'Largely resolved in phonology since the 1990s bilingual discoveries, but residual uncertainties in vocabulary and some sign values mean full linguistic understanding is incomplete.',
     sources: [
       'Adiego, I.J. (2007). The Carian Language. Leiden: Brill.',
-      'Schürr, D. (1992). \'Zur Bestimmung des Karischen Alphabets.\' Kadmos 31.',
+      "Schürr, D. (1992). 'Zur Bestimmung des Karischen Alphabets.' Kadmos 31.",
     ],
   },
   {
@@ -3961,16 +4108,17 @@ export const MYSTERIES = [
     location: { lat: 33.62, lng: 113.67, place: 'Jiahu site, Henan Province, China' },
     summary:
       'Sixteen turtle shells and bones excavated from the Neolithic site of Jiahu in China bear carved marks that some researchers have proposed as the earliest known proto-writing in East Asia, predating the oracle bone script by over 5,000 years. The symbols resemble certain later Chinese characters in form. The site dates to approximately 6600 BCE and was published by Chinese archaeologists in the 1980s.',
-    unexplained: 'It is unresolved whether the Jiahu symbols constitute a genuine writing or proto-writing system, a tally or mnemonic system, or coincidental graphical similarities to later Chinese characters.',
+    unexplained:
+      'It is unresolved whether the Jiahu symbols constitute a genuine writing or proto-writing system, a tally or mnemonic system, or coincidental graphical similarities to later Chinese characters.',
     theories: [
       'Proposed by some Chinese scholars: The symbols are the earliest stage of Chinese writing, showing graphic continuity with Shang dynasty oracle bone script.',
       'More cautious mainstream view: The marks are isolated ritual or tally symbols without systemic linguistic encoding, and resemblances to later characters may be coincidental.',
       'Skeptical position: The sample size is too small and contextually isolated to establish any writing system, and independent verification of claimed character matches is limited.',
     ],
     unsolvedMeaning:
-      'Genuinely unresolved: the functional status of the symbols (proto-writing vs. non-linguistic marks) is debated, and the claimed connection to Chinese characters is not established to most specialists\' satisfaction.',
+      "Genuinely unresolved: the functional status of the symbols (proto-writing vs. non-linguistic marks) is debated, and the claimed connection to Chinese characters is not established to most specialists' satisfaction.",
     sources: [
-      'Li, X. et al. (2003). \'The earliest writing? Sign use in the seventh millennium BC at Jiahu, China.\' Antiquity 77(295).',
+      "Li, X. et al. (2003). 'The earliest writing? Sign use in the seventh millennium BC at Jiahu, China.' Antiquity 77(295).",
       'Boltz, W.G. (1994). The Origin and Early Development of the Chinese Writing System. New Haven: AOS.',
     ],
   },
@@ -3983,7 +4131,8 @@ export const MYSTERIES = [
     location: { lat: 25.97, lng: 32.47, place: 'Wadi el-Hol, Upper Egypt' },
     summary:
       'Two short inscriptions carved into limestone cliffs at Wadi el-Hol in the Egyptian desert were discovered in 1999 by John and Deborah Darnell. The inscriptions use a script closely related to Proto-Sinaitic and are considered among the earliest known alphabetic writing, predating the Serabit el-Khadim inscriptions in age and possibly representing an independent or antecedent stage of the alphabet. The carvers were likely Semitic-speaking soldiers or traders in Egyptian service.',
-    unexplained: 'The inscriptions have not been convincingly translated; proposed readings remain speculative, and it is unclear whether they are names, dedicatory formulas, or other short texts.',
+    unexplained:
+      'The inscriptions have not been convincingly translated; proposed readings remain speculative, and it is unclear whether they are names, dedicatory formulas, or other short texts.',
     theories: [
       'Widely accepted: The inscriptions represent early alphabetic writing derived from Egyptian hieroglyphs, consistent with the Proto-Sinaitic tradition.',
       'Proposed: One inscription may contain a title or personal name in a Northwest Semitic language, but no consensus reading exists.',
@@ -4005,16 +4154,17 @@ export const MYSTERIES = [
     location: { lat: 24, lng: 9, place: 'Sahara Desert and North Africa (widespread)' },
     summary:
       'The ancient Libyco-Berber script is an abjad used across North Africa and the Sahara, attested in thousands of inscriptions on stone, many still unread. The script is the ancestor of the modern Tifinagh alphabet used by Tuareg communities. Most inscriptions are short and found in rock-art contexts across Algeria, Libya, Morocco, and the Canary Islands.',
-    unexplained: 'The majority of ancient Libyco-Berber inscriptions cannot be translated because the ancient Berber language recorded in them is only partially understood and most texts lack context or bilingual parallels.',
+    unexplained:
+      'The majority of ancient Libyco-Berber inscriptions cannot be translated because the ancient Berber language recorded in them is only partially understood and most texts lack context or bilingual parallels.',
     theories: [
       'Established: The script encodes an ancient Berber language and is ancestral to modern Tifinagh; its phonetic values are largely known from bilingual Punic-Libyco-Berber texts.',
       'Unresolved: The origin of the script itself — whether derived from Phoenician, an independent invention, or a much older local tradition — is debated.',
       'Speculative: Some researchers propose the script may predate Phoenician contact, implying independent invention, but evidence is not conclusive.',
     ],
     unsolvedMeaning:
-      'Likely explained in script mechanics but genuinely unresolved in text content: most individual inscriptions cannot be translated, and the script\'s ultimate origin remains debated.',
+      "Likely explained in script mechanics but genuinely unresolved in text content: most individual inscriptions cannot be translated, and the script's ultimate origin remains debated.",
     sources: [
-      'Février, J.G. (1956). \'Que savons-nous du libyque?\' Revue Africaine 100.',
+      "Février, J.G. (1956). 'Que savons-nous du libyque?' Revue Africaine 100.",
       'Pichler, W. (2007). Origin and Development of the Libyco-Berber Script. Berlin: Rüdiger Köppe.',
     ],
   },
@@ -4024,10 +4174,15 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Khitan large script',
     era: 'c. 920–1125 CE',
-    location: { lat: 42.9, lng: 119.1, place: 'Inner Mongolia and northeastern China (Liao dynasty territory)' },
+    location: {
+      lat: 42.9,
+      lng: 119.1,
+      place: 'Inner Mongolia and northeastern China (Liao dynasty territory)',
+    },
     summary:
       'The Khitan large script was created around 920 CE for the Khitan language, spoken by the founders of the Liao dynasty in northeastern China. It coexisted with the Khitan small script and consists of several hundred logographic-phonetic characters adapted from Chinese. Hundreds of inscriptions survive on stone stelae and tomb epitaphs, but the language is only partially understood.',
-    unexplained: 'Many Khitan large script characters remain undeciphered or ambiguously interpreted, and the grammar of the Khitan language — a likely Para-Mongolic tongue — is not fully reconstructed.',
+    unexplained:
+      'Many Khitan large script characters remain undeciphered or ambiguously interpreted, and the grammar of the Khitan language — a likely Para-Mongolic tongue — is not fully reconstructed.',
     theories: [
       'Moderately supported: Khitan belongs to the Para-Mongolic branch of the Mongolic language family, based on shared vocabulary with Mongolic languages identified in partially readable texts.',
       'Debated: The precise phonetic values and morphological parsing of many inscriptions remain contested between Chinese, Japanese, and Western specialists.',
@@ -4049,17 +4204,18 @@ export const MYSTERIES = [
     location: { lat: 17.9, lng: -94.9, place: 'Isthmus of Tehuantepec, Veracruz/Oaxaca, Mexico' },
     summary:
       'The Isthmian script, also called Epi-Olmec, is attested on a small number of stone monuments and the La Mojarra stela, the longest known Isthmian text with over 500 glyphs. A partial decipherment by Justeson and Kaufman (1993) proposed that the script encodes an ancestor of the Zoquean language family, but this reading has not achieved universal acceptance. The script is distinct from Maya writing and appears to represent an independent Mesoamerican tradition.',
-    unexplained: 'Whether the Justeson-Kaufman decipherment is correct — translating the La Mojarra stela as a historical narrative about a local ruler — remains contested, and other Isthmian texts have not been confirmed as readable under this scheme.',
+    unexplained:
+      'Whether the Justeson-Kaufman decipherment is correct — translating the La Mojarra stela as a historical narrative about a local ruler — remains contested, and other Isthmian texts have not been confirmed as readable under this scheme.',
     theories: [
       'Proposed by Justeson & Kaufman (1993): The script records Proto-Zoquean; the La Mojarra stela narrates accession rituals of a ruler named Harvest Mountain Lord, with specific astronomical dates.',
       'Skeptical position (Houston, Coe, and others): The proposed decipherment relies on circular reasoning and the phonetic matches are insufficiently rigorous to be accepted.',
       'Alternative: The script may be largely logographic with limited phonetic complement, making syllabic decipherment premature.',
     ],
     unsolvedMeaning:
-      'Genuinely contested: a decipherment exists but has not achieved scholarly consensus, leaving the script\'s full reading an open and actively debated question.',
+      "Genuinely contested: a decipherment exists but has not achieved scholarly consensus, leaving the script's full reading an open and actively debated question.",
     sources: [
-      'Justeson, J. & Kaufman, T. (1993). \'A Decipherment of Epi-Olmec Hieroglyphic Writing.\' Science 259(5102).',
-      'Houston, S. et al. (2001). \'The Language of Classic Maya Inscriptions.\' Current Anthropology 41(3).',
+      "Justeson, J. & Kaufman, T. (1993). 'A Decipherment of Epi-Olmec Hieroglyphic Writing.' Science 259(5102).",
+      "Houston, S. et al. (2001). 'The Language of Classic Maya Inscriptions.' Current Anthropology 41(3).",
     ],
   },
   {
@@ -4071,10 +4227,11 @@ export const MYSTERIES = [
     location: { lat: 35, lng: 33, place: 'Cyprus (multiple sites including Enkomi and Ugarit)' },
     summary:
       'Cypro-Minoan is an undeciphered Bronze Age script used on Cyprus and at Ugarit, attested in about 250 clay tablets, clay balls, and objects. It is believed to derive from Minoan Linear A and to be an ancestor of the later, deciphered Cypriot syllabary. The corpus is relatively small and the underlying language is unknown.',
-    unexplained: 'No Cypro-Minoan text has been convincingly translated; the language it encodes — possibly an early form of Greek, a pre-Greek Aegean language, or something else — remains unknown, and no bilingual inscription has been found.',
+    unexplained:
+      'No Cypro-Minoan text has been convincingly translated; the language it encodes — possibly an early form of Greek, a pre-Greek Aegean language, or something else — remains unknown, and no bilingual inscription has been found.',
     theories: [
       'Moderately supported: The script derives from Linear A and encodes a language of the Aegean or Cypro-Minoan cultural sphere, possibly related to the later Eteocypriot language.',
-      'Proposed: The underlying language may be an early form of Greek, given Cyprus\'s later strong Greek cultural presence, but this is not demonstrated.',
+      "Proposed: The underlying language may be an early form of Greek, given Cyprus's later strong Greek cultural presence, but this is not demonstrated.",
       'Debated: Steele (2013) has proposed a partial structural analysis suggesting the script is phonetically similar to the Cypriot syllabary, but phonetic values have not been confirmed through bilingual evidence.',
     ],
     unsolvedMeaning:
@@ -4088,22 +4245,23 @@ export const MYSTERIES = [
     id: 'mary-rogers-murder',
     title: 'The Murder of Mary Rogers',
     category: 'events',
-    wikipedia: 'Mary Rogers murder case',
+    wikipedia: 'Mary Cecilia Rogers',
     era: '1841',
     location: { lat: 40.7178, lng: -74.0431, place: 'Hoboken, New Jersey, USA' },
     summary:
-      'Mary Rogers, a Manhattan cigar shop clerk known as the \'Beautiful Cigar Girl,\' was found dead in the Hudson River near Hoboken on July 28, 1841. Her death showed signs of violence and possible sexual assault. The case inspired Edgar Allan Poe\'s 1842 story \'The Mystery of Marie Rogêt,\' in which he speculated about the circumstances.',
-    unexplained: 'Whether Rogers died from a botched abortion, murder by a gang, or at the hands of a single assailant has never been established; no one was ever charged.',
+      "Mary Rogers, a Manhattan cigar shop clerk known as the 'Beautiful Cigar Girl,' was found dead in the Hudson River near Hoboken on July 28, 1841. Her death showed signs of violence and possible sexual assault. The case inspired Edgar Allan Poe's 1842 story 'The Mystery of Marie Rogêt,' in which he speculated about the circumstances.",
+    unexplained:
+      'Whether Rogers died from a botched abortion, murder by a gang, or at the hands of a single assailant has never been established; no one was ever charged.',
     theories: [
-      'Moderately supported: Rogers died from complications of an illegal abortion, with a Hoboken innkeeper\'s deathbed confession pointing in this direction.',
+      "Moderately supported: Rogers died from complications of an illegal abortion, with a Hoboken innkeeper's deathbed confession pointing in this direction.",
       'Weakly supported: She was attacked and killed by a gang of young men along the riverbank, consistent with injuries observed.',
       'Speculative: She was murdered by a single intimate acquaintance, the line Poe favored in his fictional retelling.',
     ],
     unsolvedMeaning:
       'Likely partially explained — the abortion hypothesis has circumstantial support from a reported deathbed statement — but no confession or corroborating evidence was ever secured, leaving the case genuinely unresolved in a legal sense.',
     sources: [
-      'Amy Gilman Srebnick, \'The Mysterious Death of Mary Rogers: Sex and Culture in Nineteenth-Century New York\' (Oxford University Press, 1995).',
-      'Wikipedia: \'Mary Rogers murder case\' — cites contemporaneous newspaper accounts and Poe scholarship.',
+      "Amy Gilman Srebnick, 'The Mysterious Death of Mary Rogers: Sex and Culture in Nineteenth-Century New York' (Oxford University Press, 1995).",
+      "Wikipedia: 'Mary Rogers murder case' — cites contemporaneous newspaper accounts and Poe scholarship.",
     ],
   },
   {
@@ -4114,8 +4272,9 @@ export const MYSTERIES = [
     era: '1918–1919',
     location: { lat: 29.9511, lng: -90.0715, place: 'New Orleans, Louisiana, USA' },
     summary:
-      'Between May 1918 and October 1919, at least eight people were attacked with an axe or straight razor in New Orleans, six of whom died. The attacker, dubbed the Axeman, typically entered through a chiseled rear door panel and used the homeowners\' own tools. The killer sent a letter to newspapers in March 1919 claiming supernatural identity and declaring that anyone playing jazz on a specific night would be spared.',
-    unexplained: 'The Axeman was never identified or charged; whether the attacks were the work of one person, connected to organized crime, or involved copycat perpetrators is unresolved.',
+      "Between May 1918 and October 1919, at least eight people were attacked with an axe or straight razor in New Orleans, six of whom died. The attacker, dubbed the Axeman, typically entered through a chiseled rear door panel and used the homeowners' own tools. The killer sent a letter to newspapers in March 1919 claiming supernatural identity and declaring that anyone playing jazz on a specific night would be spared.",
+    unexplained:
+      'The Axeman was never identified or charged; whether the attacks were the work of one person, connected to organized crime, or involved copycat perpetrators is unresolved.',
     theories: [
       'Historically proposed without forensic confirmation: Joseph Mumfre, a convicted criminal killed in 1921 by the widow of one victim, was named as a suspect; no physical evidence links him to the scenes.',
       'Credibly argued by historian Miriam Davis: The murders were connected to Mafia protection rackets targeting Italian grocery owners, with Mumfre as a plausible but unconfirmed perpetrator.',
@@ -4124,8 +4283,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved — no trial, no confession, and no forensic linkage; the Mumfre hypothesis is plausible but rests entirely on circumstantial and testimonial evidence.',
     sources: [
-      'Miriam C. Davis, \'The Axeman of New Orleans: The True Story\' (Chicago Review Press, 2017).',
-      'Wikipedia: \'Axeman of New Orleans\' — covers victims, primary source letters, and suspect history.',
+      "Miriam C. Davis, 'The Axeman of New Orleans: The True Story' (Chicago Review Press, 2017).",
+      "Wikipedia: 'Axeman of New Orleans' — covers victims, primary source letters, and suspect history.",
     ],
   },
   {
@@ -4134,41 +4293,47 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Disappearance of the Beaumont children',
     era: '1966',
-    location: { lat: -34.9785, lng: 138.5152, place: 'Glenelg Beach, Adelaide, South Australia, Australia' },
+    location: {
+      lat: -34.9785,
+      lng: 138.5152,
+      place: 'Glenelg Beach, Adelaide, South Australia, Australia',
+    },
     summary:
       'Jane (9), Arnna (7), and Grant (4) Beaumont left their home in Glenelg, South Australia, on Australia Day, January 26, 1966, to spend the morning at the beach. They were seen by multiple witnesses interacting with an unknown tall blond man on the beach and later buying food at a local shop. They never returned home and no confirmed trace of them has ever been found.',
-    unexplained: 'The identity of the man the children were seen with, their fate, and the location of their remains have never been established despite one of the longest-running investigations in Australian history.',
+    unexplained:
+      'The identity of the man the children were seen with, their fate, and the location of their remains have never been established despite one of the longest-running investigations in Australian history.',
     theories: [
       'Widely suspected but unproven: The tall blond man seen with the children was their abductor and killer; Arthur Stanley Brown and other named suspects were investigated but never charged due to insufficient evidence.',
-      'Investigated without resolution: The children were taken to a property in Glenelg or Adelaide\'s inner suburbs, possibly connected to a paedophile network active in South Australia at the time.',
-      'Recent investigative focus: 2013 and 2018 excavations of a former Castalloy factory site — based on information from a person connected to convicted murderer Bevan Spencer von Einem\'s network — found no remains.',
+      "Investigated without resolution: The children were taken to a property in Glenelg or Adelaide's inner suburbs, possibly connected to a paedophile network active in South Australia at the time.",
+      "Recent investigative focus: 2013 and 2018 excavations of a former Castalloy factory site — based on information from a person connected to convicted murderer Bevan Spencer von Einem's network — found no remains.",
     ],
     unsolvedMeaning:
       'Genuinely unresolved — no remains, no confirmed suspect, and no credible witness to events after mid-afternoon on January 26; the case remains open with South Australian Police.',
     sources: [
-      'Alan Whiticker & Stuart Mullins, \'The Satin Man: Uncovering the Mystery of the Missing Beaumont Children\' (New Holland, 2013).',
-      'Wikipedia: \'Disappearance of the Beaumont children\' — documents witness accounts, named suspects, and excavation history.',
+      "Alan Whiticker & Stuart Mullins, 'The Satin Man: Uncovering the Mystery of the Missing Beaumont Children' (New Holland, 2013).",
+      "Wikipedia: 'Disappearance of the Beaumont children' — documents witness accounts, named suspects, and excavation history.",
     ],
   },
   {
     id: 'lima-treasure',
     title: 'Lima Treasure',
     category: 'disappearances',
-    wikipedia: 'Lima treasure',
+    wikipedia: 'Treasure of Lima',
     era: '1820',
     location: { lat: 5.5577, lng: -87.0567, place: 'Cocos Island, Costa Rica' },
     summary:
       'During the Peruvian wars of independence, the Catholic Church in Lima entrusted enormous wealth — gold statues, jeweled swords, and hundreds of chests of coin — to a British sea captain named Thompson for safekeeping. Thompson and his crew murdered the guards and sailed for Cocos Island, where they allegedly buried the cache. Thompson was captured, led Spanish authorities back to the island, then escaped, and the treasure was never recovered.',
-    unexplained: 'No confirmed excavation has ever produced the hoard, and the precise burial site remains unknown despite over 300 documented expeditions since the 19th century.',
+    unexplained:
+      'No confirmed excavation has ever produced the hoard, and the precise burial site remains unknown despite over 300 documented expeditions since the 19th century.',
     theories: [
       'Moderately supported: The treasure was buried on Cocos Island but deteriorating navigational records and dense jungle have prevented exact location.',
       'Weakly supported: Thompson redistributed the wealth long before his capture, and no cache ever existed on the island.',
       'Speculative: The legend was embellished over generations, and the actual hoard was far smaller than accounts claim.',
     ],
     unsolvedMeaning:
-      'Likely explained in outline — a real theft almost certainly occurred — but genuinely unresolved as to the treasure\'s fate; no physical evidence has been found.',
+      "Likely explained in outline — a real theft almost certainly occurred — but genuinely unresolved as to the treasure's fate; no physical evidence has been found.",
     sources: [
-      'David Cordingly, \'Under the Black Flag\' (1995), discusses historical piracy and the Lima legend.',
+      "David Cordingly, 'Under the Black Flag' (1995), discusses historical piracy and the Lima legend.",
       'Costa Rican government records on Cocos Island expeditions (Isla del Coco National Park archives).',
     ],
   },
@@ -4181,7 +4346,8 @@ export const MYSTERIES = [
     location: { lat: 53.3439, lng: -6.2672, place: 'Dublin Castle, Dublin, Ireland' },
     summary:
       'The jewels of the Order of St Patrick — a diamond star and badge belonging to the Viceroy of Ireland — vanished from a safe in Dublin Castle sometime before 6 July 1907. The theft was discovered just days before a royal visit by King Edward VII. Despite a formal police inquiry, no arrest was ever made and the jewels have never been recovered.',
-    unexplained: 'The identity of the thief or thieves and the current location of the jewels remain completely unknown more than a century later.',
+    unexplained:
+      'The identity of the thief or thieves and the current location of the jewels remain completely unknown more than a century later.',
     theories: [
       'Moderately supported: An inside job by someone with access to Dublin Castle, possibly motivated by political or financial reasons.',
       'Weakly supported: Francis Shackleton (brother of explorer Ernest Shackleton), who had irregular access to the safe, was the prime suspect but was never charged.',
@@ -4190,7 +4356,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved — the case was never solved, no credible suspect was prosecuted, and the jewels have not surfaced in any known collection.',
     sources: [
-      'Francis Bamford & Viola Bankes, \'Vicious Circle: The Case of the Missing Irish Crown Jewels\' (1965).',
+      "Francis Bamford & Viola Bankes, 'Vicious Circle: The Case of the Missing Irish Crown Jewels' (1965).",
       'National Archives of Ireland, Dublin Castle inquiry files (CSORP 1907).',
     ],
   },
@@ -4200,10 +4366,15 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Florentine Diamond',
     era: '1918–1920s',
-    location: { lat: 48.2082, lng: 16.3738, place: 'Vienna / last known in Austrian Imperial Treasury' },
+    location: {
+      lat: 48.2082,
+      lng: 16.3738,
+      place: 'Vienna / last known in Austrian Imperial Treasury',
+    },
     summary:
       'The Florentine Diamond, a pale yellow 137.27-carat stone of Indian origin once owned by the Medici and later the Habsburg dynasty, disappeared after the collapse of the Austro-Hungarian Empire in 1918. The last Habsburg emperor Karl I took the imperial jewels into exile; subsequent reports suggest the stone was sold in South America in the 1920s and may have been recut, but this has never been verified.',
-    unexplained: 'Whether the Florentine Diamond still exists in recognizable form, was recut beyond identification, or is held privately is entirely unknown.',
+    unexplained:
+      'Whether the Florentine Diamond still exists in recognizable form, was recut beyond identification, or is held privately is entirely unknown.',
     theories: [
       'Moderately supported: The stone was smuggled to South America by the Habsburg family and sold, then recut to avoid identification.',
       'Weakly supported: The diamond remains intact in a private collection whose owners are unaware of its provenance.',
@@ -4212,7 +4383,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved — no verified sighting of the stone has occurred since before World War I, and the recut hypothesis is plausible but unproven.',
     sources: [
-      'Herbert Tillander, \'Diamond Cuts in Historic Jewellery 1381–1910\' (1995).',
+      "Herbert Tillander, 'Diamond Cuts in Historic Jewellery 1381–1910' (1995).",
       'GIA Gemological Institute records on historic named diamonds.',
     ],
   },
@@ -4225,7 +4396,8 @@ export const MYSTERIES = [
     location: { lat: 48.8566, lng: 2.3522, place: 'Paris, France' },
     summary:
       'The Sceptre of Dagobert, a Frankish golden sceptre traditionally associated with the 7th-century Merovingian king Dagobert I, was among the royal regalia held at the Basilica of Saint-Denis. The regalia were seized and partially destroyed or dispersed during the French Revolution in 1793–1794. Some pieces were melted down; others were sold or disappeared into private hands.',
-    unexplained: 'It is unclear whether the sceptre itself survived the revolutionary dispersal and, if so, where it is now.',
+    unexplained:
+      'It is unclear whether the sceptre itself survived the revolutionary dispersal and, if so, where it is now.',
     theories: [
       'Moderately supported: The sceptre was melted down along with other Carolingian-era metalwork during the 1793–94 confiscations.',
       'Weakly supported: It was sold to a private collector during the Revolution and passed through estates unidentified.',
@@ -4234,7 +4406,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explained — most historians believe it was destroyed in the Revolution — but not definitively proven, and no confirmed survival is documented.',
     sources: [
-      'Danielle Gaborit-Chopin, \'Regalia: Les instruments du sacre des rois de France\' (1987).',
+      "Danielle Gaborit-Chopin, 'Regalia: Les instruments du sacre des rois de France' (1987).",
       'Bibliothèque nationale de France, Cabinet des Médailles historical inventories.',
     ],
   },
@@ -4246,8 +4418,9 @@ export const MYSTERIES = [
     era: '16th century',
     location: { lat: 55.752, lng: 37.6175, place: 'Moscow Kremlin, Russia' },
     summary:
-      'Ivan IV of Russia (\'the Terrible\') is alleged to have possessed a vast library of Greek, Latin, and Hebrew manuscripts, partly inherited from his grandmother Sophia Palaiologina, which may have derived from the libraries of Constantinople and Byzantium. The collection was reportedly hidden in vaults beneath Moscow in the 1560s–70s and has not been seen since. No contemporary inventory of the full library survives.',
-    unexplained: 'Whether such a collection ever existed in the form described, and if so where it is now, has never been established despite multiple archaeological searches beneath the Kremlin.',
+      "Ivan IV of Russia ('the Terrible') is alleged to have possessed a vast library of Greek, Latin, and Hebrew manuscripts, partly inherited from his grandmother Sophia Palaiologina, which may have derived from the libraries of Constantinople and Byzantium. The collection was reportedly hidden in vaults beneath Moscow in the 1560s–70s and has not been seen since. No contemporary inventory of the full library survives.",
+    unexplained:
+      'Whether such a collection ever existed in the form described, and if so where it is now, has never been established despite multiple archaeological searches beneath the Kremlin.',
     theories: [
       'Weakly supported: The library is stored in sealed or inaccessible medieval vaults beneath the Kremlin or central Moscow.',
       'Moderately supported: The legend was significantly exaggerated in later centuries; only a modest collection existed and was dispersed or destroyed.',
@@ -4256,20 +4429,21 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Possibly a myth — the primary sources are thin and late; most modern historians doubt the library existed at the legendary scale, but the question is not fully closed.',
     sources: [
-      'Sigismund von Herberstein, \'Rerum Moscoviticarum Commentarii\' (1549), an early primary source on the Muscovite court.',
+      "Sigismund von Herberstein, 'Rerum Moscoviticarum Commentarii' (1549), an early primary source on the Muscovite court.",
       'Russian State Historical Archive, Kremlin excavation reports (20th century).',
     ],
   },
   {
     id: 'lost-dutchman-mine',
-    title: 'Lost Dutchman\'s Gold Mine',
+    title: "Lost Dutchman's Gold Mine",
     category: 'disappearances',
-    wikipedia: 'Lost Dutchman\'s Gold Mine',
+    wikipedia: "Lost Dutchman's Gold Mine",
     era: '1880s',
     location: { lat: 33.4648, lng: -111.0829, place: 'Superstition Mountains, Arizona, USA' },
     summary:
-      'The Lost Dutchman\'s Mine is an allegedly rich gold deposit said to be located somewhere in the Superstition Mountains east of Phoenix, Arizona. The legend centres on Jacob Waltz, a German-American (mislabeled \'Dutchman\') prospector who reportedly worked a secret gold mine in the 1870s–1880s and left cryptic clues on his deathbed in 1891. Numerous prospectors have searched for the mine; some have died in the attempt.',
-    unexplained: 'Whether Waltz\'s mine ever existed as described, or was a fabrication or exaggeration, has never been determined despite over a century of searching.',
+      "The Lost Dutchman's Mine is an allegedly rich gold deposit said to be located somewhere in the Superstition Mountains east of Phoenix, Arizona. The legend centres on Jacob Waltz, a German-American (mislabeled 'Dutchman') prospector who reportedly worked a secret gold mine in the 1870s–1880s and left cryptic clues on his deathbed in 1891. Numerous prospectors have searched for the mine; some have died in the attempt.",
+    unexplained:
+      "Whether Waltz's mine ever existed as described, or was a fabrication or exaggeration, has never been determined despite over a century of searching.",
     theories: [
       'Weakly supported: A real high-grade gold deposit exists in the Superstition Wilderness but access is obstructed by terrain or legal restrictions.',
       'Moderately supported: Waltz found modest placer gold and the story grew into legend after his death.',
@@ -4278,7 +4452,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Possibly a myth — geological surveys of the Superstition Mountains have found no significant gold deposits, but the story has not been definitively debunked.',
     sources: [
-      'T.E. Glover, \'The Lost Dutchman Mine\' (1953), an early compilation of the legend.',
+      "T.E. Glover, 'The Lost Dutchman Mine' (1953), an early compilation of the legend.",
       'US Geological Survey mineral resource assessments for Maricopa and Pinal counties, Arizona.',
     ],
   },
@@ -4291,7 +4465,8 @@ export const MYSTERIES = [
     location: { lat: 41.8902, lng: 12.4922, place: 'Rome, Italy (last attested)' },
     summary:
       'The golden seven-branched menorah of the Second Temple in Jerusalem was carried to Rome after the sack of 70 CE, as depicted on the Arch of Titus. Ancient sources record it in Rome through the 5th century; it was reportedly taken by the Vandals to Carthage in 455 CE and then possibly moved to Constantinople by the Byzantines in 534 CE, after which historical record becomes ambiguous.',
-    unexplained: 'What happened to the menorah after its probable arrival in Constantinople in the 6th century — whether it was destroyed, hidden, or survives somewhere — is not documented.',
+    unexplained:
+      'What happened to the menorah after its probable arrival in Constantinople in the 6th century — whether it was destroyed, hidden, or survives somewhere — is not documented.',
     theories: [
       'Moderately supported: The menorah was returned to Jerusalem by Emperor Justinian and subsequently lost during the Persian or Arab conquests of the 7th century.',
       'Weakly supported: It remains in Vatican secret archives or storerooms, removed from public record to avoid diplomatic tension.',
@@ -4300,29 +4475,30 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved — the historical trail goes cold in the 6th century and no credible physical evidence has emerged since.',
     sources: [
-      'Procopius, \'History of the Wars\' (c. 550 CE), Book IV, ch. 9, on the Vandal treasure.',
-      'Steven Fine, \'The Menorah: From the Bible to Modern Israel\' (Harvard University Press, 2016).',
+      "Procopius, 'History of the Wars' (c. 550 CE), Book IV, ch. 9, on the Vandal treasure.",
+      "Steven Fine, 'The Menorah: From the Bible to Modern Israel' (Harvard University Press, 2016).",
     ],
   },
   {
     id: 'quedlinburg-treasures',
     title: 'Quedlinburg treasures theft',
     category: 'disappearances',
-    wikipedia: 'Quedlinburg treasures',
+    wikipedia: 'Quedlinburg Abbey',
     era: '1945',
     location: { lat: 51.7892, lng: 11.1458, place: 'Quedlinburg, Saxony-Anhalt, Germany' },
     summary:
-      'In April 1945, US Army lieutenant Joe T. Meador stole a cache of medieval reliquaries and manuscripts from a mine near Quedlinburg where they had been hidden for wartime protection. The objects — including a 9th-century rock crystal reliquary and illuminated manuscripts — were mailed home to Texas. After Meador\'s death in 1980 his family began selling them; most were eventually recovered and repatriated to Germany in 1990–1993, but the whereabouts of some items from the hoard remain uncertain.',
-    unexplained: 'Whether all stolen items have been accounted for, or whether some pieces were sold into private collections and remain unidentified, is not fully resolved.',
+      "In April 1945, US Army lieutenant Joe T. Meador stole a cache of medieval reliquaries and manuscripts from a mine near Quedlinburg where they had been hidden for wartime protection. The objects — including a 9th-century rock crystal reliquary and illuminated manuscripts — were mailed home to Texas. After Meador's death in 1980 his family began selling them; most were eventually recovered and repatriated to Germany in 1990–1993, but the whereabouts of some items from the hoard remain uncertain.",
+    unexplained:
+      'Whether all stolen items have been accounted for, or whether some pieces were sold into private collections and remain unidentified, is not fully resolved.',
     theories: [
       'Moderately supported: All major objects were recovered in the 1990 repatriation deal; only minor pieces may still be missing.',
-      'Weakly supported: Some items were sold separately before the family\'s involvement became public and are now in unidentified private hands.',
+      "Weakly supported: Some items were sold separately before the family's involvement became public and are now in unidentified private hands.",
       'Weakly supported: Certain objects were damaged or destroyed by Meador and were never catalogued as missing.',
     ],
     unsolvedMeaning:
       'Largely resolved — the headline objects were repatriated — but not fully closed, as the completeness of recovery relative to the original inventory is disputed.',
     sources: [
-      'William H. Honan, \'Treasure Hunt: A New York Times Reporter Tracks the Quedlinburg Hoard\' (1997).',
+      "William H. Honan, 'Treasure Hunt: A New York Times Reporter Tracks the Quedlinburg Hoard' (1997).",
       'Kulturstiftung der Länder (Cultural Foundation of the German States), repatriation documentation 1992–1993.',
     ],
   },
@@ -4335,7 +4511,8 @@ export const MYSTERIES = [
     location: { lat: 30.3398, lng: 76.3869, place: 'Patiala, Punjab, India' },
     summary:
       'The Patiala Necklace, created by Cartier in 1928 for Maharaja Bhupinder Singh of Patiala, was one of the most spectacular pieces of jewellery ever made, featuring 2,930 diamonds including the De Beers diamond (then the seventh-largest known). The necklace disappeared from the Patiala treasury in 1948 after Indian independence. In 1998, a Cartier researcher found the bare frame of the necklace — stripped of almost all its stones — in a London antiques shop.',
-    unexplained: 'Where the hundreds of removed diamonds — including the prominent De Beers diamond — are now located is entirely unknown.',
+    unexplained:
+      'Where the hundreds of removed diamonds — including the prominent De Beers diamond — are now located is entirely unknown.',
     theories: [
       'Moderately supported: The stones were individually sold on the open market and are now unidentified components of other jewellery.',
       'Weakly supported: A significant portion of the stones was acquired by a single private collector who has not disclosed provenance.',
@@ -4345,7 +4522,7 @@ export const MYSTERIES = [
       'Genuinely unresolved — the frame was found but the stones, including a historically significant large diamond, have not been traced.',
     sources: [
       'Cartier historical archives, Paris (records of the 1928 commission cited in museum literature).',
-      'Stefano Papi & Alexandra Rhodes, \'Famous Jewelry Collectors\' (1999), which documents the necklace\'s history.',
+      "Stefano Papi & Alexandra Rhodes, 'Famous Jewelry Collectors' (1999), which documents the necklace's history.",
     ],
   },
   {
@@ -4357,7 +4534,8 @@ export const MYSTERIES = [
     location: { lat: 45, lng: -75, place: 'North America and Western Europe (widespread)' },
     summary:
       'In 1816, average temperatures across the Northern Hemisphere dropped markedly, causing widespread crop failures, famine, and social upheaval across Europe and North America. The volcanic eruption of Mount Tambora in April 1815 injected massive quantities of aerosols into the stratosphere and is widely credited as the primary cause. Summer 1816 saw snowfall in New England in June and July, and food riots in France.',
-    unexplained: 'While the Tambora eruption is the accepted primary driver, researchers continue to investigate why the climatic impact was so severe and prolonged compared to other large eruptions, and what combination of pre-existing conditions amplified the anomaly.',
+    unexplained:
+      'While the Tambora eruption is the accepted primary driver, researchers continue to investigate why the climatic impact was so severe and prolonged compared to other large eruptions, and what combination of pre-existing conditions amplified the anomaly.',
     theories: [
       'Tambora eruption aerosols (very well-supported): Stratospheric sulfate aerosols from Tambora reduced solar insolation globally; this is the scientific consensus explanation.',
       'Compound volcanic forcing plus the Dalton Minimum (moderately supported): Some researchers argue that diminished solar activity during the Dalton Minimum amplified the volcanic impact.',
@@ -4366,8 +4544,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explained in broad terms by the Tambora eruption, but the precise mechanisms that produced such extreme regional variation and duration are still debated in paleoclimate literature.',
     sources: [
-      'Oppenheimer, C. (2003). \'Climatic, environmental and human consequences of the largest known historic eruption: Tambora volcano (Indonesia) 1815.\' Progress in Physical Geography 27(2), 230–259.',
-      'Stommel, H. & Stommel, E. (1979). \'The Year Without a Summer.\' Scientific American 240(6), 176–186.',
+      "Oppenheimer, C. (2003). 'Climatic, environmental and human consequences of the largest known historic eruption: Tambora volcano (Indonesia) 1815.' Progress in Physical Geography 27(2), 230–259.",
+      "Stommel, H. & Stommel, E. (1979). 'The Year Without a Summer.' Scientific American 240(6), 176–186.",
     ],
   },
   {
@@ -4376,10 +4554,15 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Noctilucent cloud',
     era: 'First recorded 1885; increasing frequency observed through 20th–21st centuries',
-    location: { lat: 70, lng: 25, place: 'High latitudes (Arctic/Antarctic); first documented over Northern Europe' },
+    location: {
+      lat: 70,
+      lng: 25,
+      place: 'High latitudes (Arctic/Antarctic); first documented over Northern Europe',
+    },
     summary:
-      'Noctilucent clouds (NLC) are the highest clouds in Earth\'s atmosphere, forming at altitudes of around 76–85 km in the mesosphere, and are visible from high latitudes during summer twilight as luminous electric-blue structures. They were first reliably reported in 1885, two years after the Krakatoa eruption, which initially suggested a volcanic connection. Their frequency and the latitude range at which they are observed have increased measurably since the 1990s.',
-    unexplained: 'Why noctilucent clouds were apparently first observed in 1885 — whether this reflects a genuine atmospheric change, the Krakatoa eruption, or simply improved observation — and what is driving their recent expansion toward lower latitudes remain unresolved.',
+      "Noctilucent clouds (NLC) are the highest clouds in Earth's atmosphere, forming at altitudes of around 76–85 km in the mesosphere, and are visible from high latitudes during summer twilight as luminous electric-blue structures. They were first reliably reported in 1885, two years after the Krakatoa eruption, which initially suggested a volcanic connection. Their frequency and the latitude range at which they are observed have increased measurably since the 1990s.",
+    unexplained:
+      'Why noctilucent clouds were apparently first observed in 1885 — whether this reflects a genuine atmospheric change, the Krakatoa eruption, or simply improved observation — and what is driving their recent expansion toward lower latitudes remain unresolved.',
     theories: [
       'Anthropogenic methane increase (moderately supported): Rising methane oxidises to produce water vapour in the upper atmosphere, potentially providing more ice nuclei for NLC formation; this is a leading hypothesis for their recent expansion.',
       'Krakatoa volcanic water vapour injection as first cause (historical, now considered insufficient): The 1885 first observation followed Krakatoa, but volcanic water vapour is too short-lived to explain the persistent increase.',
@@ -4388,8 +4571,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved in part: the physical chemistry of NLC formation is understood, but the cause of their southward expansion and possible 1885 emergence is not definitively established.',
     sources: [
-      'Thomas, G.E. (1991). \'Mesospheric clouds and the physics of the mesopause region.\' Reviews of Geophysics 29(4), 553–575.',
-      'DeLand, M.T. et al. (2006). \'A multi-year record of upper stratospheric temperatures from SBUV radiances.\' Journal of Geophysical Research: Atmospheres 111, D17.',
+      "Thomas, G.E. (1991). 'Mesospheric clouds and the physics of the mesopause region.' Reviews of Geophysics 29(4), 553–575.",
+      "DeLand, M.T. et al. (2006). 'A multi-year record of upper stratospheric temperatures from SBUV radiances.' Journal of Geophysical Research: Atmospheres 111, D17.",
     ],
   },
   {
@@ -4398,10 +4581,11 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Geomagnetic reversal',
     era: 'Recorded across geological timescales; active research ongoing',
-    location: { lat: -90, lng: 0, place: 'Earth\'s core (global phenomenon)' },
+    location: { lat: -90, lng: 0, place: "Earth's core (global phenomenon)" },
     summary:
-      'The geomagnetic field has reversed its polarity hundreds of times in Earth\'s history, as recorded in magnetised rock sequences worldwide. Reversals are irregular in timing, with the last full reversal (the Brunhes-Matuyama boundary) occurring approximately 780,000 years ago. The current field has been weakening at an accelerated rate and the South Atlantic Anomaly is a prominent feature of the modern field.',
-    unexplained: 'The physical trigger for a geomagnetic reversal — why the geodynamo in Earth\'s liquid outer core spontaneously and irreversibly flips polarity at irregular intervals — remains a fundamental unsolved problem in geophysics.',
+      "The geomagnetic field has reversed its polarity hundreds of times in Earth's history, as recorded in magnetised rock sequences worldwide. Reversals are irregular in timing, with the last full reversal (the Brunhes-Matuyama boundary) occurring approximately 780,000 years ago. The current field has been weakening at an accelerated rate and the South Atlantic Anomaly is a prominent feature of the modern field.",
+    unexplained:
+      "The physical trigger for a geomagnetic reversal — why the geodynamo in Earth's liquid outer core spontaneously and irreversibly flips polarity at irregular intervals — remains a fundamental unsolved problem in geophysics.",
     theories: [
       'Internal geodynamo instability (well-supported in principle, not mechanistically complete): Numerical simulations can produce spontaneous reversals, but do not yet reproduce the observed statistical timing distribution.',
       'Mantle convection influence (moderately supported): Changes in heat flow from the mantle may modulate outer core dynamics and thus reversal frequency over geological time.',
@@ -4410,7 +4594,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved: geomagnetic reversals are well-documented and physically attributed to the geodynamo, but no predictive mechanistic explanation for their timing or initiation exists.',
     sources: [
-      'Glatzmaier, G.A. & Roberts, P.H. (1995). \'A three-dimensional self-consistent computer simulation of a geomagnetic field reversal.\' Nature 377, 203–209.',
+      "Glatzmaier, G.A. & Roberts, P.H. (1995). 'A three-dimensional self-consistent computer simulation of a geomagnetic field reversal.' Nature 377, 203–209.",
       'Merrill, R.T., McElhinny, M.W. & McFadden, P.L. (1996). The Magnetic Field of the Earth. Academic Press.',
     ],
   },
@@ -4420,20 +4604,25 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Maunder Minimum',
     era: '1645–1715',
-    location: { lat: 51.5, lng: -0.1, place: 'Europe (primary climatic impact zone); global solar phenomenon' },
+    location: {
+      lat: 51.5,
+      lng: -0.1,
+      place: 'Europe (primary climatic impact zone); global solar phenomenon',
+    },
     summary:
       'The Maunder Minimum was a period of drastically reduced sunspot activity between approximately 1645 and 1715, during which fewer than 50 sunspots were observed across the entire ~70-year period — compared with several thousand sunspots recorded in a typical modern 11-year solar cycle. It overlapped with some of the coldest decades of the Little Ice Age in Europe and North America. The period is named after astronomers E.W. Maunder and Annie Russell Maunder who rediscovered the gap in historical records in the late 19th century.',
-    unexplained: 'Whether the solar activity reduction was the primary driver of the climatic cooling observed in Europe, or merely a minor contributor to a cooling dominated by other causes, remains unresolved, as does the mechanism that caused the sun\'s dynamo to enter such a prolonged quiescent state.',
+    unexplained:
+      "Whether the solar activity reduction was the primary driver of the climatic cooling observed in Europe, or merely a minor contributor to a cooling dominated by other causes, remains unresolved, as does the mechanism that caused the sun's dynamo to enter such a prolonged quiescent state.",
     theories: [
       'Reduced solar irradiance driving cooling (moderately supported): Total solar irradiance reconstructions suggest a 0.1–0.2% reduction during the Minimum; climate models show this alone is insufficient to explain the full cooling signal.',
       'Volcanic forcing as primary climate driver (moderately supported): Multiple large volcanic eruptions during the Little Ice Age may have had a greater climatic impact than the solar minimum.',
-      'Internal solar dynamo fluctuation (active research): The mechanism by which the sun\'s magnetic dynamo can enter a grand minimum state is not predicted by current solar models; whether such events are periodic or stochastic is debated.',
+      "Internal solar dynamo fluctuation (active research): The mechanism by which the sun's magnetic dynamo can enter a grand minimum state is not predicted by current solar models; whether such events are periodic or stochastic is debated.",
     ],
     unsolvedMeaning:
       'Genuinely unresolved in two respects: the solar mechanism that produces grand minima is not understood, and the relative contribution of the Maunder Minimum to Little Ice Age cooling versus volcanic and oceanic forcing is still debated.',
     sources: [
-      'Eddy, J.A. (1976). \'The Maunder Minimum.\' Science 192(4245), 1189–1202.',
-      'Lean, J., Beer, J. & Bradley, R. (1995). \'Reconstruction of solar irradiance since 1610: Implications for climate change.\' Geophysical Research Letters 22(23), 3195–3198.',
+      "Eddy, J.A. (1976). 'The Maunder Minimum.' Science 192(4245), 1189–1202.",
+      "Lean, J., Beer, J. & Bradley, R. (1995). 'Reconstruction of solar irradiance since 1610: Implications for climate change.' Geophysical Research Letters 22(23), 3195–3198.",
     ],
   },
   {
@@ -4442,10 +4631,15 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Little Ice Age',
     era: 'Approximately 1300–1850 CE',
-    location: { lat: 55, lng: 15, place: 'Northern Hemisphere, particularly Europe and the North Atlantic region' },
+    location: {
+      lat: 55,
+      lng: 15,
+      place: 'Northern Hemisphere, particularly Europe and the North Atlantic region',
+    },
     summary:
       'The Little Ice Age was a period of cooling that followed the Medieval Warm Period, characterised by advancing glaciers, harsher winters, and disrupted agricultural patterns across the Northern Hemisphere. It is documented through multiple proxy records including tree rings, ice cores, and historical records of harvest failures and frozen rivers. The period is not sharply defined and different regions experienced cooling at different times.',
-    unexplained: 'The ultimate cause or causes of the Little Ice Age — specifically the relative contributions of volcanic aerosol forcing, reduced solar activity, changes in ocean circulation, and internal climate variability — have not been definitively partitioned, and the reasons for its uneven spatial and temporal expression remain debated.',
+    unexplained:
+      'The ultimate cause or causes of the Little Ice Age — specifically the relative contributions of volcanic aerosol forcing, reduced solar activity, changes in ocean circulation, and internal climate variability — have not been definitively partitioned, and the reasons for its uneven spatial and temporal expression remain debated.',
     theories: [
       'Volcanic forcing as initiator (moderately well-supported): A cluster of large volcanic eruptions in the 13th century may have triggered cooling by reducing summer insolation and promoting sea-ice expansion; this is a leading current hypothesis.',
       'Solar minimum contribution (moderately supported): Reduced solar output during the Maunder and Spörer minima contributed to the cooling, though quantification remains uncertain.',
@@ -4454,7 +4648,7 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved: the Little Ice Age is documented beyond reasonable doubt, but no single forcing adequately explains its magnitude, timing, and spatial heterogeneity; the relative contributions of known forcings remain an open quantitative problem in paleoclimatology.',
     sources: [
-      'Miller, G.H. et al. (2012). \'Abrupt onset of the Little Ice Age triggered by volcanism and sustained by sea-ice/ocean feedbacks.\' Geophysical Research Letters 39, L02708.',
+      "Miller, G.H. et al. (2012). 'Abrupt onset of the Little Ice Age triggered by volcanism and sustained by sea-ice/ocean feedbacks.' Geophysical Research Letters 39, L02708.",
       'Bradley, R.S. & Jones, P.D. (eds.) (1992). Climate Since A.D. 1500. Routledge.',
     ],
   },
@@ -4464,10 +4658,15 @@ export const MYSTERIES = [
     category: 'events',
     wikipedia: 'Dalton Minimum',
     era: '1790–1830',
-    location: { lat: 51.5, lng: -0.1, place: 'Europe and Northern Hemisphere (global solar phenomenon)' },
+    location: {
+      lat: 51.5,
+      lng: -0.1,
+      place: 'Europe and Northern Hemisphere (global solar phenomenon)',
+    },
     summary:
       'The Dalton Minimum was a period of reduced sunspot activity lasting from approximately 1790 to 1830, less severe than the Maunder Minimum but associated with a temporary cooling anomaly and, coincidentally, a period of significant volcanic activity including the Tambora eruption of 1815. It is named after the meteorologist John Dalton who recorded anomalous weather during this period. Solar cycle lengths and amplitudes were both affected.',
-    unexplained: 'Whether the Dalton Minimum represents a genuine grand solar minimum of the same class as the Maunder Minimum, or merely a weak cycle pair, is debated; and the degree to which it contributed independently to early 19th-century climate anomalies versus being overwhelmed by volcanic forcing remains unquantified.',
+    unexplained:
+      'Whether the Dalton Minimum represents a genuine grand solar minimum of the same class as the Maunder Minimum, or merely a weak cycle pair, is debated; and the degree to which it contributed independently to early 19th-century climate anomalies versus being overwhelmed by volcanic forcing remains unquantified.',
     theories: [
       'Grand solar minimum (moderately supported): Isotopic proxies such as Be-10 and C-14 in ice cores and tree rings suggest reduced solar activity comparable to, if milder than, a grand minimum.',
       'Superposition of solar and volcanic forcing (moderately supported): The Tambora eruption and other volcanism during this period make isolating the solar climatic signal statistically difficult.',
@@ -4476,8 +4675,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved as to classification: whether the Dalton Minimum is a true grand solar minimum or a statistical fluctuation within normal solar variability is still debated in solar physics literature.',
     sources: [
-      'Usoskin, I.G. et al. (2003). \'Millennium-scale sunspot number reconstruction: Evidence for an unusually active sun since the 1940s.\' Physical Review Letters 91(21), 211101.',
-      'Lean, J. (2000). \'Evolution of the Sun\'s spectral irradiance since the Maunder Minimum.\' Geophysical Research Letters 27(16), 2425–2428.',
+      "Usoskin, I.G. et al. (2003). 'Millennium-scale sunspot number reconstruction: Evidence for an unusually active sun since the 1940s.' Physical Review Letters 91(21), 211101.",
+      "Lean, J. (2000). 'Evolution of the Sun's spectral irradiance since the Maunder Minimum.' Geophysical Research Letters 27(16), 2425–2428.",
     ],
   },
   {
@@ -4486,10 +4685,16 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Aurora',
     era: 'Antiquity to present; anomalous events documented throughout history',
-    location: { lat: 67, lng: 26, place: 'High-latitude auroral zones; notable low-latitude events documented across Europe and China' },
+    location: {
+      lat: 67,
+      lng: 26,
+      place:
+        'High-latitude auroral zones; notable low-latitude events documented across Europe and China',
+    },
     summary:
-      'Auroras are luminous atmospheric phenomena caused by charged particles from the sun exciting atmospheric gases, typically visible in high-latitude zones. Historical records from China, Japan, Korea, and Europe document auroras at anomalously low latitudes during periods of high solar activity, most famously during the Carrington Event of 1859 when auroras were visible in Cuba and Hawaii. Medieval chronicles record terrifying \'fire in the sky\' events that are now interpreted as extreme auroral activity.',
-    unexplained: 'The maximum possible intensity of a solar storm and its potential auroral and electromagnetic effects on the modern world are not well-constrained from the historical and geological record; the frequency of Carrington-class events and whether still larger events are physically possible remain open questions.',
+      "Auroras are luminous atmospheric phenomena caused by charged particles from the sun exciting atmospheric gases, typically visible in high-latitude zones. Historical records from China, Japan, Korea, and Europe document auroras at anomalously low latitudes during periods of high solar activity, most famously during the Carrington Event of 1859 when auroras were visible in Cuba and Hawaii. Medieval chronicles record terrifying 'fire in the sky' events that are now interpreted as extreme auroral activity.",
+    unexplained:
+      'The maximum possible intensity of a solar storm and its potential auroral and electromagnetic effects on the modern world are not well-constrained from the historical and geological record; the frequency of Carrington-class events and whether still larger events are physically possible remain open questions.',
     theories: [
       'Carrington-class events as rare but recurrent (moderately supported): Dendrochronological and ice-core records suggest Carrington-class solar proton events occur roughly once per 500 years, though the statistics are uncertain.',
       'Superflare analogy from solar-type stars (speculative): Observations of superflares on sun-like stars suggest the sun may be capable of events far larger than any historically recorded, but no geological evidence confirms this for the Holocene.',
@@ -4498,8 +4703,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved in the critical sense: the upper bound on solar storm intensity and the recurrence rate of extreme events — information essential to assessing risk to modern infrastructure — cannot be determined from the available record.',
     sources: [
-      'Carrington, R.C. (1859). \'Description of a singular appearance seen in the Sun on September 1, 1859.\' Monthly Notices of the Royal Astronomical Society 20, 13–15.',
-      'Miyake, F. et al. (2012). \'A signature of cosmic-ray increase in AD 774-775 from tree rings in Japan.\' Nature 486, 240–242.',
+      "Carrington, R.C. (1859). 'Description of a singular appearance seen in the Sun on September 1, 1859.' Monthly Notices of the Royal Astronomical Society 20, 13–15.",
+      "Miyake, F. et al. (2012). 'A signature of cosmic-ray increase in AD 774-775 from tree rings in Japan.' Nature 486, 240–242.",
     ],
   },
   {
@@ -4511,17 +4716,18 @@ export const MYSTERIES = [
     location: { lat: 41.0082, lng: 28.9784, place: 'Constantinople (Istanbul), Turkey' },
     summary:
       'Greek fire was an incendiary weapon deployed by the Byzantine Empire from around 672 CE, capable of burning on water and reportedly impossible to extinguish with water. It was used decisively in naval battles, including the defense of Constantinople against Arab sieges. The composition was a closely guarded state secret, and Byzantine sources describe it being projected through siphons from ships.',
-    unexplained: 'The precise chemical formula of Greek fire has never been definitively established. It is unknown whether it was based on quicklime, naphtha, pine resin, or some combination, and why no surviving formula or unambiguous archaeological residue has been identified.',
+    unexplained:
+      'The precise chemical formula of Greek fire has never been definitively established. It is unknown whether it was based on quicklime, naphtha, pine resin, or some combination, and why no surviving formula or unambiguous archaeological residue has been identified.',
     theories: [
       'Likely-supported: A naphtha-based mixture with quicklime and pine resin, igniting on contact with water via an exothermic reaction — consistent with available sources and regional materials.',
-      'Moderately supported: Crude petroleum distillate (naphtha) thickened with resin and propelled under pressure — matching some Byzantine textual descriptions of \'liquid fire\'.',
+      "Moderately supported: Crude petroleum distillate (naphtha) thickened with resin and propelled under pressure — matching some Byzantine textual descriptions of 'liquid fire'.",
       'Speculative: The formula was deliberately destroyed or suppressed by Byzantine authorities when the empire fell, explaining the total absence of surviving technical documentation.',
     ],
     unsolvedMeaning:
       'Likely explainable through ancient chemistry but unproven — no surviving recipe or definitive residue analysis exists, and modern reconstructions remain disputed among historians and chemists.',
     sources: [
-      'Haldon, J. et al. (2006). \'Greek Fire Revisited.\' Byzantine Style, Religion and Civilization, Cambridge University Press.',
-      'Wikipedia: \'Greek fire\' — cites primary sources including Anna Komnene\'s Alexiad and Theophanes the Confessor.',
+      "Haldon, J. et al. (2006). 'Greek Fire Revisited.' Byzantine Style, Religion and Civilization, Cambridge University Press.",
+      "Wikipedia: 'Greek fire' — cites primary sources including Anna Komnene's Alexiad and Theophanes the Confessor.",
     ],
   },
   {
@@ -4533,7 +4739,8 @@ export const MYSTERIES = [
     location: { lat: 33.5138, lng: 36.2765, place: 'Damascus, Syria' },
     summary:
       'Damascus steel (wootz steel) was a blade material produced in the Near East and South Asia, celebrated for its exceptional sharpness, toughness, and distinctive watered surface pattern. Production of the original wootz ingots appears to have ceased around 1750 CE, and attempts to recreate the technique during the 18th and 19th centuries failed to reproduce identical results. Modern metallurgical analysis has identified carbon nanotubes and cementite nanowires in authentic samples.',
-    unexplained: 'The specific combination of ore sources, smelting conditions, and trace elements (particularly vanadium and molybdenum) that produced the characteristic nanostructure has not been fully reproduced. It remains unclear whether the cessation was due to loss of specific ore deposits, master craftsmen, or both.',
+    unexplained:
+      'The specific combination of ore sources, smelting conditions, and trace elements (particularly vanadium and molybdenum) that produced the characteristic nanostructure has not been fully reproduced. It remains unclear whether the cessation was due to loss of specific ore deposits, master craftsmen, or both.',
     theories: [
       'Well-supported: Specific Indian wootz ore containing trace vanadium or other carbide-forming elements was essential, and when those ore sources were exhausted or trade routes disrupted, the process could not be replicated.',
       'Moderately supported: The process involved precise temperature cycling and carbon control during smelting that required tacit knowledge passed orally between craftsmen, lost when that transmission chain broke.',
@@ -4542,8 +4749,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Likely explainable through materials science but unproven — the general mechanism (wootz steel with carbide banding) is understood, but the exact conditions for the finest historical examples have not been reliably reproduced.',
     sources: [
-      'Verhoeven, J.D., Pendray, A.H., & Dauksch, W.E. (1998). \'The Key Role of Impurities in Ancient Damascus Steel Blades.\' JOM, 50(9).',
-      'Wikipedia: \'Damascus steel\' — summarizes metallurgical research and historical production records.',
+      "Verhoeven, J.D., Pendray, A.H., & Dauksch, W.E. (1998). 'The Key Role of Impurities in Ancient Damascus Steel Blades.' JOM, 50(9).",
+      "Wikipedia: 'Damascus steel' — summarizes metallurgical research and historical production records.",
     ],
   },
   {
@@ -4555,7 +4762,8 @@ export const MYSTERIES = [
     location: { lat: 41.9028, lng: 12.4964, place: 'Rome, Italy' },
     summary:
       'Roman concrete (opus caementicium) used volcanic ash (pozzolana) and seawater to create a material that has survived more than 2,000 years in marine environments, outperforming modern Portland cement in durability. Structures such as the Pantheon dome and harbour installations at Caesarea Maritima remain largely intact. The specific mix ratios, curing techniques, and full understanding of the mineral reaction (tobermorite crystal formation) were not transmitted to later European builders.',
-    unexplained: 'While the broad chemistry is now understood, the precise methods Roman builders used to achieve consistent quality across large-scale projects — including proportions, water sources, aggregate selection, and curing times — remain incompletely reconstructed. Modern reproductions have not yet matched the multi-century marine durability of original harbour concrete.',
+    unexplained:
+      'While the broad chemistry is now understood, the precise methods Roman builders used to achieve consistent quality across large-scale projects — including proportions, water sources, aggregate selection, and curing times — remain incompletely reconstructed. Modern reproductions have not yet matched the multi-century marine durability of original harbour concrete.',
     theories: [
       'Well-supported: Reaction of seawater with volcanic ash (aluminous tobermorite and phillipsite crystallization) created a self-reinforcing mineral matrix, a process only recently identified by synchrotron analysis.',
       'Moderately supported: The specific Pozzuoli volcanic ash source had unique mineralogy that cannot be substituted by generic volcanic ash, making exact reproduction difficult.',
@@ -4564,8 +4772,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Largely explained in chemistry but not fully reproduced in engineering practice — the mineralogical mechanism is understood, yet reliably replicating Roman marine concrete at scale remains an active research problem.',
     sources: [
-      'Jackson, M.D. et al. (2017). \'Phillipsite and Al-tobermorite mineral cements produced through low-temperature water-rock reactions in Roman marine concrete.\' American Mineralogist, 102(7).',
-      'Wikipedia: \'Roman concrete\' — with citations to archaeological and materials science literature.',
+      "Jackson, M.D. et al. (2017). 'Phillipsite and Al-tobermorite mineral cements produced through low-temperature water-rock reactions in Roman marine concrete.' American Mineralogist, 102(7).",
+      "Wikipedia: 'Roman concrete' — with citations to archaeological and materials science literature.",
     ],
   },
   {
@@ -4577,17 +4785,18 @@ export const MYSTERIES = [
     location: { lat: 41.9028, lng: 12.4964, place: 'Rome, Italy' },
     summary:
       'Multiple Roman authors — including Petronius, Pliny the Elder, and Dio Cassius — record an anecdote about a craftsman who presented Emperor Tiberius with a glass vessel that, when dropped, dented rather than shattered and could be reshaped with a hammer. According to the story, Tiberius had the craftsman executed to prevent the material from undermining the value of gold and silver. No physical example survives.',
-    unexplained: 'No Roman-era flexible glass artifact has ever been identified, and no ancient formula or technique capable of producing such a material has been confirmed. It is unknown whether the anecdote refers to a real material, a misidentified material (such as a metal alloy or early polymer), or a rhetorical invention.',
+    unexplained:
+      'No Roman-era flexible glass artifact has ever been identified, and no ancient formula or technique capable of producing such a material has been confirmed. It is unknown whether the anecdote refers to a real material, a misidentified material (such as a metal alloy or early polymer), or a rhetorical invention.',
     theories: [
       'Possibly a myth or literary device: The story appears in multiple authors as a moral/political anecdote about imperial tyranny and wealth, suggesting it may have been a rhetorical exemplum rather than a technical report.',
       'Speculative: The craftsman may have produced a very thin, lead-rich or soda-lime glass with unusual elasticity, or a glass-ceramic composite, which contemporaries described imprecisely.',
       'Speculative: The account could describe a real but isolated discovery (perhaps a specific silicate formula) that was in fact suppressed or simply not reproducible.',
     ],
     unsolvedMeaning:
-      'Possibly a myth — the anecdote\'s consistent framing as a political morality tale across multiple Roman authors raises serious doubts about its historicity. No archaeological evidence supports the existence of the material.',
+      "Possibly a myth — the anecdote's consistent framing as a political morality tale across multiple Roman authors raises serious doubts about its historicity. No archaeological evidence supports the existence of the material.",
     sources: [
       'Pliny the Elder, Naturalis Historia, Book XXXVI, 66; Petronius, Satyricon, 51.',
-      'Wikipedia: \'Flexible glass\' — surveys ancient sources and modern scholarly assessments.',
+      "Wikipedia: 'Flexible glass' — surveys ancient sources and modern scholarly assessments.",
     ],
   },
   {
@@ -4599,17 +4808,18 @@ export const MYSTERIES = [
     location: { lat: 45.1347, lng: 10.0233, place: 'Cremona, Italy' },
     summary:
       'Violins made by Antonio Stradivari (1644–1737) are widely regarded as producing a distinctive tonal quality that has not been consistently replicated by modern luthiers despite centuries of effort. Approximately 650 Stradivarius instruments survive and have been subjected to extensive scientific analysis. Proposed explanations have included wood treatment, varnish chemistry, dendrochronology-linked wood density from the Little Ice Age, and geometric proportions.',
-    unexplained: 'Whether Stradivarius instruments are objectively acoustically superior to the finest modern instruments, and if so, what specific physical property accounts for the difference, has not been conclusively established. Blind listening tests have produced conflicting results regarding perceived superiority.',
+    unexplained:
+      'Whether Stradivarius instruments are objectively acoustically superior to the finest modern instruments, and if so, what specific physical property accounts for the difference, has not been conclusively established. Blind listening tests have produced conflicting results regarding perceived superiority.',
     theories: [
       'Moderately supported: Wood from the Little Ice Age (1645–1715) grew more slowly, producing denser, more uniform spruce with different acoustic resonance properties unavailable today.',
       'Moderately supported: Chemical treatment of the wood with minerals (borax, alum, or copper salts) as wood preservative or varnish base altered cell structure in acoustically beneficial ways.',
       'Well-supported by blind tests: Some double-blind studies (Fritz et al., 2012, 2017) found experienced violinists could not reliably distinguish Stradivarius from fine modern instruments, suggesting the superiority may be partly a matter of cultural expectation.',
     ],
     unsolvedMeaning:
-      'Likely a combination of material factors and cultural mythology — the acoustic superiority is contested by controlled experiments, but the specific material properties of Stradivari\'s construction have not been fully characterized.',
+      "Likely a combination of material factors and cultural mythology — the acoustic superiority is contested by controlled experiments, but the specific material properties of Stradivari's construction have not been fully characterized.",
     sources: [
-      'Fritz, C. et al. (2012). \'Soloist evaluations of six Old Italian and six new violins.\' PNAS, 109(3), 760–763.',
-      'Wikipedia: \'Stradivarius\' — covers scientific analyses and the blind test controversy.',
+      "Fritz, C. et al. (2012). 'Soloist evaluations of six Old Italian and six new violins.' PNAS, 109(3), 760–763.",
+      "Wikipedia: 'Stradivarius' — covers scientific analyses and the blind test controversy.",
     ],
   },
   {
@@ -4618,10 +4828,15 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Lycurgus Cup',
     era: '4th century CE (Roman)',
-    location: { lat: 51.5194, lng: -0.127, place: 'British Museum, London, UK (origin: Roman Empire)' },
+    location: {
+      lat: 51.5194,
+      lng: -0.127,
+      place: 'British Museum, London, UK (origin: Roman Empire)',
+    },
     summary:
       'The Lycurgus Cup is a 4th-century CE Roman glass cage cup that appears jade green in reflected light but glows red when light passes through it. Analysis in 1990 revealed that the glass contains colloidal gold-silver alloy nanoparticles (approximately 70 nm diameter) dispersed throughout, creating the dichroic optical effect through plasmon resonance. It is the only fully intact example of this type of Roman dichroic glass.',
-    unexplained: 'How Roman craftsmen intentionally or accidentally achieved the precise nanoscale dispersion of gold-silver alloy particles throughout the glass matrix — and whether they understood the mechanism producing the colour-change effect — remains unknown. It is unclear whether this technique was widely known or represented a unique, unrepeated discovery.',
+    unexplained:
+      'How Roman craftsmen intentionally or accidentally achieved the precise nanoscale dispersion of gold-silver alloy particles throughout the glass matrix — and whether they understood the mechanism producing the colour-change effect — remains unknown. It is unclear whether this technique was widely known or represented a unique, unrepeated discovery.',
     theories: [
       'Well-supported: The nanoparticles were introduced accidentally through contamination of gold and silver scraps used as colorants, with the specific particle size achieved by controlled cooling — a lucky outcome rather than intentional nanotechnology.',
       'Moderately supported: Roman glassmakers had empirical knowledge that certain gold-silver mixtures produced colour-shifting glass, without understanding the underlying physics, and the technique was simply not widely transmitted.',
@@ -4630,8 +4845,8 @@ export const MYSTERIES = [
     unsolvedMeaning:
       'Genuinely unresolved — while the physics is now understood, whether Romans produced this effect intentionally or accidentally, and why no comparable intact examples survive, remains an open question.',
     sources: [
-      'Barber, D.J. & Freestone, I.C. (1990). \'An investigation of the origin of the colour of the Lycurgus Cup.\' Archaeometry, 32(1), 33–45.',
-      'Wikipedia: \'Lycurgus Cup\' — details the scientific analysis and archaeological context.',
+      "Barber, D.J. & Freestone, I.C. (1990). 'An investigation of the origin of the colour of the Lycurgus Cup.' Archaeometry, 32(1), 33–45.",
+      "Wikipedia: 'Lycurgus Cup' — details the scientific analysis and archaeological context.",
     ],
   },
   {
@@ -4640,10 +4855,11 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'South-pointing chariot',
     era: '~3rd century CE (China)',
-    location: { lat: 34.3416, lng: 108.9398, place: 'Chang\'an (Xi\'an), Shaanxi, China' },
+    location: { lat: 34.3416, lng: 108.9398, place: "Chang'an (Xi'an), Shaanxi, China" },
     summary:
       'The south-pointing chariot was a mechanical device described in Chinese historical records that maintained a figure pointing south regardless of the direction the chariot turned, functioning as a non-magnetic mechanical compass. It is described in texts from the 3rd century CE onward, with detailed gear-train mechanisms documented in the Song Shu (5th century). No original example survives; the device was reconstructed in the 20th century from textual descriptions.',
-    unexplained: 'The precise design of the differential gear mechanism used in the original Han or Wei dynasty devices is not documented in surviving technical detail, and it is uncertain whether all historical accounts describe functional machines or partly legendary attributions. The degree of precision achievable without modern manufacturing tolerances remains debated.',
+    unexplained:
+      'The precise design of the differential gear mechanism used in the original Han or Wei dynasty devices is not documented in surviving technical detail, and it is uncertain whether all historical accounts describe functional machines or partly legendary attributions. The degree of precision achievable without modern manufacturing tolerances remains debated.',
     theories: [
       'Well-supported: The device used a differential gear system (analogous to a modern car differential) to compensate for wheel rotation during turns, a mechanically sound solution that has been successfully reconstructed by modern engineers.',
       'Moderately supported: Some early accounts (pre-Song) may describe non-functional or ceremonial objects to which the directional-pointing property was attributed mythologically, with true differential-gear versions appearing only later.',
@@ -4653,7 +4869,7 @@ export const MYSTERIES = [
       'Likely explainable mechanically — working reconstructions demonstrate feasibility — but the exact design history and whether the earliest claimed versions were functional is genuinely uncertain.',
     sources: [
       'Needham, J. (1965). Science and Civilisation in China, Vol. 4, Part 2. Cambridge University Press, pp. 286–303.',
-      'Wikipedia: \'South-pointing chariot\' — covers textual sources and reconstruction history.',
+      "Wikipedia: 'South-pointing chariot' — covers textual sources and reconstruction history.",
     ],
   },
   {
@@ -4664,18 +4880,19 @@ export const MYSTERIES = [
     era: '~2560 BCE (Old Kingdom Egypt)',
     location: { lat: 29.9792, lng: 31.1342, place: 'Giza, Egypt' },
     summary:
-      'The Great Pyramid of Giza contains approximately 2.3 million stone blocks averaging 2.5 tonnes each, with some granite blocks in the King\'s Chamber weighing up to 80 tonnes, assembled to sub-centimetre precision. No contemporary Egyptian text provides a complete description of construction method. Archaeological evidence including workers\' villages, tool marks, graffiti, and the Wadi al-Jarf papyri (discovered 2013) confirms organized human labour, but the logistics of moving and placing the heaviest components remain debated.',
-    unexplained: 'The specific technique used to raise and position multi-tonne granite blocks to heights exceeding 40 metres — and the method for achieving the pyramid\'s documented precision — has not been established from direct evidence. Multiple ramp configurations have been proposed but none fully satisfies all engineering constraints.',
+      "The Great Pyramid of Giza contains approximately 2.3 million stone blocks averaging 2.5 tonnes each, with some granite blocks in the King's Chamber weighing up to 80 tonnes, assembled to sub-centimetre precision. No contemporary Egyptian text provides a complete description of construction method. Archaeological evidence including workers' villages, tool marks, graffiti, and the Wadi al-Jarf papyri (discovered 2013) confirms organized human labour, but the logistics of moving and placing the heaviest components remain debated.",
+    unexplained:
+      "The specific technique used to raise and position multi-tonne granite blocks to heights exceeding 40 metres — and the method for achieving the pyramid's documented precision — has not been established from direct evidence. Multiple ramp configurations have been proposed but none fully satisfies all engineering constraints.",
     theories: [
-      'Well-supported: An external straight or zigzag ramp of mudbrick was used for lower courses, with the ramp lengthened as construction rose — consistent with ramp debris found at other pyramid sites, though the geometry for the Great Pyramid\'s height is problematic.',
-      'Moderately supported: An internal spiral ramp running inside the pyramid\'s outer casing was used for upper courses — proposed by architect Jean-Pierre Houdin and supported by microgravimetry anomalies suggesting internal voids.',
+      "Well-supported: An external straight or zigzag ramp of mudbrick was used for lower courses, with the ramp lengthened as construction rose — consistent with ramp debris found at other pyramid sites, though the geometry for the Great Pyramid's height is problematic.",
+      "Moderately supported: An internal spiral ramp running inside the pyramid's outer casing was used for upper courses — proposed by architect Jean-Pierre Houdin and supported by microgravimetry anomalies suggesting internal voids.",
       'Speculative and poorly supported: Water-lubricated sledges on prepared tracks account for horizontal movement (confirmed by a Dahshur wall painting), but vertical lifting remains the unresolved component with no confirmed mechanism.',
     ],
     unsolvedMeaning:
       'Likely explainable through human engineering but unproven — there is strong consensus that conventional labour and technology suffice in principle, but the specific ramp or lifting system used has not been confirmed archaeologically.',
     sources: [
       'Lehner, M. (1997). The Complete Pyramids. Thames & Hudson.',
-      'Wikipedia: \'Egyptian pyramid construction techniques\' — surveys archaeological evidence and engineering hypotheses.',
+      "Wikipedia: 'Egyptian pyramid construction techniques' — surveys archaeological evidence and engineering hypotheses.",
     ],
   },
   {
@@ -4684,20 +4901,25 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Havana syndrome',
     era: '2016–present',
-    location: { lat: 23.1136, lng: -82.3666, place: 'Havana, Cuba (initial reports; later worldwide)' },
+    location: {
+      lat: 23.1136,
+      lng: -82.3666,
+      place: 'Havana, Cuba (initial reports; later worldwide)',
+    },
     summary:
       'Beginning in 2016, US and Canadian diplomatic personnel in Havana, Cuba reported sudden onset of unexplained symptoms including perceived sounds, pressure sensations, headaches, and cognitive impairment. The phenomenon spread to US personnel in dozens of countries. A 2023 US intelligence community assessment concluded most cases were unlikely to have a foreign origin.',
-    unexplained: 'Whether a subset of cases — particularly early Havana incidents — represent a novel directed-energy or acoustic attack, a psychogenic phenomenon, or an environmental cause has not been definitively resolved for all reported events.',
+    unexplained:
+      'Whether a subset of cases — particularly early Havana incidents — represent a novel directed-energy or acoustic attack, a psychogenic phenomenon, or an environmental cause has not been definitively resolved for all reported events.',
     theories: [
       'Officially assessed as likely: Most cases result from pre-existing conditions, environmental factors, or psychogenic illness — per the 2023 US ODNI multi-agency assessment.',
-      'Technically plausible but unproven: Directed microwave or radiofrequency energy (\'Frey effect\') could produce perceived sounds and neurological symptoms; some researchers argue early Havana cases match this profile.',
+      "Technically plausible but unproven: Directed microwave or radiofrequency energy ('Frey effect') could produce perceived sounds and neurological symptoms; some researchers argue early Havana cases match this profile.",
       'Investigated but not established: Cuban or Russian government involvement via a novel weapon — no physical device or confirmed perpetrator has been identified.',
     ],
     unsolvedMeaning:
       'The broad phenomenon is likely explained by psychogenic and environmental factors for most cases, but the original Havana cluster retains genuine uncertainty; the US government has not publicly ruled out a directed-energy cause for all early incidents.',
     sources: [
-      'Office of the Director of National Intelligence (2023). \'IC Assessment of Anomalous Health Incidents.\' Unclassified summary released March 2023.',
-      'Swanson, R.L. et al. (2018). \'Neurological manifestations among US Government Personnel Reporting Directional Audible and Sensory Phenomena in Havana, Cuba.\' JAMA, 319(11), 1125–1133.',
+      "Office of the Director of National Intelligence (2023). 'IC Assessment of Anomalous Health Incidents.' Unclassified summary released March 2023.",
+      "Swanson, R.L. et al. (2018). 'Neurological manifestations among US Government Personnel Reporting Directional Audible and Sensory Phenomena in Havana, Cuba.' JAMA, 319(11), 1125–1133.",
     ],
   },
   {
@@ -4706,10 +4928,15 @@ export const MYSTERIES = [
     category: 'ciphers',
     wikipedia: 'Numbers station',
     era: 'Cold War–present',
-    location: { lat: 52, lng: 13, place: 'Worldwide shortwave broadcasts; historically centered in Cold War Europe' },
+    location: {
+      lat: 52,
+      lng: 13,
+      place: 'Worldwide shortwave broadcasts; historically centered in Cold War Europe',
+    },
     summary:
       'Numbers stations are shortwave radio broadcasts transmitting sequences of spoken numbers, letters, or Morse code in apparent cipher, documented since at least World War I and widely recorded throughout the Cold War. Western and Eastern Bloc intelligence agencies are broadly believed to have used them to communicate with field agents via one-time pad encryption. Many stations have no confirmed originating government.',
-    unexplained: 'The specific operators, intended recipients, and current operational status of many active or recently-active numbers stations remain unconfirmed by any government, and the full scope of their intelligence use is unknown.',
+    unexplained:
+      'The specific operators, intended recipients, and current operational status of many active or recently-active numbers stations remain unconfirmed by any government, and the full scope of their intelligence use is unknown.',
     theories: [
       'Well supported: Major intelligence agencies (CIA, KGB/FSB, MI6, Cuban DGI) operated or continue to operate numbers stations for agent communication — Cuban spy ring prosecutions and Lincolnshire Poacher attribution to GCHQ Akrotiri provide partial confirmation.',
       'Plausible: Some contemporary transmissions serve non-intelligence purposes such as military or commercial dead-drop communication for criminal networks.',
@@ -4728,19 +4955,24 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'UVB-76',
     era: '1973–present',
-    location: { lat: 56.4, lng: 37.1, place: 'Povarovo / Naro-Fominsk area, Russia (transmitter locations)' },
+    location: {
+      lat: 56.4,
+      lng: 37.1,
+      place: 'Povarovo / Naro-Fominsk area, Russia (transmitter locations)',
+    },
     summary:
-      'UVB-76, nicknamed \'The Buzzer,\' is a Russian shortwave radio station broadcasting on 4625 kHz that has emitted a repetitive buzzing tone nearly continuously since at least 1976, occasionally interrupted by voice messages in Russian military phonetic code. The station\'s purpose has never been officially acknowledged by the Russian government. Voice messages have included callsigns and number sequences consistent with military communication formats.',
-    unexplained: 'The operational purpose of the continuous buzzing tone — whether it serves as a channel marker, a dead man\'s switch for nuclear command authorization, or another function — has never been officially confirmed.',
+      "UVB-76, nicknamed 'The Buzzer,' is a Russian shortwave radio station broadcasting on 4625 kHz that has emitted a repetitive buzzing tone nearly continuously since at least 1976, occasionally interrupted by voice messages in Russian military phonetic code. The station's purpose has never been officially acknowledged by the Russian government. Voice messages have included callsigns and number sequences consistent with military communication formats.",
+    unexplained:
+      "The operational purpose of the continuous buzzing tone — whether it serves as a channel marker, a dead man's switch for nuclear command authorization, or another function — has never been officially confirmed.",
     theories: [
-      'Most plausible: The station is a Russian military communication or command-and-control channel, possibly serving as a ready-signal carrier or dead man\'s switch component — consistent with Soviet-era military radio doctrine.',
+      "Most plausible: The station is a Russian military communication or command-and-control channel, possibly serving as a ready-signal carrier or dead man's switch component — consistent with Soviet-era military radio doctrine.",
       'Technically supported: It functions as a propagation beacon or channel reservation to prevent other users from occupying the frequency.',
-      'Speculative: The buzzer is part of the Russian nuclear command system (\'Perimeter\'/\'Dead Hand\') — plausible but no confirmed technical link has been published.',
+      "Speculative: The buzzer is part of the Russian nuclear command system ('Perimeter'/'Dead Hand') — plausible but no confirmed technical link has been published.",
     ],
     unsolvedMeaning:
       'Genuinely no public confirmation of purpose; Russian military communication use is strongly inferred from voice message content and operational patterns, but the specific role of the continuous tone is unconfirmed.',
     sources: [
-      'Michaels, D. (2013). \'The Buzzer: Inside Russia\'s Most Mysterious Radio Station.\' Popular Mechanics, October 2013.',
+      "Michaels, D. (2013). 'The Buzzer: Inside Russia's Most Mysterious Radio Station.' Popular Mechanics, October 2013.",
       'ENIGMA 2000 newsletter archives, UVB-76 frequency monitoring logs (1990s–2010s).',
     ],
   },
@@ -4752,17 +4984,18 @@ export const MYSTERIES = [
     era: '2019',
     location: { lat: 71.1, lng: 24, place: 'Ingøya island, Finnmark, Norway' },
     summary:
-      'In April 2019, Norwegian fishermen near Ingøya discovered a beluga whale wearing a tight harness fitted with a camera mount labeled \'Equipment St. Petersburg.\' The whale was unusually tame and appeared trained to approach humans. Norwegian and international analysts assessed the harness as consistent with Russian naval marine mammal program equipment. Russia denied involvement.',
-    unexplained: 'Whether the whale was part of an active Russian naval intelligence program, an escaped research animal, or served another military purpose has not been officially confirmed by any government.',
+      "In April 2019, Norwegian fishermen near Ingøya discovered a beluga whale wearing a tight harness fitted with a camera mount labeled 'Equipment St. Petersburg.' The whale was unusually tame and appeared trained to approach humans. Norwegian and international analysts assessed the harness as consistent with Russian naval marine mammal program equipment. Russia denied involvement.",
+    unexplained:
+      'Whether the whale was part of an active Russian naval intelligence program, an escaped research animal, or served another military purpose has not been officially confirmed by any government.',
     theories: [
-      'Broadly assessed as likely: The whale was trained by the Russian Navy\'s marine mammal program based in Murmansk — the harness design, \'St. Petersburg\' label, and the whale\'s trained behavior are consistent with documented Russian naval cetacean programs.',
-      'Officially denied: Russia has not acknowledged the program in relation to this animal, and the harness mount\'s specific purpose (surveillance, object retrieval) is unknown.',
+      "Broadly assessed as likely: The whale was trained by the Russian Navy's marine mammal program based in Murmansk — the harness design, 'St. Petersburg' label, and the whale's trained behavior are consistent with documented Russian naval cetacean programs.",
+      "Officially denied: Russia has not acknowledged the program in relation to this animal, and the harness mount's specific purpose (surveillance, object retrieval) is unknown.",
       'Alternative: The whale escaped from a Russian civilian research or aquarium facility — considered less likely given the military-specification harness.',
     ],
     unsolvedMeaning:
-      'Likely explained by Russian naval marine mammal training, but the specific mission, unit, and the animal\'s full operational history remain unconfirmed by any official source.',
+      "Likely explained by Russian naval marine mammal training, but the specific mission, unit, and the animal's full operational history remain unconfirmed by any official source.",
     sources: [
-      'Lyngøy, J. quoted in The Guardian (26 April 2019). \'Spy whale? Beluga with harness appears off Norway coast.\'',
+      "Lyngøy, J. quoted in The Guardian (26 April 2019). 'Spy whale? Beluga with harness appears off Norway coast.'",
       'Sørensen, M.S. et al. (2019). Assessment report to Norwegian Directorate of Fisheries on the beluga whale found at Ingøya.',
     ],
   },
@@ -4774,11 +5007,12 @@ export const MYSTERIES = [
     era: '1946–1947',
     location: { lat: -75, lng: -45, place: 'Antarctic Peninsula and Ross Sea, Antarctica' },
     summary:
-      'Operation Highjump was a large US Navy expedition to Antarctica in 1946–47 commanded by Rear Admiral Richard Byrd, involving 4,700 men and 13 ships to establish a research base and conduct aerial mapping. The expedition ended early after reportedly losing three aircraft and several crew members, with Byrd subsequently giving an interview to a Chilean newspaper suggesting Antarctica could be used as a base by a hostile power. The expedition\'s early termination and Byrd\'s comments have never been fully officially explained.',
-    unexplained: 'The specific operational reasons for the expedition\'s early termination and the precise circumstances of the aircraft losses have not been fully declassified, and Byrd\'s widely-reported but disputed post-expedition interview comments remain contextually unclear.',
+      "Operation Highjump was a large US Navy expedition to Antarctica in 1946–47 commanded by Rear Admiral Richard Byrd, involving 4,700 men and 13 ships to establish a research base and conduct aerial mapping. The expedition ended early after reportedly losing three aircraft and several crew members, with Byrd subsequently giving an interview to a Chilean newspaper suggesting Antarctica could be used as a base by a hostile power. The expedition's early termination and Byrd's comments have never been fully officially explained.",
+    unexplained:
+      "The specific operational reasons for the expedition's early termination and the precise circumstances of the aircraft losses have not been fully declassified, and Byrd's widely-reported but disputed post-expedition interview comments remain contextually unclear.",
     theories: [
       'Most supported: The expedition ended early due to weather, logistical challenges, and the onset of Antarctic winter — consistent with operational records and standard polar expedition constraints.',
-      'Plausible: Byrd\'s \'hostile power\' comments referenced Soviet strategic interest in Antarctica during the emerging Cold War, not a literal Antarctic threat.',
+      "Plausible: Byrd's 'hostile power' comments referenced Soviet strategic interest in Antarctica during the emerging Cold War, not a literal Antarctic threat.",
       'Conspiracy theories widely circulated: Claims of encounters with Nazi bases or UFOs are not supported by any credible primary documentation and are considered fabrications.',
     ],
     unsolvedMeaning:
@@ -4792,22 +5026,23 @@ export const MYSTERIES = [
     id: 'soviet-submarine-k129',
     title: 'Soviet submarine K-129',
     category: 'disappearances',
-    wikipedia: 'Soviet submarine K-129',
+    wikipedia: 'Soviet submarine K-129 (1960)',
     era: '1968',
     location: { lat: 40.1, lng: -179.9, place: 'North Pacific Ocean, northwest of Hawaii' },
     summary:
       'Soviet Golf II-class ballistic missile submarine K-129 sank in the North Pacific in March 1968 under circumstances the Soviet Union never officially acknowledged. The CIA covertly raised part of the wreck in 1974 during Operation Azorian using the cover vessel Glomar Explorer. The cause of the sinking was never officially confirmed by either the US or Soviet/Russian governments.',
-    unexplained: 'The precise cause of K-129\'s sinking — whether an accidental internal explosion, crew error, or a collision — has not been officially established, and the full findings of the CIA\'s salvage operation remain classified.',
+    unexplained:
+      "The precise cause of K-129's sinking — whether an accidental internal explosion, crew error, or a collision — has not been officially established, and the full findings of the CIA's salvage operation remain classified.",
     theories: [
-      'Assessed as most likely by independent analysts: An accidental onboard explosion, possibly from a ballistic missile fuel leak or torpedo malfunction, caused the sinking — consistent with the wreck\'s damage patterns.',
+      "Assessed as most likely by independent analysts: An accidental onboard explosion, possibly from a ballistic missile fuel leak or torpedo malfunction, caused the sinking — consistent with the wreck's damage patterns.",
       'Claimed by some Soviet-era sources: A collision with the US submarine USS Swordfish was responsible — denied by the US Navy and not confirmed by physical evidence.',
       'Officially unconfirmed: CIA documents partially declassified under FOIA show the recovered section contained crew remains and cryptographic materials, but the cause-of-sinking findings were redacted.',
     ],
     unsolvedMeaning:
       'Likely explained by an internal mechanical or ordnance failure, but the definitive cause remains classified; this is a case of likely-explained but officially unconfirmed.',
     sources: [
-      'Sewell, K. & Ellsworth, C. (2010). Red Star Rogue: The Untold Story of a Soviet Submarine\'s Nuclear Strike Attempt on the U.S. Threshold Editions. (Note: book\'s strike-attempt thesis is disputed.)',
-      'Sherry, M. (2010). \'Project Azorian: The CIA\'s Declassified History of the Glomar Explorer.\' Studies in Intelligence, 54(3), CIA Center for the Study of Intelligence.',
+      "Sewell, K. & Ellsworth, C. (2010). Red Star Rogue: The Untold Story of a Soviet Submarine's Nuclear Strike Attempt on the U.S. Threshold Editions. (Note: book's strike-attempt thesis is disputed.)",
+      "Sherry, M. (2010). 'Project Azorian: The CIA's Declassified History of the Glomar Explorer.' Studies in Intelligence, 54(3), CIA Center for the Study of Intelligence.",
     ],
   },
   {
@@ -4816,20 +5051,25 @@ export const MYSTERIES = [
     category: 'disappearances',
     wikipedia: 'Tamam Shud case',
     era: '1948',
-    location: { lat: -34.9196, lng: 138.5196, place: 'Somerton Beach, Adelaide, South Australia, Australia' },
+    location: {
+      lat: -34.9196,
+      lng: 138.5196,
+      place: 'Somerton Beach, Adelaide, South Australia, Australia',
+    },
     summary:
-      'In December 1948, an unidentified man was found dead on Somerton Beach in Adelaide, with no identification and no clear cause of death. A hidden pocket in his trousers contained a scrap of paper torn from a rare edition of the Rubaiyat of Omar Khayyam with the words \'Tamam Shud\' (\'it is ended\'). A copy of that same edition was later found with an indecipherable handwritten code and a phone number inside.',
-    unexplained: 'The identity of the man, the cause and manner of his death, and the meaning of the handwritten cipher found in the Rubaiyat copy have never been established despite decades of investigation.',
+      "In December 1948, an unidentified man was found dead on Somerton Beach in Adelaide, with no identification and no clear cause of death. A hidden pocket in his trousers contained a scrap of paper torn from a rare edition of the Rubaiyat of Omar Khayyam with the words 'Tamam Shud' ('it is ended'). A copy of that same edition was later found with an indecipherable handwritten code and a phone number inside.",
+    unexplained:
+      'The identity of the man, the cause and manner of his death, and the meaning of the handwritten cipher found in the Rubaiyat copy have never been established despite decades of investigation.',
     theories: [
       'Widely investigated: The man was a foreign intelligence agent (possibly Soviet) killed or ordered to commit suicide — consistent with the Cold War context, the untraceable identity, and his apparent fitness, but no agency has claimed him.',
-      'Proposed by researchers: The cipher is a personal code or mnemonic, not a tradecraft cipher, and the man\'s identity may have been concealed by family members for personal reasons — partial DNA genealogical work ongoing.',
+      "Proposed by researchers: The cipher is a personal code or mnemonic, not a tradecraft cipher, and the man's identity may have been concealed by family members for personal reasons — partial DNA genealogical work ongoing.",
       'Possible: The death was a suicide by untraceable poison, with the torn page as a personal message — pathologists found no definitive cause of death.',
     ],
     unsolvedMeaning:
       'Genuinely no confirmed evidence on identity, cause of death, or cipher meaning; a 2022 study proposed a DNA-derived family connection but formal identification has not been completed.',
     sources: [
       'Gerry Feltus (2010). The Unknown Man. Self-published. (Feltus was the lead South Australia Police detective on the case.)',
-      'Henneberg, M. et al. (2022). \'Genealogical and forensic investigation of the Somerton Man.\' Forensic Science International: Genetics Supplement Series.',
+      "Henneberg, M. et al. (2022). 'Genealogical and forensic investigation of the Somerton Man.' Forensic Science International: Genetics Supplement Series.",
     ],
   },
   {
@@ -4840,18 +5080,19 @@ export const MYSTERIES = [
     era: '1968',
     location: { lat: 76.53, lng: -68.7, place: 'North Star Bay, Thule, Greenland' },
     summary:
-      'On January 21, 1968, a US Air Force B-52 carrying four B28 nuclear bombs crashed and burned on the sea ice of North Star Bay near Thule Air Base, Greenland. Three of the four nuclear weapons\' fissile secondaries were recovered; the fourth was never found. A joint US-Danish cleanup operation code-named Project Crested Ice recovered much of the wreckage and contaminated ice.',
-    unexplained: 'Whether the secondary of the fourth nuclear weapon was fully recovered, partially recovered, or remains on the seabed under North Star Bay has not been confirmed; a 1987 Greenlandic documentary alleged Danish workers were improperly exposed to radiation.',
+      "On January 21, 1968, a US Air Force B-52 carrying four B28 nuclear bombs crashed and burned on the sea ice of North Star Bay near Thule Air Base, Greenland. Three of the four nuclear weapons' fissile secondaries were recovered; the fourth was never found. A joint US-Danish cleanup operation code-named Project Crested Ice recovered much of the wreckage and contaminated ice.",
+    unexplained:
+      'Whether the secondary of the fourth nuclear weapon was fully recovered, partially recovered, or remains on the seabed under North Star Bay has not been confirmed; a 1987 Greenlandic documentary alleged Danish workers were improperly exposed to radiation.',
     theories: [
       'US official position: All safety-significant nuclear weapon components were recovered, including from the fourth weapon — this is disputed by some analysts who note the recovery logs are incomplete.',
       'Supported by documentary evidence: Danish and Greenlandic cleanup workers received radiation exposures inadequately documented at the time; a 2000 Danish Institute for Clinical Epidemiology study confirmed elevated cancer risks in some workers.',
       'Partially unresolved: The exact resting place of all weapon fragments remains a matter of classified US DoD records not fully disclosed to Denmark despite diplomatic requests.',
     ],
     unsolvedMeaning:
-      'Likely partially resolved regarding immediate nuclear safety, but the fate of the fourth weapon\'s fissile material and the full health consequences for cleanup workers remain genuinely uncertain due to incomplete declassification.',
+      "Likely partially resolved regarding immediate nuclear safety, but the fate of the fourth weapon's fissile material and the full health consequences for cleanup workers remain genuinely uncertain due to incomplete declassification.",
     sources: [
-      'Hansen, J.E. (2009). \'The Thule Accident: A Danish-American Nuclear Controversy.\' Scandinavian Journal of History, 34(3), 348–368.',
-      'Maydew, R.L. (1997). America\'s Lost H-Bomb! Palomares, Spain, 1966. Sunflower University Press (comparative case context).',
+      "Hansen, J.E. (2009). 'The Thule Accident: A Danish-American Nuclear Controversy.' Scandinavian Journal of History, 34(3), 348–368.",
+      "Maydew, R.L. (1997). America's Lost H-Bomb! Palomares, Spain, 1966. Sunflower University Press (comparative case context).",
     ],
   },
   {
@@ -4863,20 +5104,20 @@ export const MYSTERIES = [
     location: { lat: 59, lng: 19, place: 'Baltic Sea, between Sweden and Finland' },
     summary:
       'In 2011, Swedish treasure-hunting team Ocean X released sonar images of an unusual circular formation approximately 60 meters in diameter on the Baltic seabed at a depth of about 90 meters. The formation attracted significant media speculation. A subsequent dive in 2012 found that the structure was composed of layered rock.',
-    unexplained: 'The precise geological origin of the rounded formation and associated linear features remains undetermined, as no peer-reviewed geological study has been published.',
+    unexplained:
+      'The precise geological origin of the rounded formation and associated linear features remains undetermined, as no peer-reviewed geological study has been published.',
     theories: [
-      'Most supported by divers\' direct observation: The structure is a natural glacial formation, such as a glacial drop stone deposit, subglacial meltwater channel, or moraine feature — consistent with the Baltic\'s glacial history.',
+      "Most supported by divers' direct observation: The structure is a natural glacial formation, such as a glacial drop stone deposit, subglacial meltwater channel, or moraine feature — consistent with the Baltic's glacial history.",
       'Proposed by some geologists: The formation could be a natural rocky outcrop shaped by glacial action and erosion, a common feature of the Baltic seabed.',
       'Widely circulated but unsupported: Claims of extraterrestrial or ancient human-constructed origin have no evidentiary basis and are considered sensationalist interpretations of sonar artifacts.',
     ],
     unsolvedMeaning:
-      'Possibly a myth in its popular framing; the \'anomaly\' appears to be a natural geological feature, but the absence of peer-reviewed analysis leaves the specific formation mechanism undescribed.',
+      "Possibly a myth in its popular framing; the 'anomaly' appears to be a natural geological feature, but the absence of peer-reviewed analysis leaves the specific formation mechanism undescribed.",
     sources: [
       'Ocean X Team dive reports (2012), publicly available via ocean-x.se.',
       'Sveriges Television (SVT) documentary footage and geological commentary, 2012.',
     ],
   },
-
   // ── Epidemics domain ──────────────────────────────────────────────────────
   {
     id: 'antonine-plague',
@@ -4888,7 +5129,7 @@ export const MYSTERIES = [
     summary:
       'A pandemic that struck the Roman Empire during the reigns of Antoninus Pius and Marcus Aurelius, killing an estimated 5–10 million people and devastating the legions. It was described in detail by the physician Galen yet its causative agent has never been definitively identified from the historical or archaeological record.',
     unexplained:
-      'Was the Antonine Plague caused by smallpox, measles, or something else entirely? Galen\'s clinical descriptions match smallpox or measles symptoms but are not conclusive, and no ancient DNA has been recovered to resolve the question.',
+      "Was the Antonine Plague caused by smallpox, measles, or something else entirely? Galen's clinical descriptions match smallpox or measles symptoms but are not conclusive, and no ancient DNA has been recovered to resolve the question.",
     theories: [
       'Smallpox — MOST SUPPORTED: Galen describes pustules consistent with variola; smallpox was new to the Mediterranean world at the time.',
       'Measles — PLAUSIBLE: some scholars argue the clinical picture fits measles better; neither can be ruled out.',
@@ -4910,7 +5151,7 @@ export const MYSTERIES = [
     era: 'Byzantine Empire, 541–549 AD (first wave)',
     location: { lat: 30.06, lng: 31.25, place: 'Pelusium, Egypt (first recorded outbreak)' },
     summary:
-      'The first recorded pandemic of bubonic plague, striking the Byzantine Empire under Justinian I and recurring in waves for two centuries. Ancient DNA work has confirmed Yersinia pestis as the cause and placed the pandemic\'s strain at a deep branch of the phylogenetic tree. Yet the geographic origin of the strain, the route of entry into the Mediterranean, and why the pandemic ended without eliminating Y. pestis remain open questions.',
+      "The first recorded pandemic of bubonic plague, striking the Byzantine Empire under Justinian I and recurring in waves for two centuries. Ancient DNA work has confirmed Yersinia pestis as the cause and placed the pandemic's strain at a deep branch of the phylogenetic tree. Yet the geographic origin of the strain, the route of entry into the Mediterranean, and why the pandemic ended without eliminating Y. pestis remain open questions.",
     unexplained:
       'Where exactly did the Justinianic Y. pestis strain originate — central Asia, east Africa, or somewhere else — and by what route did it reach Egypt? Why did this lineage disappear from later plague records?',
     theories: [
@@ -4930,7 +5171,7 @@ export const MYSTERIES = [
     id: 'cocoliztli-epidemic',
     title: 'The Cocoliztli Epidemic',
     category: 'phenomena',
-    wikipedia: 'Cocoliztli epidemic',
+    wikipedia: 'Cocoliztli epidemics',
     era: 'New Spain (Mexico), 1545–1548 and 1576–1578',
     location: { lat: 19.43, lng: -99.13, place: 'Central Mexico (Valley of Mexico)' },
     summary:
@@ -4956,7 +5197,11 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: '1918 flu pandemic',
     era: 'Modern, 1918–1919',
-    location: { lat: 39.1, lng: -94.6, place: 'Origin disputed — Kansas USA / northern France / China' },
+    location: {
+      lat: 39.1,
+      lng: -94.6,
+      place: 'Origin disputed — Kansas USA / northern France / China',
+    },
     summary:
       'The 1918 influenza pandemic killed 50–100 million people worldwide — more than died in World War I. The virus (H1N1) has been reconstructed from permafrost and formalin-preserved samples, revealing it was an avian-adapted strain. Yet where its first human wave began remains unresolved: competing hypotheses point to Kansas (USA), northern China (via the Chinese Labour Corps), and northern France (Étaples or Étaples camp).',
     unexplained:
@@ -4980,7 +5225,11 @@ export const MYSTERIES = [
     category: 'phenomena',
     wikipedia: 'Encephalitis lethargica',
     era: 'Modern, 1915–1930 (epidemic phase)',
-    location: { lat: 48.85, lng: 2.35, place: 'Europe (Vienna / Paris / London); pandemic spread worldwide' },
+    location: {
+      lat: 48.85,
+      lng: 2.35,
+      place: 'Europe (Vienna / Paris / London); pandemic spread worldwide',
+    },
     summary:
       'Between 1915 and 1930 an epidemic of "sleeping sickness" (not the African tsetse-fly disease) swept the world, eventually affecting over a million people. Victims fell into a trance-like state, some sleeping for months; many survivors were left frozen in a Parkinson\'s-like condition for decades. The neurologist Oliver Sacks treated survivors in the 1960s and documented their awakening with L-DOPA. The cause has never been established.',
     unexplained:
@@ -5010,7 +5259,7 @@ export const MYSTERIES = [
     unexplained:
       'What causes nodding disease? The disorder correlates strongly with Onchocerca volvulus infection (river blindness), but the parasite has not been proven as a direct cause, and not all infected people develop the disease.',
     theories: [
-      'Autoimmune response triggered by O. volvulus — LEADING HYPOTHESIS: antibodies against the parasite\'s protein leiomodin-1 cross-react with brain proteins; supported by some serology studies.',
+      "Autoimmune response triggered by O. volvulus — LEADING HYPOTHESIS: antibodies against the parasite's protein leiomodin-1 cross-react with brain proteins; supported by some serology studies.",
       'Co-infection with another pathogen — POSSIBLE: the geographic overlap with onchocerciasis is imperfect; a viral co-factor has been suggested but not identified.',
       'Nutritional/toxin cause — CONSIDERED AND LARGELY EXCLUDED: extensive testing has not found a consistent dietary toxin, though malnutrition worsens outcomes.',
     ],
@@ -5069,7 +5318,6 @@ export const MYSTERIES = [
       'Ravenholt & Foege, "1918 influenza, encephalitis lethargica, parkinsonism," Lancet (1982)',
     ],
   },
-
 ];
 
 /**

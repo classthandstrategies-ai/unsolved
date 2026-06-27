@@ -5,7 +5,7 @@
 [![CI](https://github.com/classthandstrategies-ai/unsolved/actions/workflows/ci.yml/badge.svg)](https://github.com/classthandstrategies-ai/unsolved/actions/workflows/ci.yml)
 [![Live on Vercel](https://img.shields.io/badge/live-unsolved--seven.vercel.app-cc785c)](https://unsolved-seven.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-cc785c.svg)](LICENSE)
-[![Cases on file](https://img.shields.io/badge/cases-232-181715)](src/data/mysteries.js)
+[![Cases on file](https://img.shields.io/badge/cases-230-181715)](src/data/mysteries.js)
 
 ### 🔗 **[View the live archive →](https://unsolved-seven.vercel.app)**
 
@@ -43,7 +43,7 @@ That last part is the whole point. The archive deliberately distinguishes:
 ## Features
 
 - 🗺️ **Interactive world map** (Leaflet) with clickable, category-coloured pins
-  across **232 curated cases** spanning antiquity to the present (and counting).
+  across **230 curated cases** spanning antiquity to the present (and counting).
 - 🖼️ **Real lead images** fetched at runtime from Wikipedia/Wikimedia Commons by
   article title — no API key, no hardcoded URLs, graceful placeholder when none
   exists. Adding a new mystery only needs a one-line `wikipedia:` field.

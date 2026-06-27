@@ -2,8 +2,8 @@
 
 > A world map of genuinely unresolved historical mysteries, presented as an honest research archive — not a clickbait mystery blog.
 
-[![CI](https://github.com/your-username/unsolved/actions/workflows/ci.yml/badge.svg)](https://github.com/your-username/unsolved/actions/workflows/ci.yml)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/unsolved)
+[![CI](https://github.com/classthandstrategies-ai/unsolved/actions/workflows/ci.yml/badge.svg)](https://github.com/classthandstrategies-ai/unsolved/actions/workflows/ci.yml)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/classthandstrategies-ai/unsolved)
 [![License: MIT](https://img.shields.io/badge/License-MIT-cc785c.svg)](LICENSE)
 
 > [!NOTE]
@@ -31,7 +31,7 @@ _Optional: a short GIF at `docs/demo.gif` showing filtering by category and open
 
 ## Live demo
 
-🔗 **[Add your deployed URL here]** (e.g. `https://unsolved.vercel.app`)
+🔗 **[unsolved-seven.vercel.app](https://unsolved-seven.vercel.app)**
 
 ## What it is
 
@@ -90,7 +90,7 @@ That last part is the whole point. The archive deliberately distinguishes:
 
 ```bash
 # 1. Clone
-git clone https://github.com/your-username/unsolved.git
+git clone https://github.com/classthandstrategies-ai/unsolved.git
 cd unsolved
 
 # 2. Install dependencies
@@ -208,7 +208,7 @@ This project is **optimized for [Vercel](https://vercel.com/)** and ships with a
 
 One-click deploy:
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/your-username/unsolved)
+[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/classthandstrategies-ai/unsolved)
 
 It also deploys cleanly to **Netlify** or any static host — just use build
 command `npm run build` and publish directory `dist`.

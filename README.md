@@ -3,34 +3,27 @@
 > A world map of genuinely unresolved historical mysteries, presented as an honest research archive — not a clickbait mystery blog.
 
 [![CI](https://github.com/classthandstrategies-ai/unsolved/actions/workflows/ci.yml/badge.svg)](https://github.com/classthandstrategies-ai/unsolved/actions/workflows/ci.yml)
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/classthandstrategies-ai/unsolved)
+[![Live on Vercel](https://img.shields.io/badge/live-unsolved--seven.vercel.app-cc785c)](https://unsolved-seven.vercel.app)
 [![License: MIT](https://img.shields.io/badge/License-MIT-cc785c.svg)](LICENSE)
+[![Cases on file](https://img.shields.io/badge/cases-232-181715)](src/data/mysteries.js)
 
-> [!NOTE]
-> Replace `your-username` in the badge and deploy URLs above with your GitHub
-> username (or org) once you've pushed the repo, so the CI badge and one-click
-> deploy button resolve correctly.
+### 🔗 **[View the live archive →](https://unsolved-seven.vercel.app)**
 
 ---
 
 ## Screenshots
 
-<!--
-  📸 ADD YOUR MEDIA HERE.
-  1. Run the app (`npm run dev`), take a screenshot of the map view and an open
-     case file (ideally also a short GIF of filtering + opening an entry).
-  2. Save them under `docs/` (e.g. docs/screenshot-map.png, docs/demo.gif).
-  3. Replace the placeholders below.
--->
+<p align="center">
+  <img src="docs/unsolved-hero.png" alt="Unsolved — landing view with the headline ‘A map of what we still don’t know’ and the daily featured case" width="100%">
+</p>
 
-| Map view                                     | Case file                                         |
-| -------------------------------------------- | ------------------------------------------------- |
-| _`docs/screenshot-map.png` — add screenshot_ | _`docs/screenshot-casefile.png` — add screenshot_ |
+<p align="center">
+  <img src="docs/unsolved-map.png" alt="The interactive world map with category-coloured pins and the case index below" width="49%">
+  &nbsp;
+  <img src="docs/unsolved-casefile.png" alt="An open case file for the Voynich Manuscript showing documented facts, the open question, and leading theories" width="49%">
+</p>
 
-
-## Live demo
-
-🔗 **[unsolved-seven.vercel.app](https://unsolved-seven.vercel.app)**
+<p align="center"><em>Landing &amp; daily feature · the world atlas + case index · an open case-file dossier (shown in dark mode).</em></p>
 
 ## What it is
 

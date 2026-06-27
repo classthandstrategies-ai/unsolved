@@ -32,6 +32,10 @@ pnpm-debug.log*
 # Local Claude Code preview/launch state (machine-specific)
 .claude/settings.local.json
 
+# Playwright MCP scratch output (screenshots/snapshots/logs)
+.playwright-mcp/
+
 # OS files
 .DS_Store
 Thumbs.db
+.vercel
